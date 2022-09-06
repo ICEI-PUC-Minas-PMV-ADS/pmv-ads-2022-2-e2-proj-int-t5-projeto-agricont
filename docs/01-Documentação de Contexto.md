@@ -25,12 +25,15 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Pequenos produtores rurais costumam enfrentar dificuldades no planejamento contábil da empresa rural o que resulta, muitas vezes, em problemas financeiros como endividamento e perda patrimonial da empresa (do Vale, N. K. A., & Silva, K. L. J. (2019)).  
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+ 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Essa dificuldade tem origem na mudança do modelo de produção que costumava ser prioritariamente para subsistência familiar e mudou o foco para a atividade comercial. Com essa mudança de foco, surgiu a necessidade de um melhor gerenciamento e planejamento da contabilidade rural. No entanto, alguns pequenos produtores continuam a gerenciar o negócio como antigamente e cometem erros graves como falta de controle na divisão de despesas, não registrar todos os fatos contábeis incluindo gastos com manutenção de equipamentos, misturar despesas pessoais com as da atividade profissional (CNA, 2018). 
+
+ 
+
+Uma boa gestão possibilita que o empreendimento prospere, melhore os resultados de produção e a geração de renda (EMBRAPA). Por esse motivo, desenvolveremos uma aplicação interativa para facilitar o controle patrimonial desses empresários rurais e estimular a agricultura familiar.
 
 ## Público-Alvo
 
