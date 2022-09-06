@@ -10,7 +10,7 @@ A lista a seguir traz as referências utilizadas nesse trabalho. são elas:
 
  
 
-* EMBRAPA. **Perguntas e Respostas: Agricultura Familiar.** Disponível em: https://www.embrapa.br/tema-agricultura-familiar/perguntas-e-respostas . Acessado em 16 ago.2022.  
+* EMBRAPA(s.d.). **Perguntas e Respostas: Agricultura Familiar.** Disponível em: https://www.embrapa.br/tema-agricultura-familiar/perguntas-e-respostas . Acessado em 16 ago.2022.  
 
 Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
 

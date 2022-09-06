@@ -28,8 +28,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| Usuário |                   |                          |
+|Carlos Gomes | Manter uma lista com a relação de todo patrimônio da empresa.       | Contratar um seguro.              |
+|Carlos Gomes     | Poder cadastrar dados da apólice de seguro.              | Para saber quais equipamentos estão ou não no seguro.   |
+|Carlos Gomes  | Manter um cadastro dos equipamentos da empresa com os dados da nota fiscal. | Facilitar o controle patrimonial.  |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -50,6 +52,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-011| O sistema deve permitir que o usuário cadastre os equipamentos da empresa com os dados da nota fiscal. | ALTA |
+|RF-012| O sistema deve permitir que o usuário cadastre os dados da apólice de seguro. | ALTA |
+|RF-013| O sistema deve gerar um relatório com todo patrimônio da empresa. | ALTA | 
+
 
 ### Requisitos não Funcionais
 
