@@ -2,7 +2,9 @@
 
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
-## Problema Conforme exposto, o problema que se busca solucionar com este projeto é a falta de controle e gestão patrimonial, que os pequenos agricultores possuem na hora de gerenciar seus negócios. 
+## Problema 
+
+Conforme exposto, o problema que se busca solucionar com este projeto é a falta de controle e gestão patrimonial, que os pequenos agricultores possuem na hora de gerenciar seus negócios. 
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
