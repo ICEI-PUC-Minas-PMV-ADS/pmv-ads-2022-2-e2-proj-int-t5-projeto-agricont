@@ -8,6 +8,12 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
+|    Susy Thiemy Takamura   | Informações:                       |                                        |
+|--------------------|------------------------------------|----------------------------------------|
+|| **Idade:** 29 anos <br> **Ocupação:** Engenharia Agrônoma, Gerente na propriedade da família.|**Aplicativos:**<br><ul>● Facebook<br>● Netflix<br>● Twitter<br>● Instagram</ul>|
+|**Motivações:**<br><ul>● Apaixonada pela profissão decidiu cursar agronomia, pois desde pequena sempre teve contato com a rotina de trabalho no sítio da família, que planta hortaliças;  <br>● Após sair do seu último emprego em corporação, decidiu assumir os negócios da família, pois quer transformar suas experiências acadêmicas e profissionais em crescimento dos negócios da família. </ul>|**Frustrações:**<br><ul>● Precisa solicitar um financiamento no Banco para adquirir uma nova máquina, porém como sua família não tem um controle patrimonial ela não consegue saber o que exatamente pode dar de garantia para a instituição;  <br>● No passado ela participou de um grande prejuízo financeiro, pois sua família perdeu um trator por manutenção incorreta.|**Hobbies:**<br><ul>● Andar a cavalo; <br>● Tocar violão;  <br>● Participar de Feiras Agropecuárias.</ul>|
+
+
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
@@ -32,6 +38,18 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Carlos Gomes | Manter uma lista com a relação de todo patrimônio da empresa.       | Contratar um seguro.              |
 |Carlos Gomes     | Poder cadastrar dados da apólice de seguro.              | Para saber quais equipamentos estão ou não no seguro.   |
 |Carlos Gomes  | Manter um cadastro dos equipamentos da empresa com os dados da nota fiscal. | Facilitar o controle patrimonial.  |
+|   |   |    |
+|   |   |    |
+|   |   |    |
+|   |   |    |
+|   |   |    |
+|   |   |    |
+|   |   |    |
+|   |   |    |
+|   |   |    |
+|   |   |    |
+|   |   |    |
+|   |   |    |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
@@ -55,7 +73,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-011| O sistema deve permitir que o usuário cadastre os equipamentos da empresa com os dados da nota fiscal. | ALTA |
 |RF-012| O sistema deve permitir que o usuário cadastre os dados da apólice de seguro. | ALTA |
 |RF-013| O sistema deve gerar um relatório com todo patrimônio da empresa. | ALTA | 
-
+|       |                                          |                               | 
+|       |                                          |                               | 
+|       |                                          |                               | 
+|       |                                          |                               | 
+|       |                                          |                               | 
+|       |                                          |                               | 
+|       |                                          |                               | 
+|       |                                          |                               | 
+|       |                                          |                               | 
 
 ### Requisitos não Funcionais
 
@@ -63,6 +89,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|       |                                                       |        | 
+|       |                                                       |        | 
+|       |                                                       |        | 
+|       |                                                       |        | 
+|       |                                                       |        | 
+|       |                                                       |        | 
+|       |                                                       |        | 
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
