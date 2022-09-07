@@ -1,25 +1,25 @@
-# TÍTULO DO PROJETO
+# AgriCont
 
-`CURSO`
+Análise e Desenvolvimento de Sistema 
 
-`DISCIPLINA`
+Projeto de Aplicação Interativa 
 
-`SEMESTRE`
+2º SEMESTRE
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Sabendo da importância da Agricultura Familiar no Brasil e da necessidade de uma boa gestão patrimonial para o sucesso de um negócio, principalmente no âmbito rural, este projeto tem como objetivo ajudar a fomentar esta atividade e para isso, desenvolveremos uma aplicação interativa que ajude esse empresariado a controlar e gerir seu patrimônio.  
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Jeferson Queiroz 
-* Karen Noguti 
+* Carolina Vitória Laurindo 
 * Cláudia Carapiá Ferraz
-* Nome completo do aluno 4
+* Douglas Raynner 
+* Jéssica Grimaldi
+* Jeferson Queiroz 
+* Karen Noguti
 
 ## Orientador
 
-* Nome completo do professor 1
+* Bernardo Jeunon de Alencar
 
 ## Instruções de utilização
 
