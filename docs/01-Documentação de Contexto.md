@@ -1,6 +1,10 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Comer é algo essencial nas nossas vidas, mas alguma vez já pararam para pensar quem são os responsáveis na produção daquela maça que compramos na feira ou daquela alface que comemos na hora do almoço? Parece óbvia a resposta, porém quando moramos em centros urbanos talvez para algumas pessoas essa questão não seja tão fácil assim. 
+
+De acordo com o IBGE (2017), a agricultura familiar é a principal atividade que garante a diversidade da comida na mesa dos brasileiros, pois de acordo com a instituição cerca de 77% dos estabelecimentos agrícolas no país são provenientes da Agricultura Familiar. Além disso, conforme relatado pelo site G1 (SALATI, 2020), 60% das hortaliças produzidas no país chegam até nossos pratos graças a essa atividade.  
+
+Entretanto, a Confederação da Agricultura e Pecuária do Brasil (CNA,2018), descreve que os empresários rurais cometem erros graves na contabilidade acarretando o fracasso de muitos negócios. E um dos exemplos citados refere-se a confusão patrimonial, pois o empresário mistura despesas pessoais com as da atividade profissional.  
 
 ## Problema 
 
