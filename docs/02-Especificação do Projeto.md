@@ -20,28 +20,12 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 |**Motivações:**<br><ul>● Ele é um amante da natureza e deseja que sua empresa seja pioneira na produção de vegetais e frutas de alta qualidade e sem utilização de agrotóxicos. <br><br>● Reduzir gastos com equipamentos para poder investir em novas tecnologias. </ul>|**Frustrações:**<br><ul>● Recentemente teve um sinistro na empresa, e decidiu fazer um seguro, porém não tinha a relação do patrimônio. <br><br>● Dificuldade de manter um controle das notas fiscais dos equipamentos da empresa.|**Hobbies:**<br><ul>● Estudar meios de plantação mais sustentáveis. </ul>|
 
 
-
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-| Usuário |                   |                          |
 |Susy Thiemy |Quer um sistema, no qual possa se cadastrar e ter login         | Para acessar informações e dados da sua empresa.                |
 |Susy Thiemy |Quer um sistema que possa verificar o patrimônio por categoria como: maquinário, veículos, ferramentas e informática      | Para poder fazer a gestão patrimonial da propriedade.    |
 |Susy Thiemy |Poder verificar quando foi a última data de manutenção do equipamento | Para não ter prejuízos financeiros.  |
@@ -71,21 +55,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001|     |    | 
+|RF-002|     |    |
+|RF-003|     |    |
+|RF-004|     |    |
+|RF-005|     |    |
+|RF-006|     |    |
+|RF-007|     |    |
+|RF-008|     |    |
+|RF-009|     |    |
+|RF-010|     |    |
 |RF-011| O sistema deve permitir que o usuário cadastre os equipamentos da empresa com os dados da nota fiscal. | ALTA |
 |RF-012| O sistema deve permitir que o usuário cadastre os dados da apólice de seguro. | ALTA |
 |RF-013| O sistema deve gerar um relatório com todo patrimônio da empresa. | ALTA | 
-|       |                                          |                               | 
-|       |                                          |                               | 
-|       |                                          |                               | 
-|       |                                          |                               | 
-|       |                                          |                               | 
-|       |                                          |                               | 
-|       |                                          |                               | 
-|       |                                          |                               | 
-|       |                                          |                               | 
-
+|RF-014| O sistema deve permitir que o usuário edite todas as informações do cadastro do patrimônio. | Média |
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
