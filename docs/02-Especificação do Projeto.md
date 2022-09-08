@@ -51,12 +51,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Carlos Gomes |   Manter uma lista com a relação de todo patrimônio da empresa. | Contratar um seguro.   |
 | Carlos Gomes | Poder cadastrar dados da apólice de seguro.  |  Para saber quais equipamentos estão ou não no seguro.   |
 | Carlos Gomes | Manter um cadastro dos equipamentos da empresa com os dados da nota fiscal.  |  Facilitar o controle patrimonial.  |
-|   |   |    |
-|   |   |    |
-|   |   |    |
-|   |   |    |
-|   |   |    |
-|   |   |    |
+|Stephanie Oliveira  |   |    |
+|Stephanie Oliveira  |   |    |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
