@@ -42,15 +42,15 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 | Usuário |                   |                          |
-|Carlos Gomes | Manter uma lista com a relação de todo patrimônio da empresa.       | Contratar um seguro.              |
-|Carlos Gomes     | Poder cadastrar dados da apólice de seguro.              | Para saber quais equipamentos estão ou não no seguro.   |
-|Carlos Gomes  | Manter um cadastro dos equipamentos da empresa com os dados da nota fiscal. | Facilitar o controle patrimonial.  |
+|Susy Thiemy |Quer um sistema, no qual possa se cadastrar e ter login         | Para acessar informações e dados da sua empresa.                |
+|Susy Thiemy |Quer um sistema que possa verificar o patrimônio por categoria como: maquinário, veículos, ferramentas e informática      | Para poder fazer a gestão patrimonial da propriedade.    |
+|Susy Thiemy |Poder verificar quando foi a última data de manutenção do equipamento | Para não ter prejuízos financeiros.  |
+|Susy Thiemy |Poder conseguir entrar em contato com a equipe de atendimento.     |  Para sanar dúvidas  |
 |   |   |    |
 |   |   |    |
-|   |   |    |
-|   |   |    |
-|   |   |    |
-|   |   |    |
+| Carlos Gomes |   Manter uma lista com a relação de todo patrimônio da empresa. | Contratar um seguro.   |
+| Carlos Gomes | Poder cadastrar dados da apólice de seguro.  |  Para saber quais equipamentos estão ou não no seguro.   |
+| Carlos Gomes | Manter um cadastro dos equipamentos da empresa com os dados da nota fiscal.  |  Facilitar o controle patrimonial.  |
 |   |   |    |
 |   |   |    |
 |   |   |    |
