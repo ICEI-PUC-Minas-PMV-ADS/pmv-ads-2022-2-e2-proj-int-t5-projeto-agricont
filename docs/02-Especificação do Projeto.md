@@ -11,13 +11,19 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 |    Susy Thiemy Takamura   | Informações:                       |                                        |
 |--------------------|------------------------------------|----------------------------------------|
 |<img src="img/Susy.jpg" width = 200 >| **Idade:** 29 anos <br> **Ocupação:** Engenheira Agrônoma, Gerente na propriedade da família.|**Aplicativos:**<br><ul>● Instagram <br>● WhatsApp <br>● Facebook <br>● NFS-e App <br>● Aplicativo de Banco</ul>|
-|**Motivações:**<br><ul>● Apaixonada pela profissão decidiu cursar agronomia, pois desde pequena sempre teve contato com a rotina de trabalho no sítio da família, que planta hortaliças;  <br><br>● Após sair do seu último emprego em corporação, decidiu assumir os negócios da família, pois quer transformar suas experiências acadêmicas e profissionais em crescimento dos negócios da família. </ul>|**Frustrações:**<br><ul>● Precisa solicitar um financiamento no Banco para adquirir uma nova máquina, porém como sua família não tem um controle patrimonial ela não consegue saber o que exatamente pode dar de garantia para a instituição;  <br><br>● No passado ela participou de um grande prejuízo financeiro, pois sua família perdeu um trator por manutenção incorreta.|**Hobbies:**<br><ul>● Andar a cavalo; <br>● Tocar violão;  <br>● Participar de Feiras Agropecuárias.</ul>|
+|**Motivações:**<br><ul>● Apaixonada pela profissão decidiu cursar agronomia, pois desde pequena sempre teve contato com a rotina de trabalho no sítio da família, que planta hortaliças;  <br><br>● Após sair do seu último emprego em corporação, decidiu assumir os negócios da família, pois quer transformar suas experiências acadêmicas e profissionais em crescimento dos negócios da família. </ul>|**Frustrações:**<br><ul>● Precisa solicitar um financiamento no Banco para adquirir uma nova máquina, porém como sua família não tem um controle patrimonial ela não consegue saber o que exatamente pode dar de garantia para a instituição;  <br><br>● No passado ela participou de um grande prejuízo financeiro, pois sua família perdeu um trator por manutenção incorreta.|**Hobbies/Histórias:**<br><ul>● Andar a cavalo; <br>● Tocar violão;  <br>● Participar de Feiras Agropecuárias.</ul>|
 
 
 |    Carlos Gomes  | Informações:                       |                                        |
 |--------------------|------------------------------------|----------------------------------------|
 |<img src="img/carlos.png" width = 200 >| **Idade:** 40 anos <br> **Ocupação:** Pequeno empresário agrícola|**Aplicativos:**<br><ul>● Instagram <br>● Facebook <br>● Aplicativos de Banco</ul>|
-|**Motivações:**<br><ul>● Ele é um amante da natureza e deseja que sua empresa seja pioneira na produção de vegetais e frutas de alta qualidade e sem utilização de agrotóxicos. <br><br>● Reduzir gastos com equipamentos para poder investir em novas tecnologias. </ul>|**Frustrações:**<br><ul>● Recentemente teve um sinistro na empresa, e decidiu fazer um seguro, porém não tinha a relação do patrimônio. <br><br>● Dificuldade de manter um controle das notas fiscais dos equipamentos da empresa.|**Hobbies:**<br><ul>● Estudar meios de plantação mais sustentáveis. </ul>|
+|**Motivações:**<br><ul>● Ele é um amante da natureza e deseja que sua empresa seja pioneira na produção de vegetais e frutas de alta qualidade e sem utilização de agrotóxicos. <br><br>● Reduzir gastos com equipamentos para poder investir em novas tecnologias. </ul>|**Frustrações:**<br><ul>● Recentemente teve um sinistro na empresa, e decidiu fazer um seguro, porém não tinha a relação do patrimônio. <br><br>● Dificuldade de manter um controle das notas fiscais dos equipamentos da empresa.|**Hobbies/Histórias:**<br><ul>● Estudar meios de plantação mais sustentáveis. </ul>|
+ 
+ 
+ |    Stephanie Oliveira  | Informações:                       |                                        |
+|--------------------|------------------------------------|----------------------------------------|
+|| **Idade:** 25 anos <br> **Ocupação:** Tecnóloga em Silvicultura, trabalha em uma empresa de reflorestamento sustentável|**Aplicativos:**<br><ul>● Instagram <br>● Facebook <br>● Google Maps<br>● Be My Eyes <br>● Eye-D <br></ul>|
+|**Motivações:**<br><ul>● Continuar atuando na Silvicultura clássica, pois acredita na produção que preserve o meio ambiente. <br><br>● Estará à frente do projeto para plantar uma espécie de árvore chamada Taxi-Branco. </ul>|**Frustrações:**<br><ul>● Ela será responsável pelo controle dos equipamentos que serão utilizados neste novo projetos, porém possui deficiência visual com perda parcial e tem dificuldade de encontrar programas que tenham Interação por voz e som para deficientes visuais. <br><br>● Como faz trabalhos externos precisa de um programa que possa ser visualizado em telas menores.|**Hobbies/Histórias:**<br><ul>● Gosta de aprender sobre árvores nativas do Brasil. <br>● Gosta de assistir documentários relacionados à preservação do meio ambiente.  <br>● Gosta de jogar jogos de tabuleiro. <br>● Quando criança teve toxoplasmose e a doença se alojou em seus dois olhos, por isso do lado direito possui 90% da visão e no esquerdo apenas 50%. <br></ul>|
 
 
 ## Histórias de Usuários
@@ -55,12 +61,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001|     |    | 
-|RF-002|     |    |
-|RF-003|     |    |
-|RF-004|     |    |
-|RF-005|     |    |
-|RF-006|     |    |
+|RF-001|  O sistema deve permitir que o usuário se cadastre na aplicação.   |  Alta   | 
+|RF-002|  O sistema deve permitir que o usuário faça o login.   |  Alta   |
+|RF-003|  O sistema deve permitir que o usuário altere a senha do seu login.    |  Média    |
+|RF-004|  O sistema deve permitir que o usuário cadastre o patrimônio por categoria como: maquinário, veículos, ferramentas e informática       |  Alta  |
+|RF-005|  O sistema deve permitir que o usuário insira a última data de manutenção.   |  Alta  |
+|RF-006|  O site deve permitir que o usuário entre em contato com a AgriCont através da página fale conosco.   |  Baixa  |
 |RF-007|     |    |
 |RF-008|     |    |
 |RF-009|     |    |
