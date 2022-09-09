@@ -22,7 +22,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
  
  |    Stephanie Oliveira  | Informações:                       |                                        |
 |--------------------|------------------------------------|----------------------------------------|
-|| **Idade:** 25 anos <br> **Ocupação:** Tecnóloga em Silvicultura, trabalha em uma empresa de reflorestamento sustentável|**Aplicativos:**<br><ul>● Instagram <br>● Facebook <br>● Google Maps<br>● Be My Eyes <br>● Eye-D <br></ul>|
+|<img src="img/Stephanie.jpg" >| **Idade:** 25 anos <br> **Ocupação:** Tecnóloga em Silvicultura, trabalha em uma empresa de reflorestamento sustentável|**Aplicativos:**<br><ul>● Instagram <br>● Facebook <br>● Google Maps<br>● Be My Eyes <br>● Eye-D <br></ul>|
 |**Motivações:**<br><ul>● Continuar atuando na Silvicultura clássica, pois acredita na produção que preserve o meio ambiente. <br><br>● Estará à frente do projeto para plantar uma espécie de árvore chamada Taxi-Branco. </ul>|**Frustrações:**<br><ul>● Ela será responsável pelo controle dos equipamentos que serão utilizados neste novo projetos, porém possui deficiência visual com perda parcial e tem dificuldade de encontrar programas que tenham Interação por voz e som para deficientes visuais. <br><br>● Como faz trabalhos externos precisa de um programa que possa ser visualizado em telas menores.|**Hobbies/Histórias:**<br><ul>● Gosta de aprender sobre árvores nativas do Brasil. <br>● Gosta de assistir documentários relacionados à preservação do meio ambiente.  <br>● Gosta de jogar jogos de tabuleiro. <br>● Quando criança teve toxoplasmose e a doença se alojou em seus dois olhos, por isso do lado direito possui 90% da visão e no esquerdo apenas 50%. <br></ul>|
 
 
