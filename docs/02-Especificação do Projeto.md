@@ -36,8 +36,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Susy Thiemy |Quer um sistema que possa verificar o patrimônio por categoria como: maquinário, veículos, ferramentas e informática      | Para poder fazer a gestão patrimonial da propriedade.    |
 |Susy Thiemy |Poder verificar quando foi a última data de manutenção do equipamento | Para não ter prejuízos financeiros.  |
 |Susy Thiemy |Poder conseguir entrar em contato com a equipe de atendimento.     |  Para sanar dúvidas  |
-|   |   |    |
-|   |   |    |
+|Luiz Machado  | Quer que o sistema cadastre e pesquise se o equipamento está em operação ou não    | Para evitar gastos com compras desnecessárias     |
+|Luiz Machado  | Quer que o sistema cadastre o valor da depreciação do bem   | Para saber quando será a melhor época para vender e comprar outro  |
 | Carlos Gomes |   Manter uma lista com a relação de todo patrimônio da empresa. | Contratar um seguro.   |
 | Carlos Gomes | Poder cadastrar dados da apólice de seguro.  |  Para saber quais equipamentos estão ou não no seguro.   |
 | Carlos Gomes | Manter um cadastro dos equipamentos da empresa com os dados da nota fiscal.  |  Facilitar o controle patrimonial.  |
