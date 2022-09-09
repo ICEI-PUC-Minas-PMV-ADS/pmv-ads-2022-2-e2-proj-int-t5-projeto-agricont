@@ -15,7 +15,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 |    Luiz Machado  | Informações:                       |                                        |
 |--------------------|------------------------------------|----------------------------------------|
-|<img src="img/LuizMachado.png" width = 200 >| **Idade:** 20 anos <br> **Ocupação:** Estagiário de agronomia|**Aplicativos:**<br><ul>● Slype <br>● WhatsApp <br>● Messenger <br>● Youtube <br>● Facebook</ul>|
+|<img src="img/LuizMachado.png" width = 200 >| **Idade:** 20 anos <br> **Ocupação:** Estagiário de agronomia|**Aplicativos:**<br><ul>● Skype <br>● WhatsApp <br>● Messenger <br>● Youtube <br>● Facebook</ul>|
 |**Motivações:**<br><ul>● Busca por reconhecimento na empresa e crescimento na carreira;  <br><br>● Deseja ter a possibilidade de pesquisar informações sobre determinada máquina, para implementar possíveis melhorias em seu hardware.  </ul>|**Frustrações:**<br><ul>● Seu chefe solicitou uma parafusadeira para realizar um conserto, porém um outro funcionário informou que aquela ferramenta havia sido vendida a meses atrás e não havia nenhum registro dessa transação;  <br><br>● Não ter um sistema que cadastre o valor de depreciação do bem.|**Hobbies/Histórias:**<br><ul>● Gosta de participar de feiras e eventos, pois assim conhece as novas tendências que podem otimizar as operações do campo. Em seu tempo livre gosta de jogar com amigos no computador. </ul>|
 
 
