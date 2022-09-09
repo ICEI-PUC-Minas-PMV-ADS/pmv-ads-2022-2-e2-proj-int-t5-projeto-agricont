@@ -12,12 +12,19 @@ Conforme exposto, o problema que se busca solucionar com este projeto é a falta
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste projeto é, por meio de um banco de dados, guardar e organizar informações referente aos patrimônios de pequenos agricultores. Com esse propósito, desenvolveremos um sistema web com ferramentas simples, que auxiliem no controle e gestão de tais patrimônios. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Podemos definir como objetivos específicos: 
+
+● Informar sobre a importância de um controle patrimonial; 
+
+● Permitir que o usuário possa se cadastrar e fazer login; 
+
+● Possibilitar que o usuário acesse uma lista com seus patrimônios; 
+
+● Permitir o cadastro e pesquisa de dados (ferramentas e equipamentos); 
+
+● Fornecer ferramentas que possibilite um checklist rotineiro. 
 
 ## Justificativa
 
