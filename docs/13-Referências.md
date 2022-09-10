@@ -8,6 +8,12 @@ A lista a seguir traz as referências utilizadas nesse trabalho. são elas:
 
 * CNA - Confederação da Agricultura e Pecuária do Brasil. **Contabilidade rural possui particularidades exclusivas do campo.** Disponível em: https://cnabrasil.org.br/noticias/contabilidade-rural-possui-particularidades-exclusivas-do-campo. Acessado em: 11 ago.2022.  
 
+* CONTROLE FINANEIRO. **Controle Patrimonial: o que é e por que fazer? Conheça os benefícios para sua empresa!** Disponível em: https://controlefinanceiro.granatum.com.br/guest-post/controle-patrimonial-o-que-e-por-que-fazer/#:~:text=Import%C3%A2ncia%20do%20Controle%20Patrimonial&text=O%20controle%20patrimonial%20feito%20de,a%20precifica%C3%A7%C3%A3o%20ser%C3%A1%20mais%20precisa. Acessado em 20 ago. 2022.  
+
+* DIÁRIO OFICIAL-E. **Controle Patrimonial: Entenda O Que É E Como Fazer Corretamente.** Disponível em: https://blog.diariooficial-e.com.br/mercado-de-trabalho/controle-patrimonial/. Acessado em 07 set. 2022. 
+
+* DIRETO CONSULTORIA. **Como fazer o Controle Patrimonial da minha empresa?.** Disponível em https://www.diretogroup.com/controle-patrimonial/. Acessado em 07 set. 2022. 
+
 * do Vale, N. K. A., & Silva, K. L. J. (2019). **CONTABILIDADE RURAL: APOIO E CONTROLE PARA O PROCESSO DE GESTÃO DAS EMPRESAS RURAIS DE PEQUENO PORTE DA MICRORREGIÃO DE IPORÁ-GO.** Revista UNEMAT De Contabilidade, 8(15). Disponível em: https://doi.org/10.30681/ruc.v8i15.2885 . Acessado em 15 ago.2022. 
 
 * EMBRAPA. **Perguntas e Respostas: Agricultura Familiar.** Disponível em: https://www.embrapa.br/tema-agricultura-familiar/perguntas-e-respostas . Acessado em 16 ago.2022.  
@@ -16,3 +22,4 @@ A lista a seguir traz as referências utilizadas nesse trabalho. são elas:
 
 * SALATI, Paula. **De onde vem o que eu como: líderes na produção de hortaliças e frutas, agricultores familiares usam a internet para manter a atividade na pandemia.** Globo.com, 2020. Disponível em: https://g1.globo.com/economia/agronegocios/agro-a-industria-riqueza-do-brasil/noticia/2020/08/17/de-onde-vem-o-que-eu-como-lideres-na-producao-de-hortalicas-e-frutas-agricultores-familiares-usam-a-internet-para-manter-a-atividade-na-pandemia.ghtml  . Acessado em 11 set. 2022. 
 
+* TOTVS. **Gestão patrimonial: Como fazer e qual sua importância.** Disponível em: https://www.totvs.com/blog/gestao-de-servicos/gestao-patrimonial/. Acessado em 20/08/2022 
