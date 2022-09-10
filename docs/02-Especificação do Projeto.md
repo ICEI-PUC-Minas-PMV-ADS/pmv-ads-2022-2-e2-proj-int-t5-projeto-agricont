@@ -67,33 +67,33 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001|  O sistema deve permitir que o usuário se cadastre na aplicação.   |  Alta   | 
-|RF-002|  O sistema deve permitir que o usuário faça o login.   |  Alta   |
-|RF-003|  O sistema deve permitir que o usuário altere a senha do seu login.    |  Média    |
-|RF-004|  O sistema deve permitir que o usuário cadastre o patrimônio por categoria como: maquinário, veículos, ferramentas e informática       |  Alta  |
-|RF-005|  O sistema deve permitir que o usuário insira a última data de manutenção.   |  Alta  |
-|RF-006|  O site deve permitir que o usuário entre em contato com a AgriCont através da página fale conosco.   |  Baixa  |
-|RF-007|  O site deve permitir que o usuário informe se o equipamento está ativo ou inativo.   |  Alta   |
-|RF-008|  O site deve permitir que o usuário pesquise as informações cadastradas de cada patrimônio   |  Alta   |
-|RF-009|  O site deve permitir que o usuário cadastre o valor da depreciação do patrimônio.   |  Alta   |
-|RF-010|  O site deve informar sobre a importância de um controle patrimonial.   |  Alta   |
-|RF-011|  O sistema deve permitir que o usuário cadastre os equipamentos da empresa com os dados da nota fiscal. |  Alta  |
-|RF-012|  O sistema deve permitir que o usuário cadastre os dados da apólice de seguro. |  Alta  |
-|RF-013|  O sistema deve gerar um relatório com todo patrimônio da empresa. |  Alta  | 
-|RF-014|  O sistema deve permitir que o usuário edite todas as informações do cadastro do patrimônio. | Média |
+|RF-001|  O sistema deve permitir que o usuário se cadastre na aplicação.   |  ALTA  | 
+|RF-002|  O sistema deve permitir que o usuário faça o login.   |  ALTA   |
+|RF-003|  O sistema deve permitir que o usuário altere a senha do seu login.    |  MÉDIA    |
+|RF-004|  O sistema deve permitir que o usuário cadastre o patrimônio por categoria como: maquinário, veículos, ferramentas e informática       |  ALTA  |
+|RF-005|  O sistema deve permitir que o usuário insira a última data de manutenção.   |  ALTA  |
+|RF-006|  O site deve permitir que o usuário entre em contato com a AgriCont através da página fale conosco.   |  BAIXA  |
+|RF-007|  O site deve permitir que o usuário informe se o equipamento está ativo ou inativo.   |  ALTA   |
+|RF-008|  O site deve permitir que o usuário pesquise as informações cadastradas de cada patrimônio   |  ALTA   |
+|RF-009|  O site deve permitir que o usuário cadastre o valor da depreciação do patrimônio.   |  ALTA   |
+|RF-010|  O site deve informar sobre a importância de um controle patrimonial.   |  ALTA   |
+|RF-011|  O sistema deve permitir que o usuário cadastre os equipamentos da empresa com os dados da nota fiscal. |  ALTA  |
+|RF-012|  O sistema deve permitir que o usuário cadastre os dados da apólice de seguro. |  ALTA  |
+|RF-013|  O sistema deve gerar um relatório com todo patrimônio da empresa. |  ALTA  | 
+|RF-014|  O sistema deve permitir que o usuário edite todas as informações do cadastro do patrimônio. | MÉDIA |
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|       |                                                       |        | 
-|       |                                                       |        | 
-|       |                                                       |        | 
-|       |                                                       |        | 
-|       |                                                       |        | 
-|       |                                                       |        | 
-|       |                                                       |        | 
+|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel. | MÉDIA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s. |  BAIXA | 
+|RNF-003| As informações declaradas devem ser exibidas de forma privada ao usuário que declarou.  |  ALTA  | 
+|RNF-004| O sistema deverá funcionar 24 horas por dia.  |    ALTA     | 
+|RNF-005| O sistema deverá ser capaz através de um banco de dados guardar todas as informações do usuário.  |  ALTA  | 
+|RNF-006| O site deverá conter paleta de cores de diferentes tipos para leitura noturna e daltonismo.  |  MÉDIA  | 
+|RNF-007| O site deverá ser responsivo para permitir a visualização em um celular de forma adequada.  |  ALTA  | 
+|RNF-008| O site deverá conter Interação por voz e som para deficientes visuais.  |  ALTA  | 
+|RNF-009| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)  |  ALTA  | 
 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
