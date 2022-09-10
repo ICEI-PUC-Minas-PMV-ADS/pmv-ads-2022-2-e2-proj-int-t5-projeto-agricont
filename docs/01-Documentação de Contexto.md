@@ -4,9 +4,13 @@ Comer é algo essencial nas nossas vidas, mas alguma vez já pararam para pensar
 
 De acordo com o IBGE (2017), a agricultura familiar é a principal atividade que garante a diversidade da comida na mesa dos brasileiros, pois de acordo com a instituição cerca de 77% dos estabelecimentos agrícolas no país são provenientes da Agricultura Familiar. Além disso, conforme relatado pelo site G1 (SALATI, 2020), 60% das hortaliças produzidas no país chegam até nossos pratos graças a essa atividade.  
 
-Entretanto, a Confederação da Agricultura e Pecuária do Brasil (CNA,2018), descreve que os empresários rurais cometem erros graves na contabilidade acarretando o fracasso de muitos negócios. E um dos exemplos citados refere-se a confusão patrimonial, pois o empresário mistura despesas pessoais com as da atividade profissional.  
+Entretanto, a Confederação da Agricultura e Pecuária do Brasil (CNA,2018), descreve que os empresários rurais cometem erros graves na contabilidade acarretando o fracasso de muitos negócios. E um dos exemplos citados refere-se a confusão patrimonial, pois o empresário mistura despesas pessoais com as da atividade profissional.
 
-O controle patrimonial consiste em gerenciar todo o patrimônio de uma empresa. Para isso, é feito um levantamento de todos os seus bens e eles são avaliados e catalogados. O controle patrimonial é essencial em uma empresa, já que com ele é possível verificar informações importantes como a taxa de depreciação dos bens, vida útil, a necessidade de manutenção e a capacidade produtiva desses bens. Com essas informações, a empresa poderá gerar relatórios que vão auxiliá-la nas tomadas de decisão e otimização de processos (BALBINOTTO,2018). 
+O controle patrimonial consiste em gerenciar todo o patrimônio de uma empresa e para isso, é feito um levantamento de todos os seus bens e eles são avaliados e catalogados. O controle patrimonial é essencial em uma empresa, já que com ele é possível verificar informações importantes como a taxa de depreciação dos bens, vida útil, a necessidade de manutenção e a capacidade produtiva desses bens. Com essas informações, a empresa poderá gerar relatórios que vão auxiliá-la nas tomadas de decisão e otimização de processos (BALBINOTTO,2018).
+
+Além disso, segundo o site da empresa Direto Consultoria, um controle patrimonial bem realizado, também auxilia nos assuntos fiscais, pois ajuda na declaração de impostos e evita que ocorram omissões de receita e sonegações fiscais (Direto Consultoria, 2022). 
+
+Sabendo da importância da Agricultura Familiar no Brasil e da necessidade de uma boa gestão patrimonial para o sucesso de um negócio, principalmente no âmbito rural, este projeto tem como objetivo ajudar a fomentar esta atividade e para isso, desenvolveremos uma aplicação interativa que ajude esse empresariado a controlar e gerir seu patrimônio.  
 
 ## Problema 
 
