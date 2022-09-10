@@ -9,7 +9,7 @@ Definição do problema e ideia de solução a partir da perspectiva do usuário
 
 |    Susy Thiemy Takamura   | Informações:                       |                                        |
 |--------------------|------------------------------------|----------------------------------------|
-|<img src="img/Susy.jpg" width = 250 >| **Idade:** 29 anos <br> **Ocupação:** Engenheira Agrônoma, Gerente na propriedade da família.|**Aplicativos:**<br><ul>● Instagram <br>● WhatsApp <br>● Facebook <br>● NFS-e App <br>● Aplicativo de Banco</ul>|
+|<img src="img/Susy.jpg" width = 250 >| **Idade:** 35 anos <br> **Ocupação:** Engenheira Agrônoma, Gerente na propriedade da família.|**Aplicativos:**<br><ul>● Instagram <br>● WhatsApp <br>● Facebook <br>● NFS-e App <br>● Aplicativo de Banco</ul>|
 |**Motivações:**<br><ul>● Apaixonada pela profissão decidiu cursar agronomia, pois desde pequena sempre teve contato com a rotina de trabalho no sítio da família, que planta hortaliças;  <br><br>● Após sair do seu último emprego em corporação, decidiu assumir os negócios da família, pois quer transformar suas experiências acadêmicas e profissionais em crescimento dos negócios da família. </ul>|**Frustrações:**<br><ul>● Precisa solicitar um financiamento no Banco para adquirir uma nova máquina, porém como sua família não tem um controle patrimonial ela não consegue saber o que exatamente pode dar de garantia para a instituição;  <br><br>● No passado ela participou de um grande prejuízo financeiro, pois sua família perdeu um trator por manutenção incorreta.|**Hobbies/Histórias:**<br><ul>● Andar a cavalo; <br>● Tocar violão;  <br>● Participar de Feiras Agropecuárias.</ul>|
 
 |    Luiz Machado  | Informações:                       |                                        |
