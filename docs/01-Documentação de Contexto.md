@@ -6,6 +6,8 @@ De acordo com o IBGE (2017), a agricultura familiar é a principal atividade que
 
 Entretanto, a Confederação da Agricultura e Pecuária do Brasil (CNA,2018), descreve que os empresários rurais cometem erros graves na contabilidade acarretando o fracasso de muitos negócios. E um dos exemplos citados refere-se a confusão patrimonial, pois o empresário mistura despesas pessoais com as da atividade profissional.  
 
+O controle patrimonial consiste em gerenciar todo o patrimônio de uma empresa. Para isso, é feito um levantamento de todos os seus bens e eles são avaliados e catalogados. O controle patrimonial é essencial em uma empresa, já que com ele é possível verificar informações importantes como a taxa de depreciação dos bens, vida útil, a necessidade de manutenção e a capacidade produtiva desses bens. Com essas informações, a empresa poderá gerar relatórios que vão auxiliá-la nas tomadas de decisão e otimização de processos (BALBINOTTO,2018). 
+
 ## Problema 
 
 Conforme exposto, o problema que se busca solucionar com este projeto é a falta de controle e gestão patrimonial, que os pequenos agricultores possuem na hora de gerenciar seus negócios. 
