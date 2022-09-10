@@ -2,7 +2,7 @@
 
 A lista a seguir traz as referências utilizadas nesse trabalho. são elas:
 
-*BALBINOTTO, Renan Luiz. **Controle patrimonial: uma análise da percepção dos gestores**. Tese (Especialização) - Curso de especialização em gestão financeira - Universidade Tecnológica Federal do Paraná, 2018. Disponível em https://repositorio.utfpr.edu.br/jspui/bitstream/1/19595/1/CT_GESFIN_III_2018_12.pdf. Acessado em 09/09/2022.
+* BALBINOTTO, Renan Luiz. **Controle patrimonial: uma análise da percepção dos gestores**. Tese (Especialização) - Curso de especialização em gestão financeira - Universidade Tecnológica Federal do Paraná, 2018. Disponível em https://repositorio.utfpr.edu.br/jspui/bitstream/1/19595/1/CT_GESFIN_III_2018_12.pdf. Acessado em 09/09/2022.
 
 * CNA - Confederação da Agricultura e Pecuária do Brasil. **Contabilidade rural possui particularidades exclusivas do campo.** Disponível em: https://cnabrasil.org.br/noticias/contabilidade-rural-possui-particularidades-exclusivas-do-campo. Acessado em: 11 ago.2022.  
 
