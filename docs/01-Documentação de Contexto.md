@@ -10,19 +10,21 @@ Entretanto, a Confederação da Agricultura e Pecuária do Brasil (CNA,2018), de
 
 Conforme exposto, o problema que se busca solucionar com este projeto é a falta de controle e gestão patrimonial, que os pequenos agricultores possuem na hora de gerenciar seus negócios. 
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste projeto é, por meio de um banco de dados, guardar e organizar informações referente aos patrimônios de pequenos agricultores. Com esse propósito, desenvolveremos um sistema web com ferramentas simples, que auxiliem no controle e gestão de tais patrimônios. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Podemos definir como objetivos específicos: 
+
+● Informar sobre a importância de um controle patrimonial; 
+
+● Permitir que o usuário possa se cadastrar e fazer login; 
+
+● Possibilitar que o usuário acesse uma lista com seus patrimônios; 
+
+● Permitir o cadastro e pesquisa de dados (ferramentas e equipamentos); 
+
+● Fornecer ferramentas que possibilite um checklist rotineiro. 
 
 ## Justificativa
 
@@ -38,13 +40,8 @@ Uma boa gestão possibilita que o empreendimento prospere, melhore os resultados
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Segundo a lei nº 11.326, DE 24 DE JULHO DE 2006, são considerados agricultores familiares os pequenos produtores rurais, assentados da reforma agrária, silvicultores, aquicultores, extrativistas e pescadores.  
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Existe uma série de ferramentas disponíveis para facilitar a gestão do agricultor familiar. No entanto, dada a heterogeneidade social e a diversidade produtiva da agricultura familiar, há que se considerar suas especificidades a fim de garantir a sustentabilidade e a competitividade de seus empreendimentos (EMBRAPA, 2022). 
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Dessa forma, a fim de desenvolver uma solução eficiente, este projeto tem como foco atingir os pequenos produtores rurais.
