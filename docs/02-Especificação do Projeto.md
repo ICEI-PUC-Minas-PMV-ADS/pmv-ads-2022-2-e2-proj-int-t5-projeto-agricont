@@ -4,7 +4,6 @@
 
 Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
 
@@ -50,14 +49,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Stephanie Oliveira  | Conseguir acessar o site pelo celular  |  Para facilitar seu trabalho, quando estiver em serviços externos.  |
 |Stephanie Oliveira  | Conseguir ter acesso no site a Interação por voz e som    | Pois possui deficiência visual.    |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
@@ -81,35 +73,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-012|  O sistema deve permitir que o usuário cadastre os dados da apólice de seguro. |  ALTA  |
 |RF-013|  O sistema deve gerar um relatório com todo patrimônio da empresa. |  ALTA  | 
 |RF-014|  O sistema deve permitir que o usuário edite todas as informações do cadastro do patrimônio. | MÉDIA |
+ 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel. | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s. |  BAIXA | 
-|RNF-003| As informações declaradas devem ser exibidas de forma privada ao usuário que declarou.  |  ALTA  | 
-|RNF-004| O sistema deverá funcionar 24 horas por dia.  |    ALTA     | 
-|RNF-005| O sistema deverá ser capaz através de um banco de dados guardar todas as informações do usuário.  |  ALTA  | 
-|RNF-006| O site deverá conter paleta de cores de diferentes tipos para leitura noturna e daltonismo.  |  MÉDIA  | 
-|RNF-007| O site deverá ser responsivo para permitir a visualização em um celular de forma adequada.  |  ALTA  | 
-|RNF-008| O site deverá conter Interação por voz e som para deficientes visuais.  |  ALTA  | 
-|RNF-009| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)  |  ALTA  | 
-
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+|RNF-001| As informações declaradas devem ser exibidas de forma privada ao usuário que declarou.  |  ALTA  | 
+|RNF-002| O sistema deverá funcionar 24 horas por dia.  |    ALTA     | 
+|RNF-003| O sistema deverá ser capaz através de um banco de dados guardar todas as informações do usuário.  |  ALTA  | 
+|RNF-004| O site deverá conter paleta de cores de diferentes tipos para leitura noturna e daltonismo.  |  MÉDIA  | 
+|RNF-005| O site deverá ser responsivo para permitir a visualização em um celular de forma adequada.  |  ALTA  | 
+|RNF-006| O site deverá conter Interação por voz e som para deficientes visuais.  |  ALTA  | 
+|RNF-007| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)  |  ALTA  | 
 
 ## Restrições
 
@@ -117,27 +92,14 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|RE-01| O projeto deverá ser entregue até o final do semestre |
-|RE-02| A equipe não pode subcontratar o desenvolvimento do trabalho.|       |
+|RE-01| A equipe não pode subcontratar o desenvolvimento do trabalho.|       |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
+ 
 ## Diagrama de Casos de Uso
 
 <img src="img/DiagramaCasosdeUso.png">
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
 
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+
