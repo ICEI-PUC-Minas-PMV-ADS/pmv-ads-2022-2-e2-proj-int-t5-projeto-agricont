@@ -10,7 +10,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 |    Susy Thiemy Takamura   | Informações:                       |                                        |
 |--------------------|------------------------------------|----------------------------------------|
-|<img src="img/Susy.jpg" width = 200 >| **Idade:** 29 anos <br> **Ocupação:** Engenheira Agrônoma, Gerente na propriedade da família.|**Aplicativos:**<br><ul>● Instagram <br>● WhatsApp <br>● Facebook <br>● NFS-e App <br>● Aplicativo de Banco</ul>|
+|<img src="img/Susy.jpg" width = 250 >| **Idade:** 29 anos <br> **Ocupação:** Engenheira Agrônoma, Gerente na propriedade da família.|**Aplicativos:**<br><ul>● Instagram <br>● WhatsApp <br>● Facebook <br>● NFS-e App <br>● Aplicativo de Banco</ul>|
 |**Motivações:**<br><ul>● Apaixonada pela profissão decidiu cursar agronomia, pois desde pequena sempre teve contato com a rotina de trabalho no sítio da família, que planta hortaliças;  <br><br>● Após sair do seu último emprego em corporação, decidiu assumir os negócios da família, pois quer transformar suas experiências acadêmicas e profissionais em crescimento dos negócios da família. </ul>|**Frustrações:**<br><ul>● Precisa solicitar um financiamento no Banco para adquirir uma nova máquina, porém como sua família não tem um controle patrimonial ela não consegue saber o que exatamente pode dar de garantia para a instituição;  <br><br>● No passado ela participou de um grande prejuízo financeiro, pois sua família perdeu um trator por manutenção incorreta.|**Hobbies/Histórias:**<br><ul>● Andar a cavalo; <br>● Tocar violão;  <br>● Participar de Feiras Agropecuárias.</ul>|
 
 |    Luiz Machado  | Informações:                       |                                        |
@@ -41,14 +41,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Susy Thiemy |Quer um sistema, no qual possa se cadastrar e ter login         | Para acessar informações e dados da sua empresa.                |
 |Susy Thiemy |Quer um sistema que possa verificar o patrimônio por categoria como: maquinário, veículos, ferramentas e informática      | Para poder fazer a gestão patrimonial da propriedade.    |
 |Susy Thiemy |Poder verificar quando foi a última data de manutenção do equipamento | Para não ter prejuízos financeiros.  |
-|Susy Thiemy |Poder conseguir entrar em contato com a equipe de atendimento.     |  Para sanar dúvidas  |
+|Susy Thiemy |Poder conseguir entrar em contato com a equipe de atendimento    |  Para sanar dúvidas  |
 |Luiz Machado  | Quer que o sistema cadastre e pesquise se o equipamento está em operação ou não    | Para evitar gastos com compras desnecessárias     |
 |Luiz Machado  | Quer que o sistema cadastre o valor da depreciação do bem   | Para saber quando será a melhor época para vender e comprar outro  |
-| Carlos Gomes |   Manter uma lista com a relação de todo patrimônio da empresa. | Contratar um seguro.   |
-| Carlos Gomes | Poder cadastrar dados da apólice de seguro.  |  Para saber quais equipamentos estão ou não no seguro.   |
-| Carlos Gomes | Manter um cadastro dos equipamentos da empresa com os dados da nota fiscal.  |  Facilitar o controle patrimonial.  |
-|Stephanie Oliveira  |   |    |
-|Stephanie Oliveira  |   |    |
+| Carlos Gomes | Manter uma lista com a relação de todo patrimônio da empresa | Para contratar um seguro.   |
+| Carlos Gomes | Poder cadastrar dados da apólice de seguro  |  Para saber quais equipamentos estão ou não no seguro.   |
+| Carlos Gomes | Manter um cadastro dos equipamentos da empresa com os dados da nota fiscal  |  Para facilitar o controle patrimonial.  |
+|Stephanie Oliveira  | Conseguir acessar o site pelo celular  |  Para facilitar seu trabalho, quando estiver em serviços externos.  |
+|Stephanie Oliveira  | Conseguir ter acesso no site a Interação por voz e som    | Pois possui deficiência visual.    |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
