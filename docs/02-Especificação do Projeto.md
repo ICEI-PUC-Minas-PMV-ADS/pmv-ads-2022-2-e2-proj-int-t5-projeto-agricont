@@ -73,14 +73,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004|  O sistema deve permitir que o usuário cadastre o patrimônio por categoria como: maquinário, veículos, ferramentas e informática       |  Alta  |
 |RF-005|  O sistema deve permitir que o usuário insira a última data de manutenção.   |  Alta  |
 |RF-006|  O site deve permitir que o usuário entre em contato com a AgriCont através da página fale conosco.   |  Baixa  |
-|RF-007|     |    |
-|RF-008|     |    |
-|RF-009|     |    |
-|RF-010|     |    |
-|RF-011| O sistema deve permitir que o usuário cadastre os equipamentos da empresa com os dados da nota fiscal. | ALTA |
-|RF-012| O sistema deve permitir que o usuário cadastre os dados da apólice de seguro. | ALTA |
-|RF-013| O sistema deve gerar um relatório com todo patrimônio da empresa. | ALTA | 
-|RF-014| O sistema deve permitir que o usuário edite todas as informações do cadastro do patrimônio. | Média |
+|RF-007|  O site deve permitir que o usuário informe se o equipamento está ativo ou inativo.   |  Alta   |
+|RF-008|  O site deve permitir que o usuário pesquise as informações cadastradas de cada patrimônio   |  Alta   |
+|RF-009|  O site deve permitir que o usuário cadastre o valor da depreciação do patrimônio.   |  Alta   |
+|RF-010|  O site deve informar sobre a importância de um controle patrimonial.   |  Alta   |
+|RF-011|  O sistema deve permitir que o usuário cadastre os equipamentos da empresa com os dados da nota fiscal. |  Alta  |
+|RF-012|  O sistema deve permitir que o usuário cadastre os dados da apólice de seguro. |  Alta  |
+|RF-013|  O sistema deve gerar um relatório com todo patrimônio da empresa. |  Alta  | 
+|RF-014|  O sistema deve permitir que o usuário edite todas as informações do cadastro do patrimônio. | Média |
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
