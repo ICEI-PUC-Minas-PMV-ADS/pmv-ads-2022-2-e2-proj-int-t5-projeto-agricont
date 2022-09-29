@@ -98,6 +98,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 **Locked:** Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa. 
 
+O quadro kanban do grupo no GitHub está disponível através da URL  Planejamento (github.com) e é apresentado, no estado atual, na Figura X. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
 
 <img src="img/quadro_kanban.png">
 Figura X - Tela do kanban utilizada pelo grupo
