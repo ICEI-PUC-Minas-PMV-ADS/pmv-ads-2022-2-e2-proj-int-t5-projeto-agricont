@@ -23,7 +23,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Hotfix, Release, Develop e Feature. Uma explicação rápida sobre este processo é apresentada no vídeo "The gitflow workflow - in less than 5 mins". 
 
-
+<img src="img/fluxo_controle_codigo.png">
 Figura X - Fluxo de controle do código fonte no repositório git
 
 ## Controle de Versão
@@ -98,8 +98,16 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 **Locked:** Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa. 
 
+<img src="img/quadro_kanban.png">
+Figura X - Tela do kanban utilizada pelo grupo
 
+<img src="img/etiquetas.png">
 
+A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
+●	Bug
+●	Documentação
+●	Melhoria 
+●	Pergunta
 
 Apresente a divisão de papéis entre os membros do grupo.
 
