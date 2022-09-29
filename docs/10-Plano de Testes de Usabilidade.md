@@ -37,7 +37,7 @@ Para esta etapa do projeto, os testes serão realizados nas principais funcional
 
 | Tarefa 2 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| - Cadastro de novo empresa |  Concluir o cadastro | - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir. |
+| - Cadastro de nova empresa |  Concluir o cadastro | - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir. |
 |          |                   |                     |
 
 | Tarefa 3 | Critério de êxito | O que será avaliado |
