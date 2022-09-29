@@ -98,16 +98,18 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 **Locked:** Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa. 
 
+
 <img src="img/quadro_kanban.png">
 Figura X - Tela do kanban utilizada pelo grupo
+
 
 <img src="img/etiquetas.png">
 
 A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
-●	Bug
-●	Documentação
-●	Melhoria 
-●	Pergunta
+**Bug**
+**Documentação**
+**Melhoria** 
+**Pergunta**
 
 Apresente a divisão de papéis entre os membros do grupo.
 
