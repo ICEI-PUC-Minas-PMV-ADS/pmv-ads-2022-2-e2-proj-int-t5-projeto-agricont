@@ -25,13 +25,13 @@ Por exemplo:
 |Requisito Associado |  RF-002 - O sistema deve permitir que o usuário faça o login. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont <br> - Clicar no ícone de login no cabeçalho <br> - Preencher o campo de e-mail <br> - Preencher o campo ID empresa <br> - Preencher o campo da senha <br> - Clicar em "Entrar" |
-|Critério de Êxito | - O login deve ser realizado com sucesso. |
+|Critério de Êxito | - Permitir o preenchimento de todos os campos do login. Ao clicar em "Entrar" deverá ser liberado acesso à conta do usuário. |
 |   |    | 
 | Caso de Teste 	| CT-02 – Tela modal com as informações cadastradas do item selecionado	|
 |Requisito Associado |  RF-008 - O site deve permitir que o usuário pesquise as informações cadastradas de cada patrimônio    |
 | Objetivo do Teste 	| Verificar se a tela modal é exibida com todas as informações cadastradas do item selecionado. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont <br> - Fazer login <br> - visualizar a primeira página após o login com lista dos itens cadastrados <br> - Clicar no item para visualizar as informações  |
-|Critério de Êxito | - A tela modal com as informações deve ser exibida com sucesso. |
+|Critério de Êxito | - A tela modal com as informações do item selecionado deve ser exibida com sucesso. |
 
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
