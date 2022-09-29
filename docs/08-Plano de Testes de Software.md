@@ -20,14 +20,13 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
 |Critério de Êxito | - O login foi realizado com sucesso. |
-
-
+|  |  |
 | Caso de Teste 	| CT-01 – Efetuar login	|
 |Requisito Associado |  RF-002 - O sistema deve permitir que o usuário faça o login. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont <br> - Clicar no ícone de login no cabeçalho <br> - Preencher o campo de e-mail <br> - Preencher o campo ID empresa <br> - Preencher o campo da senha <br> - Clicar em "Entrar" |
 |Critério de Êxito | - O login deve ser realizado com sucesso. |
- 
+|   |    | 
 | Caso de Teste 	| CT-02 – Tela modal com as informações cadastradas do item selecionado	|
 |Requisito Associado |  RF-008 - O site deve permitir que o usuário pesquise as informações cadastradas de cada patrimônio    |
 | Objetivo do Teste 	| Verificar se a tela modal é exibida com todas as informações cadastradas do item selecionado. |
