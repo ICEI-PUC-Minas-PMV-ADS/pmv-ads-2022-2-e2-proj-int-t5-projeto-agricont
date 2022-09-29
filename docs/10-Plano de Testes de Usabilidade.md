@@ -19,23 +19,27 @@
 
 |   | Itens a serem avaliados pós teste |
 |---|---------| 
-|   | 1)      |
-|   | 2)      |
-|   | 3)      |
-|   | 4)      |
-|   | 5)      |
-
+|   | 1) Escala de dificuldade da tarefa (de muito difícil a muito fácil).|
+|   | 2) Expectativa x realidade: escala de dificuldade antes e depois de fazer a tarefa (de muito difícil a muito fácil).|
+|   | 3) Escala de insatisfação (de muito satisfeito a muito insatisfeito).|
+|   | 4) Em geral como avalia a aplicação? (escala de 1 a 10 onde 1 é péssimo e 10 excelente). |
+|   | 5) Navegar na aplicação foi tranquilo? (escala de 1 a 10 onde 1 é difícil e 10 fácil).|
+|   | 6) Recomendaria a nossa aplicação? (escala de 1 a 10 onde 1 é muito improvável e 10 muito provável).|
+|   | 7) Problemas observados (questão aberta).|
+|   | 8) Tempo de execução para concluir a tarefa (questão aberta).|
 
 Para esta etapa do projeto, os testes serão realizados nas principais funcionalidades do sistema: login, cadastro do usuário, cadastro de empresa, cadastro de produto.
 
 | Tarefa 1 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-|          |                   |                     |
-|          |                   |                     |
+| Fazer o login no sistema |  Conseguir logar no sistema e ser encaminhado para a página  |  Concretização da tarefa. Quantidade de erros cometidos. |
+
 
 | Tarefa 2 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-|          |                   |                     |
+| - Cadastro de novo empresa |  Concluir o cadastro | Concretização da tarefa. <br>
+Quantidade de erros cometidos. <br>
+Tempo necessario para se concluir. |
 |          |                   |                     |
 
 | Tarefa 3 | Critério de êxito | O que será avaliado |
