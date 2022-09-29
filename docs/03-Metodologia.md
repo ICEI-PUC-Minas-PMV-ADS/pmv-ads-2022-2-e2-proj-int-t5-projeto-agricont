@@ -15,7 +15,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | ------------------- | ----------------|---------------|
 |  Repositório de código fonte |  GitHub |              |
 |  Documentos do projeto | GitHub |                     | 
-|  Projeto de Interface e Wireframes |                  |
+|  Projeto de Interface e Wireframes | Figma |          |
 |  Gerenciamento do Projeto |GitHub |                   |
 
 
