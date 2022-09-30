@@ -29,7 +29,7 @@ Figura X - Estrutura Padrão do Site
 
 Esta tela irá cadastrar os itens de ferramentaria e o que a diferencia das demais telas de cadastro são os itens que estão em "Variações do Produto" que são: Composição e Marca.
 
-![Tela de Ferramentas](img src="img/Ferramenta.png" width = 500)
+![Tela de Ferramentas](img/Ferramenta.png)
 
 ## Tela de Cadastro de Informática
 
