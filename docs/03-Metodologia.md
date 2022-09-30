@@ -3,7 +3,6 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span> 
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
 
 A metodologia contempla as definições de ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto. 
 
@@ -13,10 +12,10 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 | Ambiente  | Plataforma | Link de Acesso | 
 | ------------------- | ----------------|---------------|
-|  Repositório de código fonte |  GitHub |              |
-|  Documentos do projeto | GitHub |                     | 
-|  Projeto de Interface e Wireframes | Figma |          |
-|  Gerenciamento do Projeto |GitHub |                   |
+|  Repositório de código fonte |  GitHub |  [AgriCont / GitHub / Códigos  ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont)            |
+|  Documentos do projeto | GitHub |[AgriCont / GitHub / Documentos  ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont)                     | 
+|  Projeto de Interface e Wireframes | Figma | [AgriCont / Protótipo   ](https://www.figma.com/files/project/67337787/Team-project?fuid=1153538250564335280)         |
+|  Gerenciamento do Projeto |GitHub | [AgriCont / GitHub / Gerenciamento de Projeto  ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont)                  |
 
 
 ## Gestão de código fonte 
@@ -29,7 +28,7 @@ Figura X - Fluxo de controle do código fonte no repositório git
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
+[Git](https://git-scm.com/), sendo que o [Github](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont)
 foi utilizado para hospedagem do repositório.
 
 O projeto segue a seguinte convenção para o nome de branches:
@@ -42,10 +41,12 @@ O projeto segue a seguinte convenção para o nome de branches:
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
+<img src="img/etiquetas.png" wight = 250>
+
 - `documentation`: melhorias ou acréscimos à documentação
 - `bug`: uma funcionalidade encontra-se com problemas
 - `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+- `question`: quando há dúvidas sobre o processo. 
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
@@ -69,48 +70,18 @@ A equipe está organizada da seguinte maneira:
 **Product Owner:** Douglas Raynner
 
 **Equipe de Desenvolvimento:** 
-Carolina Laurindo,
-Cláudia Carapiá, 
-Douglas Raynner, 
-Jeferson Queiroz,
-Jéssica Grimaldi,
-Karen Noguti
+● Carolina Laurindo,
+● Cláudia Carapiá, 
+● Douglas Raynner, 
+● Jeferson Queiroz,
+● Jéssica Grimaldi,
+● Karen Noguti
 
 
 **Equipe de Design:** 
-Jeferson Queiroz da Silva,
-Jéssica Grimaldi
+● Jeferson Queiroz da Silva,
+● Jéssica Grimaldi
 
-
-Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub estruturado com as seguintes listas:  
-
-**Recursos:** esta lista mantém template de tarefas recorrentes com as configurações padronizadas que todos devem seguir. O objetivo é permitir a cópia destes templates para agilizar a criação de novos cartões. 
-
-**Backlog:** recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
-
-**To Do:** Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
-
-**Doing:** Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
-
-**Test:** Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas para o “CQ”. No final da semana, eu revejo essa lista para garantir que tudo saiu perfeito.
-
-**Done:** nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação. 
-
-**Locked:** Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa. 
-
-O quadro kanban do grupo no GitHub está disponível através da URL  Planejamento (github.com) e é apresentado, no estado atual, na Figura X. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
-
-<img src="img/quadro_kanban.png">
-Figura X - Tela do kanban utilizada pelo grupo
-
-
-<img src="img/etiquetas.png">
-
-A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:
-**Bug**
-**Documentação**
-**Melhoria** 
-**Pergunta**
 
 Apresente a divisão de papéis entre os membros do grupo.
 
@@ -121,7 +92,26 @@ Apresente a divisão de papéis entre os membros do grupo.
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub estruturado com as seguintes listas:  
+
+● **Recursos:** esta lista mantém template de tarefas recorrentes com as configurações padronizadas que todos devem seguir. O objetivo é permitir a cópia destes templates para agilizar a criação de novos cartões. 
+
+● **Backlog:** recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
+
+● **To Do:** Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
+
+● **Doing:** Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
+
+**Test:** Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas para o “CQ”. No final da semana, eu revejo essa lista para garantir que tudo saiu perfeito.
+
+● **Done:** nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação. 
+
+● **Locked:** Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa. 
+
+O quadro kanban do grupo no GitHub está disponível através da URL  Planejamento (github.com) e é apresentado, no estado atual, na Figura X. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
+
+<img src="img/quadro_kanban.png">
+Figura X - Tela do kanban utilizada pelo grupo
  
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
@@ -133,9 +123,9 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Editor de código : Visual Studio
+- Ferramentas de comunicação : Microsoft Team, Discord e WhatsApp
+- Ferramentas de desenho de tela (_wireframing_): Figma
 
 O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem
