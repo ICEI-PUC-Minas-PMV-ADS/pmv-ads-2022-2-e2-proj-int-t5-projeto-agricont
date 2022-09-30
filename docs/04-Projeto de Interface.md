@@ -22,11 +22,33 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
+**Tela de Cadastro de Ferramenta**
+
+Esta tela irá cadastrar os itens de ferramentaria. 
+
+<img src="img/Ferramenta.png">
+
 **Tela de Cadastro de Informática**
 
 Esta tela irá cadastrar os itens de informática. 
 
-<img src="img/Informática.jpg">
+<img src="img/Informatica.png">
+
+**Tela de Cadastro de Máquinário**
+
+Esta tela irá cadastrar máquinas. 
+
+<img src="img/Maquinário.png">
+
+**Tela de Cadastro de Veículo**
+
+Esta tela irá cadastrar veículos. 
+
+<img src="img/Veiculo.png">
+
+
+
+
 
 ![Exemplo de Wireframe](img/wireframe-example.png)
 
