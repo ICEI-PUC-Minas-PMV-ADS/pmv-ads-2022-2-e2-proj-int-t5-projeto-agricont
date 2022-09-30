@@ -54,9 +54,9 @@ Caso o usuário esqueça sua senha ele poderá alterar através desta tela.
 
 ## Tela de Alerta 
 
-Esta tela será mostrada quando o usuário clicar para alterar staus de ativo para inativo ou vice-versa.
+Esta tela será mostrada quando o usuário clicar para alterar status de ativo para inativo ou vice-versa.
 
-<img src="img/alerta.png"width = 500>
+<img src="img/alerta.png" width = 500>
 
 
 
