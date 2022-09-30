@@ -47,7 +47,7 @@ etiquetas:
 - `question`: quando há dúvidas sobre o processo. 
   
 
-<img src="img/etiquetas.png" wight = 250>
+<img src="img/descricaoKanban.png" wight = 250>
 
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
