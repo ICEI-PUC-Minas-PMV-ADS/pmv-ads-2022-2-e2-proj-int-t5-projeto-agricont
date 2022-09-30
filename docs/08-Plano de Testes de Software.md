@@ -21,40 +21,40 @@ Por exemplo:
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
 |Critério de Êxito | - O login foi realizado com sucesso. |
 |  |  |
-| Caso de Teste 	| CT-01 – Efetuar login	|
+| **Caso de Teste**	| **CT-01 – Efetuar login**	|
 |Requisito Associado |  RF-002 - O sistema deve permitir que o usuário faça o login. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont <br> - Clicar no ícone de login no cabeçalho <br> - Preencher o campo de e-mail <br> - Preencher o campo ID empresa <br> - Preencher o campo da senha <br> - Clicar em "Entrar" |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Clicar no ícone de login no cabeçalho <br> - Preencher o campo de e-mail <br> - Preencher o campo ID empresa <br> - Preencher o campo da senha <br> - Clicar em "Entrar" |
 |Critério de Êxito | - Permitir o preenchimento de todos os campos do login. Ao clicar em "Entrar" deverá ser liberado acesso à conta do usuário. |
 |   |    | 
-| Caso de Teste 	| CT-02 – Tela modal com as informações cadastradas do item selecionado	|
+| **Caso de Teste** 	| **CT-02 – Tela modal com as informações cadastradas do item selecionado**	|
 |Requisito Associado |  RF-008 - O site deve permitir que o usuário pesquise as informações cadastradas de cada patrimônio    |
 | Objetivo do Teste 	| Verificar se a tela modal é exibida com todas as informações cadastradas do item selecionado. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont <br> - Fazer login <br> - visualizar a primeira página após o login com lista dos itens cadastrados <br> - Clicar no item para visualizar as informações  |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Fazer login <br> - visualizar a primeira página após o login com lista dos itens cadastrados <br> - Clicar no item para visualizar as informações  |
 |Critério de Êxito | - A tela modal com as informações do item selecionado deve ser exibida com sucesso. |
 |   |    | 
-| Caso de Teste 	| CT-03 – Tela Fale Conosco|
+| **Caso de Teste** 	| **CT-03 – Tela Fale Conosco**|
 |Requisito Associado |  RF-006 - O site deve permitir que o usuário entre em contato com a AgriCont através da página fale conosco.|
 | Objetivo do Teste 	| Verificar se a mensagem está sendo enviada corretamente. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont <br> -  <br> - visualizar a  página inicial, clicar em fale conosco escrever informações como: nome, e-mail, telefone e mensagem de texto. <br> - Clicar em enviar.  |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont)  <br> - Clicar em fale conosco <br>- Digitar informações como: nome, e-mail, telefone e mensagem de texto. <br> - Clicar em enviar.  |
 |Critério de Êxito | - Verificar se a mensagem foi enviada com sucesso. |
 |   |    | 
-| Caso de Teste 	| CT-04 – Tela Filtro|
+| **Caso de Teste** 	| **CT-04 – Tela Filtro**|
 |Requisito Associado |  RF-013 - O sistema deve gerar um relatório com todo patrimônio da empresa.|
 | Objetivo do Teste 	| Verificar se os filtros estão funcionando corretamente. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont <br> - Fazer login <br> - visualizar a  página de listas de produtos, clicar em ícone filtro, selecionar as informações desejadas e clicar em filtrar. <br> - Clicar em enviar.  |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Fazer login <br> - visualizar a  página de listas de produtos<br>- clicar em ícone filtro<br> -Selecionar as informações desejadas<br> - Clicar em filtrar. <br> - Clicar em enviar.  |
 |Critério de Êxito | - Verificar se o filtro foi realizado. |
 |   |    | 
-| Caso de Teste 	| CT-05 – Tela Alterar Senha |
+| **Caso de Teste** 	| **CT-05 – Tela Alterar Senha** |
 |Requisito Associado |  RF-03 - O sistema deve permitir que o usuário altere a senha do seu login.|
 | Objetivo do Teste 	| Verificar se o usuário consegue alterar sua senha. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont <br> - Clicar na página de login <br> - Clicar em "Esqueceu sua senha"  <br> - digitar seu e-email, nova senha e conformação de senha. <br> - Clicar em alterar. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Clicar na página de login <br> - Clicar em "Esqueceu sua senha"  <br> - digitar seu e-email, nova senha e conformação de senha. <br> - Clicar em alterar. |
 |Critério de Êxito | - Verificar se após digitar as informações solicitadas e depois de clicar em alterar é possível realizar a alteração da sua senha.|
 |   |    | 
-| Caso de Teste 	| CT-06– Tela Cadastro de Produto |
+| **Caso de Teste** 	| **CT-06– Tela Cadastro de Produto** |
 |Requisito Associado |  RF-04 - O sistema deve permitir que o usuário cadastre o patrimônio por categoria como: maquinário, veículos, ferramentas e informática. <br>RF-05 - O sistema deve permitir que o usuário insira a última data de manutenção. <br>RF-07 - O site deve permitir que o usuário informe se o equipamento está ativo ou inativo.<br>RF09 - O site deve permitir que o usuário cadastre o valor da depreciação do patrimônio. <br>RF-11 - O sistema deve permitir que o usuário cadastre os equipamentos da empresa com os dados da nota fiscal.  <br>RF-12-O sistema deve permitir que o usuário cadastre os dados da apólice de seguro. |
 | Objetivo do Teste 	| Verificar se o casdastro está sendo realizado. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont <br> - Clicar na página de login <br> - Clicar no ícone de adição "+" e cadastrar o produto <br> -Clicar no botão salvar. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Clicar na página de login <br> - Clicar no ícone de adição "+" e cadastrar o produto <br> -Clicar no botão salvar. |
 |Critério de Êxito | - Verificar se após digitar as informações solicitadas e depois de clicar em alterar o sistema realizar a alteração da sua senha.|
 
 
