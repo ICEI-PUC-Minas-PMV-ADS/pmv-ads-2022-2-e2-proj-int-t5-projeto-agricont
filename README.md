@@ -1,5 +1,5 @@
 
-<img src="img.logotipo.png">
+<img src="docs.img.logotipo.png">
 
 Análise e Desenvolvimento de Sistema 
 
