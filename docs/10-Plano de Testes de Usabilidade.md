@@ -12,11 +12,13 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 
 |   | Passo a Passo  |
 |---|----------------| 
-|   | 1)             |
-|   | 2)      |
-|   | 3)      |
-|   | 4)      |
-|   | 5)      |
+|   | 1) Serão selecionadas 5 pessoas para análise da aplicação.|
+|   | 2) Será enviado para cada pessoa o link da nossa aplicação juntamente com o formulário onde encontram os pontos a serem analisados como descrito abaixo.|
+|   | 3) 1º desafio: cadastrar uma empresa na aplicação. |
+|   | 4) 2º desafio: cadastrar um usuário e fazer o login na aplicação. |
+|   | 5) 3º desafio: cadastrar um item do patrimônio da empresa (Ferramenta, Maquinário, Informártica ou Veículo) |
+|   | 6) 4º desafio: visualizar as informações do item cadastrado.|
+|   | 7) 5º desafio: editar as informações do item cadastrado.| 
 
 
 |   | Itens a serem avaliados pós teste |
@@ -39,11 +41,11 @@ Para esta etapa do projeto, os testes serão realizados nas principais funcional
 
 | Tarefa 2 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| - Cadastro de nova empresa |  Concluir o cadastro.                         | - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir. |
+| - Cadastro de nova empresa |  Concluir o cadastro com sucesso. | - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir. |
 
 | Tarefa 3 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| - Cadastro de novo usuário| Concluir o cadastro.                       |  - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir. |
+| - Cadastro de novo usuário| Concluir o cadastro com sucesso. |  - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir. |
 
 
 | Tarefa 4 | Critério de êxito | O que será avaliado |
