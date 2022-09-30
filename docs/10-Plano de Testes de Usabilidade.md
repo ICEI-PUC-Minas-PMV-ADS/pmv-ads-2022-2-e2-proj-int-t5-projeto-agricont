@@ -34,18 +34,19 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 
 Para esta etapa do projeto, os testes serão realizados nas principais funcionalidades do sistema: login, cadastro do usuário, cadastro de empresa, cadastro de produto.
 
+
+
 | Tarefa 1 | Critério de êxito | O que será avaliado |
-|----------|-------------------|---------------------|
-| - Fazer o login no sistema. |  Conseguir logar no sistema e ser encaminhado para a página.  |  Concretização da tarefa. Quantidade de erros cometidos. |
-
-
-| Tarefa 2 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
 | - Cadastro de nova empresa |  Concluir o cadastro com sucesso. | - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir. |
 
-| Tarefa 3 | Critério de êxito | O que será avaliado |
+| Tarefa 2 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
 | - Cadastro de novo usuário| Concluir o cadastro com sucesso. |  - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir. |
+
+| Tarefa 3 | Critério de êxito | O que será avaliado |
+|----------|-------------------|---------------------|
+| - Fazer o login no sistema. |  Conseguir logar no sistema e ser encaminhado para a página.  |  Concretização da tarefa. Quantidade de erros cometidos. |
 
 
 | Tarefa 4 | Critério de êxito | O que será avaliado |
