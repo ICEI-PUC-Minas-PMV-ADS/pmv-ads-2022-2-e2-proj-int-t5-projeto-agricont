@@ -22,6 +22,15 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura X. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:  
+
+- Cabeçalho - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);  
+-	Conteúdo - apresenta o conteúdo da tela em questão;  
+-	Rodapé - apresenta elementos fixos de navegação secundária como por exemplo fale conosco, eventos, política de privacidade e termos de uso.
+
+<img src="img/template-padrao.png">
+Figura X - Estrutura Padrão do Site
+
 ## Tela de Cadastro de Ferramentas
 
 Esta tela irá cadastrar os itens de ferramentaria e o que a diferencia das demais telas de cadastro são os itens que estão em "Variações do Produto" que são: Composição e Marca.
