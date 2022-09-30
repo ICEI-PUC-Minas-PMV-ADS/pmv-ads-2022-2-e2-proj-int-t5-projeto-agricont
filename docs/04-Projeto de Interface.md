@@ -62,7 +62,7 @@ Esta tela será mostrada quando o usuário clicar para alterar status de ativo p
 ## Tela de Fale Conosco
 É uma ferramenta que o usuário poderá utilizar para contactar o mantenedor do site através de mensagem de texto, mas para isto será necessário preencher dados pessoais como Nome Completo, E-mail e Telefone.
 
-<img src="img/faleconosco.png"width = 500 >
+<img src="img/faleconosco.png" width = 500>
 
 ## Tela de Filtro
 O usuário poderá selcionar tipos de equipamentos, dados da nota fiscal, dados do seguro, status, manutenção e variações do produto para gerar o relatório.
