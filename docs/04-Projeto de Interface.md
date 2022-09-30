@@ -50,13 +50,13 @@ Esta tela irá cadastrar veículos e o que a diferencia das demais telas de cada
 
 Caso o usuário esqueça sua senha ele poderá alterar através desta tela.
 
-<img src="img/alterarsenha.png">
+<img src="img/alterarsenha.png" width = 500>
 
 ## Tela de Alerta 
 
 Esta tela será mostrada quando o usuário clicar para alterar staus de ativo para inativo ou vice-versa.
 
-<img src="img/alerta.png">
+<img src="img/alerta.png"width = 500>
 
 
 
