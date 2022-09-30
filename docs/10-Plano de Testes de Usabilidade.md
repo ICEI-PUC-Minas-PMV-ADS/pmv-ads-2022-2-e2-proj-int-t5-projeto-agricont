@@ -40,17 +40,17 @@ Para esta etapa do projeto, os testes serão realizados nas principais funcional
 | Tarefa 2 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
 | - Cadastro de nova empresa |  Concluir o cadastro | - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir. |
-|          |                   |                     |
 
 | Tarefa 3 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-|          |                   |                     |
-|          |                   |                     |
+| - Cadastro de novo usuário| Concluir o cadastro |  - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir. |
+
 
 | Tarefa 4 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-|          |                   |                     |
-|          |                   |                     |
+| - Cadastro de novo maquinário| Concluir o cadastro|  - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir. |
+| - Visualizar dados do maquinário| Clicar sobre o item cadastrado e abrir uma janela modal com as informações do cadastro| - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir.|   
+| - Editar dados do maquinário cadastrado| Alterar campo do cadastro.  | - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir.| 
 
 
 
