@@ -32,6 +32,12 @@ Por exemplo:
 | Objetivo do Teste 	| Verificar se a tela modal é exibida com todas as informações cadastradas do item selecionado. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont <br> - Fazer login <br> - visualizar a primeira página após o login com lista dos itens cadastrados <br> - Clicar no item para visualizar as informações  |
 |Critério de Êxito | - A tela modal com as informações do item selecionado deve ser exibida com sucesso. |
+|   |    | 
+| Caso de Teste 	| CT-03 – Tela Fale Conosco|
+|Requisito Associado |  RF-006 - O site deve permitir que o usuário entre em contato com a AgriCont através da página fale conosco.|
+| Objetivo do Teste 	| Verificar se a mensagem está sendo enviada corretamente. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont <br> - Fazer login <br> - visualizar a  página inicial, clicar em fale conosco escrever informações como: nome, e-mail, telefone e mensagem de texto. <br> - Clicar em enviar.  |
+|Critério de Êxito | - Verificar se a mensagem foi enviada com sucesso. |
 
 
 
