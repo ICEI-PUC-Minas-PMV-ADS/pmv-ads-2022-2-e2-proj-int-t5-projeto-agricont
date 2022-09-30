@@ -58,6 +58,13 @@ Esta tela será mostrada quando o usuário clicar para alterar status de ativo p
 
 <img src="img/alerta.png" width = 500>
 
+## Tela de Fale Conosco
+É uma ferramenta que o usuário poderá utilizar para contactar o mantenedor do site através de mensagem de texto, mas para isto será necessário preencher dados pessoais como Nome Completo, E-mail e Telefone.
+
+
+
+
+
 
 
 
