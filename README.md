@@ -1,5 +1,5 @@
 
-<img src="img/logotipo.png">
+# AgriCont
 
 Análise e Desenvolvimento de Sistema 
 
