@@ -24,27 +24,39 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Tela de Cadastro de Ferramentas
 
-Esta tela irá cadastrar os itens de ferramentaria e o que diferencia das demais telas são os itens que estão em  "Variações do Produto" que são: Composição e Marca.
+Esta tela irá cadastrar os itens de ferramentaria e o que a diferencia das demais telas de cadastro são os itens que estão em "Variações do Produto" que são: Composição e Marca.
 
 <img src="img/Ferramenta.png" width = 500>
 
 ## Tela de Cadastro de Informática
 
-Esta tela irá cadastrar os itens de informática e o que diferencia das demais telas são os itens que estão em  "Variações do Produto" que são: Data de Manutenção de Software e número de série.
+Esta tela irá cadastrar os itens de informática e o que a diferencia das demais telas de cadastro são os itens que estão em  "Variações do Produto" que são: Data de Manutenção de Software e número de série.
 
 <img src="img/Informatica.png" width = 500>
 
 ## Tela de Cadastro de Máquinário
 
-Esta tela irá cadastrar máquinas e o que diferencia das demais telas são os itens que estão em  "Variações do Produto" que são: Tipo e Tamanho.
+Esta tela irá cadastrar máquinas e o que a diferencia das demais telas de cadastro são os itens que estão em  "Variações do Produto" que são: Tipo e Tamanho.
 
 <img src="img/Maquinário.png" width = 500>
 
 ## Tela de Cadastro de Veículo
 
-Esta tela irá cadastrar veículos e o que diferencia das demais telas são os itens que estão em  "Variações do Produto" que são: número de chassi e Ano de Lançamento.
+Esta tela irá cadastrar veículos e o que a diferencia das demais telas de cadastro são os itens que estão em  "Variações do Produto" que são: número de chassi e Ano de Lançamento.
 
 <img src="img/Veiculo.png" width = 500>
+
+## Tela de Alteração de Senha 
+
+Caso o usuário esqueça sua senha ele poderá alterar através desta tela.
+
+<img src="img/alterarsenha.png">
+
+## Tela de Alerta 
+
+Esta tela será mostrada quando o usuário clicar para alterar staus de ativo para inativo ou vice-versa.
+
+<img src="img/alerta.png">
 
 
 
