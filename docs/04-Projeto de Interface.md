@@ -26,7 +26,7 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 
 - Cabeçalho - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);  
 -	Conteúdo - apresenta o conteúdo da tela em questão;  
--	Rodapé - apresenta elementos fixos de navegação secundária como por exemplo fale conosco.
+-	Rodapé - apresenta elementos fixos de navegação secundária.
 
 <img src="img/template-padrao.png">
 Figura X - Estrutura Padrão do Site
