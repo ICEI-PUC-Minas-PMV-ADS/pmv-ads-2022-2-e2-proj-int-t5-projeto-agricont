@@ -67,7 +67,7 @@ Esta tela será mostrada quando o usuário clicar para alterar status de ativo p
 ## Tela de Filtro
 O usuário poderá selcionar tipos de equipamentos, dados da nota fiscal, dados do seguro, status, manutenção e variações do produto para gerar o relatório.
 
-<img src="img/filtro.png" width = 500>
+<img src="img/filtro.png">
 
 
 
