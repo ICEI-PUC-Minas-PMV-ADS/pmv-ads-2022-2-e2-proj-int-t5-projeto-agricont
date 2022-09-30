@@ -1,5 +1,7 @@
 # Plano de Testes de Usabilidade
 
+Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
+
 |   | Etapas  |
 |---|---------| 
 |   | 1) Análise Heurística;  |
@@ -52,7 +54,6 @@ Para esta etapa do projeto, os testes serão realizados nas principais funcional
 
 
 
-Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
 
 Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (em função dos requisitos levantados/implementados), dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), das tarefas a serem executadas, dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), a ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
 

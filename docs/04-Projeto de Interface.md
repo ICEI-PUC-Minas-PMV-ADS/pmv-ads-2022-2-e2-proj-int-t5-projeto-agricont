@@ -69,8 +69,16 @@ O usuário poderá selcionar tipos de equipamentos, dados da nota fiscal, dados 
 
 <img src="img/Filtro.png" width = 500>
 
+## Tela de Login
+A tela de Login abrirá após o usuário clicar no ícone de Login localizado no Cabeçalho. O usuário deverá informar e-mail, ID da empresa, senha e clicar em entrar, após isso estará logado.
 
+<img src="img/Login.png" width = 500>
 
+## Tela de Informações cadastradas do item
+
+Esta tela é exibida na forma de uma janela modal e exibe todas as informações cadastradas do item selecionado. No canto inferior direito, possui um botão para sair.  
+
+<img src="img/tela-info.png">
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
  
