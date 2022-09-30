@@ -41,12 +41,14 @@ O projeto segue a seguinte convenção para o nome de branches:
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
-<img src="img/etiquetas.png" wight = 250>
-
 - `documentation`: melhorias ou acréscimos à documentação
 - `bug`: uma funcionalidade encontra-se com problemas
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `question`: quando há dúvidas sobre o processo. 
+  
+
+<img src="img/etiquetas.png" wight = 250>
+
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
@@ -70,17 +72,17 @@ A equipe está organizada da seguinte maneira:
 **Product Owner:** Douglas Raynner
 
 **Equipe de Desenvolvimento:** 
-● Carolina Laurindo,
-● Cláudia Carapiá, 
-● Douglas Raynner, 
-● Jeferson Queiroz,
-● Jéssica Grimaldi,
-● Karen Noguti
+- Carolina Laurindo,
+- Cláudia Carapiá, 
+- Douglas Raynner, 
+- Jeferson Queiroz,
+- Jéssica Grimaldi,
+- Karen Noguti
 
 
 **Equipe de Design:** 
-● Jeferson Queiroz da Silva,
-● Jéssica Grimaldi
+- Jeferson Queiroz da Silva,
+- Jéssica Grimaldi
 
 
 Apresente a divisão de papéis entre os membros do grupo.
@@ -102,13 +104,13 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 ● **Doing:** Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
 
-**Test:** Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas para o “CQ”. No final da semana, eu revejo essa lista para garantir que tudo saiu perfeito.
+● **Test:** Checagem de Qualidade. Quando as tarefas são concluídas, eles são movidas para o “CQ”. No final da semana, eu revejo essa lista para garantir que tudo saiu perfeito.
 
 ● **Done:** nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação. 
 
 ● **Locked:** Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista juntamente com um comentário sobre o que está travando a tarefa. 
 
-O quadro kanban do grupo no GitHub está disponível através da URL  Planejamento (github.com) e é apresentado, no estado atual, na Figura X. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
+O quadro kanban do grupo no GitHub está disponível através da URL  [Planejamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) e é apresentado, no estado atual, na Figura X. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
 
 <img src="img/quadro_kanban.png">
 Figura X - Tela do kanban utilizada pelo grupo
