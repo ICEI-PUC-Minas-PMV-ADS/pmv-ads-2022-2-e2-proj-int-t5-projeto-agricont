@@ -22,29 +22,29 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
-**Tela de Cadastro de Ferramenta**
+## Tela de Cadastro de Ferramentas
 
-Esta tela irá cadastrar os itens de ferramentaria. 
+Esta tela irá cadastrar os itens de ferramentaria e o que diferencia das demais telas são os itens que estão em  "Variações do Produto" que são: Composição e Marca.
 
-<img src="img/Ferramenta.png">
+<img src="img/Ferramenta.png" width = 500>
 
-**Tela de Cadastro de Informática**
+## Tela de Cadastro de Informática
 
-Esta tela irá cadastrar os itens de informática. 
+Esta tela irá cadastrar os itens de informática e o que diferencia das demais telas são os itens que estão em  "Variações do Produto" que são: Data de Manutenção de Software e número de série.
 
-<img src="img/Informatica.png">
+<img src="img/Informatica.png" width = 500>
 
-**Tela de Cadastro de Máquinário**
+## Tela de Cadastro de Máquinário
 
-Esta tela irá cadastrar máquinas. 
+Esta tela irá cadastrar máquinas e o que diferencia das demais telas são os itens que estão em  "Variações do Produto" que são: Tipo e Tamanho.
 
-<img src="img/Maquinário.png">
+<img src="img/Maquinário.png" width = 500>
 
-**Tela de Cadastro de Veículo**
+## Tela de Cadastro de Veículo
 
-Esta tela irá cadastrar veículos. 
+Esta tela irá cadastrar veículos e o que diferencia das demais telas são os itens que estão em  "Variações do Produto" que são: número de chassi e Ano de Lançamento.
 
-<img src="img/Veiculo.png">
+<img src="img/Veiculo.png" width = 500>
 
 
 
