@@ -36,8 +36,15 @@ Por exemplo:
 | Caso de Teste 	| CT-03 – Tela Fale Conosco|
 |Requisito Associado |  RF-006 - O site deve permitir que o usuário entre em contato com a AgriCont através da página fale conosco.|
 | Objetivo do Teste 	| Verificar se a mensagem está sendo enviada corretamente. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont <br> - Fazer login <br> - visualizar a  página inicial, clicar em fale conosco escrever informações como: nome, e-mail, telefone e mensagem de texto. <br> - Clicar em enviar.  |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont <br> -  <br> - visualizar a  página inicial, clicar em fale conosco escrever informações como: nome, e-mail, telefone e mensagem de texto. <br> - Clicar em enviar.  |
 |Critério de Êxito | - Verificar se a mensagem foi enviada com sucesso. |
+|   |    | 
+| Caso de Teste 	| CT-04 – Tela Filtro|
+|Requisito Associado |  RF-013 - O sistema deve gerar um relatório com todo patrimônio da empresa.|
+| Objetivo do Teste 	| Verificar se os filtros estão funcionando corretamente. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont <br> - Fazer login <br> - visualizar a  página de listas de produtos, clicar em ícone filtro, selecionar as informações desejadas e clicar em filtrar. <br> - Clicar em enviar.  |
+|Critério de Êxito | - Verificar se o filtro foi realizado. |
+
 
 
 
