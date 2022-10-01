@@ -25,6 +25,12 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 <img src="img/template-padrao.png">
 Figura X - Estrutura Padrão do Site
 
+## Tela de Itens Cadastrados
+
+Esta tela mostra ao usuário todos os patrimônios que já foram cadastrados pelo mesmo, tendo a opção de gerar um relatório dos patrimônios, filtrar um tipo de item específico, pesquisar algum item na lista, cadastrar um novo patrimônio e editar um cadastro já existente.
+
+<img src="img/ItensCadastrados.jpg" width = 500>
+
 ## Tela de Cadastro de Ferramentas
 
 Esta tela irá cadastrar os itens de ferramentaria e o que a diferencia das demais telas de cadastro são os itens que estão em "Variações do Produto" que são: Composição e Marca.
