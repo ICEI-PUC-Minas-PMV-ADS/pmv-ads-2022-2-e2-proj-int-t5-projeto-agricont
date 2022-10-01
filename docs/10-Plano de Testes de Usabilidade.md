@@ -19,6 +19,11 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 |   | 5) 3º desafio: cadastrar um item do patrimônio da empresa (Ferramenta, Maquinário, Informártica ou Veículo). |
 |   | 6) 4º desafio: visualizar as informações do item cadastrado.|
 |   | 7) 5º desafio: editar as informações do item cadastrado.| 
+|   | 8) 6º desafio: Gerar um relatório com todo o patrimôno da empresa|
+|   | 9) 7º desafio: Buscar item cadastrado informações através de um filtro|
+|   |10) 8º desafio: Recuperar senha cadastrada
+
+
 
 
 |   | Itens a serem avaliados pós teste |
@@ -31,6 +36,7 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 |   | 6) Recomendaria a nossa aplicação? (escala de 1 a 10 onde 1 é muito improvável e 10 muito provável).|
 |   | 7) Problemas observados (questão aberta).|
 |   | 8) Tempo de execução para concluir a tarefa (questão aberta).|
+
 
 Para esta etapa do projeto, os testes serão realizados nas principais funcionalidades do sistema: login, cadastro do usuário, cadastro de empresa, cadastro de produto.
 
@@ -47,6 +53,7 @@ Para esta etapa do projeto, os testes serão realizados nas principais funcional
 | Tarefa 3 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
 | - Fazer o login no sistema. |  Conseguir logar no sistema e ser encaminhado para a página.  |  Concretização da tarefa. Quantidade de erros cometidos. |
+|-Recuperar senha cadastrada| Receber um -emal de confirmação e cadastrar uma nova senha|  - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir. |
 
 
 | Tarefa 4 | Critério de êxito | O que será avaliado |
@@ -54,7 +61,7 @@ Para esta etapa do projeto, os testes serão realizados nas principais funcional
 | - Cadastro de novo maquinário| Concluir o cadastro.|  - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir. |
 | - Visualizar dados do maquinário| Clicar sobre o item cadastrado e abrir uma janela modal com as informações do cadastro.| - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir.|   
 | - Editar dados do maquinário cadastrado| Alterar campo do cadastro.  | - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir.| 
-
+|Gerar relatório com dados do patrimônio cadastrado| Gerar um arquivo que contenha os dados do patrimônio|  - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir. |
 
 
 
