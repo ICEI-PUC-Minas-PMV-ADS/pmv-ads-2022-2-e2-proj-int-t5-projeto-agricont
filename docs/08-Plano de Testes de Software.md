@@ -60,8 +60,8 @@ Por exemplo:
 | **Caso de Teste** 	| **CT-07– Tela Itens Cadastrados** |
 |Requisito Associado |  RF-04 - O sistema deve permitir que o usuário cadastre o patrimônio por categoria como: maquinário, veículos, ferramentas e informática. <br>RF-07 - O site deve permitir que o usuário informe se o equipamento está ativo ou inativo. <br>RF-08 - O site deve permitir que o usuário pesquise as informações cadastradas de cada patrimônio.<br>RF13 - O sistema deve gerar um relatório com todo patrimônio da empresa. <br>RF-14 - O sistema deve permitir que o usuário edite todas as informações do cadastro do patrimônio.|
 | Objetivo do Teste 	| Verificar se as telas estão interligadas e se o sistema está carregando todos os cadastros do banco. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Clicar na página de login <br> - Clicar no ícone de adição "+" e cadastrar o produto <br> -Clicar no botão salvar. |
-|Critério de Êxito | - Verificar se após digitar as informações solicitadas e depois de clicar em alterar o sistema realizar a alteração da sua senha.|
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Fazer login <br> - Clicar no ícone de adição "+" e cadastrar o produto <br> - Clicar no ícone de lupa e pesquisar um patrimônio <br> - Clicar no ícone de documento e gerar um relatório <br> - Clicar no botão de filtro e escolher um tipo de item específico <br> - Clicar em um item para que seja mostrado seus dados <br> - Clicar duas vezes em cima do sinal de status para troca o mesmo <br> - Clicar no botão de lápis para editar um patrimônio. |
+|Critério de Êxito | - Verificar se o sistema está carregando os dados do banco, atualizando os mesmos em tempo real e cumprindo suas devidas funcionalidades.|
 
 
 > **Links Úteis**:
