@@ -25,11 +25,61 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
 <img src="img/template-padrao.png">
 Figura X - Estrutura Padrão do Site
 
+## Tela de Página Inicial
+
+Esta tela informa ao usuário a importância do controle patrimonial e os serviços disponibilizados pela Agricont. Além disso, permite o direcionamento para as páginas Fale Conosco, Cadastro e Login, de acordo com a escolha do usuário. 
+
+<img src="img/PaginaInicial.png" width = 500>
+
+## Tela de Fale Conosco
+É uma ferramenta que o usuário poderá utilizar para contactar o mantenedor do site através de mensagem de texto, mas para isto será necessário preencher dados pessoais como Nome Completo, E-mail e Telefone.
+
+<img src="img/faleconosco.png" width = 500>
+
+## Tela de cadastro de empresas
+Esta é a tela onde  serão cadastrados os dados da empresa
+
+<img src="img/cadastro_empresa.png" width= 500>
+
+## Tela de Cadastro do Usuário
+
+Esta tela permite que o usuário realize seu cadastro. Para isso deve informar e-mail, senha e código da empresa ao qual deseja se conectar.
+
+<img src="img/CadastroDeUsuario.png" width = 500>
+
+## Tela de Login
+A tela de Login abrirá após o usuário clicar no ícone de Login localizado no Cabeçalho. O usuário deverá informar e-mail, senha e clicar em entrar, após isso estará logado.
+
+<img src="img/Login.png" width = 500>
+
+## Tela de Alteração de Senha 
+
+Caso o usuário esqueça sua senha ele poderá alterar através desta tela.
+
+<img src="img/alterarsenha.png" width = 500>
+
 ## Tela de Itens Cadastrados
 
 Esta tela mostra ao usuário todos os patrimônios que já foram cadastrados pelo mesmo, tendo a opção de gerar um relatório dos patrimônios, filtrar um tipo de item específico, pesquisar algum item na lista, cadastrar um novo patrimônio e editar um cadastro já existente.
 
 <img src="img/ItensCadastrados.jpg" width = 500>
+
+## Tela de Alerta 
+
+Esta tela será mostrada quando o usuário clicar para alterar status de ativo para inativo ou vice-versa.
+
+<img src="img/AlertaStatus.png" width = 500>
+
+## Tela de Filtro
+O usuário poderá selcionar tipos de equipamentos, dados da nota fiscal, dados do seguro, status, manutenção e variações do produto para gerar o relatório.
+
+<img src="img/Filtro.png" width = 500>
+
+## Tela de Informações cadastradas do item
+
+Esta tela é exibida na forma de uma janela modal e exibe todas as informações cadastradas do item selecionado. No canto inferior direito, possui um botão para sair.  
+
+<img src="img/tela-info.png" width= 500>
 
 ## Tela de Cadastro de Ferramentas
 
@@ -54,44 +104,3 @@ Esta tela irá cadastrar máquinas e o que a diferencia das demais telas de cada
 Esta tela irá cadastrar veículos e o que a diferencia das demais telas de cadastro são os itens que estão em  "Variações do Produto" que são: número de chassi e Ano de Lançamento.
 
 <img src="img/Veiculo.png" width = 500>
-
-## Tela de Alteração de Senha 
-
-Caso o usuário esqueça sua senha ele poderá alterar através desta tela.
-
-<img src="img/alterarsenha.png" width = 500>
-
-## Tela de Alerta 
-
-Esta tela será mostrada quando o usuário clicar para alterar status de ativo para inativo ou vice-versa.
-
-<img src="img/alerta.png" width = 500>
-
-
-## Tela de Fale Conosco
-É uma ferramenta que o usuário poderá utilizar para contactar o mantenedor do site através de mensagem de texto, mas para isto será necessário preencher dados pessoais como Nome Completo, E-mail e Telefone.
-
-<img src="img/faleconosco.png" width = 500>
-
-## Tela de Filtro
-O usuário poderá selcionar tipos de equipamentos, dados da nota fiscal, dados do seguro, status, manutenção e variações do produto para gerar o relatório.
-
-<img src="img/Filtro.png" width = 500>
-
-## Tela de Login
-A tela de Login abrirá após o usuário clicar no ícone de Login localizado no Cabeçalho. O usuário deverá informar e-mail, senha e clicar em entrar, após isso estará logado.
-
-<img src="img/Login.png" width = 500>
-
-## Tela de Informações cadastradas do item
-
-Esta tela é exibida na forma de uma janela modal e exibe todas as informações cadastradas do item selecionado. No canto inferior direito, possui um botão para sair.  
-
-<img src="img/tela-info.png" width= 500>
-
-
-## Tela de cadastro de empresas
-Esta é a tela onde  serão cadastrados os dados da empresa
-
-<img src="img/cadastro_empresa.png" width= 500>
-
