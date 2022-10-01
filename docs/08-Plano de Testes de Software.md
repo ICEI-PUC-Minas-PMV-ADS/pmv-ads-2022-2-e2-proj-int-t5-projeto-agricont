@@ -51,14 +51,17 @@ Por exemplo:
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Clicar na página de login <br> - Clicar em "Esqueceu sua senha"  <br> - digitar seu e-email, nova senha e conformação de senha. <br> - Clicar em alterar. |
 |Critério de Êxito | - Verificar se após digitar as informações solicitadas e depois de clicar em alterar é possível realizar a alteração da sua senha.|
 |   |    | 
-| **Caso de Teste** 	| **CT-06– Tela Cadastro de Produto** |
+| **Caso de Teste** 	| **CT-07– Tela Itens Cadastrados** |
 |Requisito Associado |  RF-04 - O sistema deve permitir que o usuário cadastre o patrimônio por categoria como: maquinário, veículos, ferramentas e informática. <br>RF-05 - O sistema deve permitir que o usuário insira a última data de manutenção. <br>RF-07 - O site deve permitir que o usuário informe se o equipamento está ativo ou inativo.<br>RF09 - O site deve permitir que o usuário cadastre o valor da depreciação do patrimônio. <br>RF-11 - O sistema deve permitir que o usuário cadastre os equipamentos da empresa com os dados da nota fiscal.  <br>RF-12-O sistema deve permitir que o usuário cadastre os dados da apólice de seguro. |
 | Objetivo do Teste 	| Verificar se o casdastro está sendo realizado. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Clicar na página de login <br> - Clicar no ícone de adição "+" e cadastrar o produto <br> -Clicar no botão salvar. |
 |Critério de Êxito | - Verificar se após digitar as informações solicitadas e depois de clicar em alterar o sistema realizar a alteração da sua senha.|
-
-
-
+|   |    | 
+| **Caso de Teste** 	| **CT-06– Tela Cadastro de Produto** |
+|Requisito Associado |  RF-04 - O sistema deve permitir que o usuário cadastre o patrimônio por categoria como: maquinário, veículos, ferramentas e informática. <br>RF-07 - O site deve permitir que o usuário informe se o equipamento está ativo ou inativo. <br>RF-08 - O site deve permitir que o usuário pesquise as informações cadastradas de cada patrimônio.<br>RF13 - O sistema deve gerar um relatório com todo patrimônio da empresa. <br>RF-14 - O sistema deve permitir que o usuário edite todas as informações do cadastro do patrimônio.|
+| Objetivo do Teste 	| Verificar se as telas estão interligadas e se o sistema está carregando todos os cadastros do banco. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Clicar na página de login <br> - Clicar no ícone de adição "+" e cadastrar o produto <br> -Clicar no botão salvar. |
+|Critério de Êxito | - Verificar se após digitar as informações solicitadas e depois de clicar em alterar o sistema realizar a alteração da sua senha.|
 
 
 > **Links Úteis**:
