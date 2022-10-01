@@ -73,6 +73,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-012|  O sistema deve permitir que o usuário cadastre os dados da apólice de seguro. |  ALTA  |
 |RF-013|  O sistema deve gerar um relatório com todo patrimônio da empresa. |  ALTA  | 
 |RF-014|  O sistema deve permitir que o usuário edite todas as informações do cadastro do patrimônio. | MÉDIA |
+|RF-015| O sistema deve permitir que o usuário cadastre os dados da empresa| ALTA|
  
 ### Requisitos não Funcionais
 

@@ -38,7 +38,7 @@ Apresente os cenários de testes utilizados na realização dos testes da sua ap
 |   |    | 
 | **Caso de Teste** 	| **CT-06– Tela Cadastro de Produto** |
 |Requisito Associado |  RF-04 - O sistema deve permitir que o usuário cadastre o patrimônio por categoria como: maquinário, veículos, ferramentas e informática. <br>RF-05 - O sistema deve permitir que o usuário insira a última data de manutenção. <br>RF-07 - O site deve permitir que o usuário informe se o equipamento está ativo ou inativo.<br>RF09 - O site deve permitir que o usuário cadastre o valor da depreciação do patrimônio. <br>RF-11 - O sistema deve permitir que o usuário cadastre os equipamentos da empresa com os dados da nota fiscal.  <br>RF-12-O sistema deve permitir que o usuário cadastre os dados da apólice de seguro. |
-| Objetivo do Teste 	| Verificar se o casdastro está sendo realizado. |
+| Objetivo do Teste 	| Verificar se o cadastro está sendo realizado. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Clicar na página de login <br> - Clicar no ícone de adição "+" e cadastrar o produto <br> -Clicar no botão salvar. |
 |Critério de Êxito | - Verificar se após digitar as informações solicitadas e depois de clicar em alterar o sistema realizar a alteração da sua senha.|
 |   |    | 
@@ -47,5 +47,9 @@ Apresente os cenários de testes utilizados na realização dos testes da sua ap
 | Objetivo do Teste 	| Verificar se as telas estão interligadas e se o sistema está carregando todos os cadastros do banco. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Fazer login <br> - Clicar no ícone de adição "+" e cadastrar o produto <br> - Clicar no ícone de lupa e pesquisar um patrimônio <br> - Clicar no ícone de documento e gerar um relatório <br> - Clicar no botão de filtro e escolher um tipo de item específico <br> - Clicar em um item para que seja mostrado seus dados <br> - Clicar duas vezes em cima do sinal de status para troca o mesmo <br> - Clicar no botão de lápis para editar um patrimônio. |
 |Critério de Êxito | - Verificar se o sistema está carregando os dados do banco, atualizando os mesmos em tempo real e cumprindo suas devidas funcionalidades.|
-
-
+|  |  |
+| **Caso de teste**   | **CT-08-Tela cadastro de empresa**|
+|Requisito Associado |  RF-015  - O sistema deve permitir que o usuário cadastre os dados da empresa |
+| Objetivo do Teste 	| Verificar se o cadastro será realizado |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> -Clicar em cadastre-se <br> - Clicar em cadastre sua empresa <br> - Inserir as informações <br> - Clicar no botão salvar|  
+|Critério de Êxito | - Verificar se após inserir as informações e clicar no botão salvar o cadastro foi realizado.|

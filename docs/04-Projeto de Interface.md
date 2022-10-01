@@ -89,3 +89,9 @@ Esta tela é exibida na forma de uma janela modal e exibe todas as informações
 
 <img src="img/tela-info.png" width= 500>
 
+
+## Tela de cadastro de empresas
+Esta é a tela onde  serão cadastrados os dados da empresa
+
+<img src="img/cadastro_empresa.png" width= 500>
+
