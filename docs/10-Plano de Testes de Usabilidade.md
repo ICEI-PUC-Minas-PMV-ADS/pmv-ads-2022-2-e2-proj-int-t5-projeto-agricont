@@ -4,11 +4,12 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 
 |   | Etapas  |
 |---|---------| 
-|   | 1) Análise Heurística;  |
-|   | 2) Definição de Tarefas, Questionário e Métricas;     |
-|   | 3) Execução dos Testes;     |
-|   | 4) Análise dos Testes;    |
-|   | 5) Avaliação da Aplicação por meio de Heurística.     |
+|   | 1) Análise, execução e Avaliação da Aplicação Heurística;|
+|   | 2) Definição dos Participantes, Tarefas, Questionário e Métricas (Para o Usuário);     |
+|   | 3) Execução dos Testes e coleta de dados: Observar e registrar a performace e a opinião dos participantes durante sessões de uso controladas;|
+|   | 4) Interpretação e Consolidação dos dados : Reunir, contabilizar e sumarizar os dados coletados dos participantes .     |
+|   | 5) Relato dos Resultados: Relatar a performance e a opinião dos participantes.   |
+
 
 |   | Passo a Passo  |
 |---|----------------| 
@@ -16,14 +17,12 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 |   | 2) Será enviado para cada pessoa o link da nossa aplicação juntamente com o formulário onde encontram os pontos a serem analisados como descrito abaixo.|
 |   | 3) 1º desafio: cadastrar uma empresa na aplicação. |
 |   | 4) 2º desafio: cadastrar um usuário e fazer o login na aplicação. |
-|   | 5) 3º desafio: cadastrar um item do patrimônio da empresa (Ferramenta, Maquinário, Informártica ou Veículo). |
+|   | 5) 3º desafio: cadastrar um item do patrimônio da empresa (Ferramenta, Maquinário, Informática ou Veículo). |
 |   | 6) 4º desafio: visualizar as informações do item cadastrado.|
 |   | 7) 5º desafio: editar as informações do item cadastrado.| 
-|   | 8) 6º desafio: Gerar um relatório com todo o patrimôno da empresa|
-|   | 9) 7º desafio: Buscar item cadastrado informações através de um filtro|
-|   |10) 8º desafio: Recuperar senha cadastrada
-
-
+|   | 8) 6º desafio: Gerar um relatório com todo o patrimônio da empresa.|
+|   | 9) 7º desafio: Buscar item cadastrado informações através de um filtro.|
+|   |10) 8º desafio: Recuperar senha cadastrada.|
 
 
 |   | Itens a serem avaliados pós teste |
@@ -44,26 +43,58 @@ Para esta etapa do projeto, os testes serão realizados nas principais funcional
 
 | Tarefa 1 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| - Cadastro de nova empresa |  Concluir o cadastro com sucesso. | - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir. |
+| Cadastro de nova empresa |  Concluir o cadastro com sucesso|-Concretização da tarefa <br>-Quantidade de erros cometidos<br>-Tempo necessário para se concluir|
 
 | Tarefa 2 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| - Cadastro de novo usuário| Concluir o cadastro com sucesso. |  - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir. |
+| Cadastro de novo usuário| Concluir o cadastro com sucesso|-Concretização da tarefa<br>-Quantidade de erros cometidos<br>-Tempo necessário para se concluir|
 
 | Tarefa 3 | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| - Fazer o login no sistema. |  Conseguir logar no sistema e ser encaminhado para a página.  |  Concretização da tarefa. Quantidade de erros cometidos. |
-|-Recuperar senha cadastrada| Receber um -emal de confirmação e cadastrar uma nova senha|  - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir. |
+| Fazer o login no sistema |  Conseguir logar no sistema e ser encaminhado para a página|-Concretização da tarefa<br>-Quantidade de erros cometidos<br>-Tempo necessário para se concluir|
 
-
-| Tarefa 4 | Critério de êxito | O que será avaliado |
+| Tarefa 4    | Critério de êxito | O que será avaliado |
 |----------|-------------------|---------------------|
-| - Cadastro de novo maquinário| Concluir o cadastro.|  - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir. |
-| - Visualizar dados do maquinário| Clicar sobre o item cadastrado e abrir uma janela modal com as informações do cadastro.| - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir.|   
-| - Editar dados do maquinário cadastrado| Alterar campo do cadastro.  | - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir.| 
-|Gerar relatório com dados do patrimônio cadastrado| Gerar um arquivo que contenha os dados do patrimônio|  - Concretização da tarefa. <br> - Quantidade de erros cometidos.<br> - Tempo necessario para se concluir. |
+| Cadastro de novo maquinário| Concluir o cadastro|-Concretização da tarefa<br>-Quantidade de erros cometidos<br>-Tempo necessário para se concluir|
 
+| Tarefa 5| Critério de êxito | O que será avaliado |
+|----------|-------------------|---------------------|
+| Visualizar dados do maquinário| Clicar sobre o item cadastrado e abrir uma janela modal com as informações do cadastro.|-Concretização da tarefa<br>-Quantidade de erros cometidos<br>-Tempo necessario para se concluir|
 
+| Tarefa 6 | Critério de êxito | O que será avaliado |
+|----------|-------------------|---------------------|
+| Editar dados do maquinário cadastrado| Alterar campo do cadastro.  |-Concretização da tarefa<br>-Quantidade de erros cometidos<br>-Tempo necessário para se concluir|
+
+| Tarefa 7 | Critério de êxito | O que será avaliado |
+|----------|-------------------|---------------------|
+|Gerar relatório com dados do patrimônio cadastrado| Gerar um arquivo que contenha os dados do patrimônio|-Concretização da tarefa<br>-Quantidade de erros cometidos<br>-Tempo necessário para se concluir|
+
+| Tarefa 8 | Critério de êxito | O que será avaliado |
+|----------|-------------------|---------------------|
+|Buscar item cadastrado e informações através de um filtro| Gerar um arquivo que mostre os dados do patrimônio à partir das informações filtradas. |-Concretização da tarefa<br>-Quantidade de erros cometidos<br>-Tempo necessário para se concluir|
+
+| Tarefa 9 | Critério de êxito | O que será avaliado |
+|----------|-------------------|---------------------|
+|Cadastrar nova senha| Gerar nova senha. |-Concretização da tarefa<br>-Quantidade de erros cometidos<br>-Tempo necessário para se concluir|
+
+### Interpretação e Consolidação dos dados 
+
+Após os testes será realizado a consolidação e interpretação dos resultados.
+
+### Relato dos Resultados
+
+Após a interpretação e consolidação dos resultados será relatado a performance e a opinião dos participantes.
+
+### Objetivo
+
+Fazer melhorias na plataforma proporcionando uma melhor experiência ao usuário. O que será mensurado no teste:
+- A qualidade na navegação
+- Satisfação do usuário
+
+### Ferramentas de Testes
+Para realizar os testes e verificar a responsividade das páginas, serão utilizados:
+- Computadores
+- Celulares Android e iOS
 
 Um plano de teste de usabilidade deverá conter: o detalhamento dos objetivos (em função dos requisitos levantados/implementados), dos critérios que serão utilizados para a seleção dos participantes, dos procedimentos a serem adotados pelos condutores de teste (por exemplo: os testes serão presenciais ou remotos? o método será observação direta, medição ou avaliação?), das tarefas a serem executadas, dos dados a serem coletados (quantidade de cliques, número de erros, tempo etc.), a ordem de execução das tarefas e das etapas da sessão de teste, recursos demandados, métricas coletadas etc.
 
