@@ -12,35 +12,30 @@ Apresente os cenários de testes utilizados na realização dos testes da sua ap
 |Critério de Êxito | - A página deve apresentar informações que indiquem a importância do controle patrimonial.|
 |   |    | 
 | **Caso de Teste**	| **CT-02 – Link "Fale Conosco" na Página Inicial**	|
-|:---:	|:---:	|
 |Requisito Associado |  -|
 | Objetivo do Teste 	| Verificar se o link Fale Conosco está com direcionamento adequado|
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Clicar em "Fale Conosco" no cabeçalho <br> 
 |Critério de Êxito | - A página "Fale Conosco" deve ser exibida com sucesso.|
 |   |    | 
 | **Caso de Teste**	| **CT-03 – Links "Cadastre-se" na Página Inicial**	|
-|:---:	|:---:	|
 |Requisito Associado |  -|
 | Objetivo do Teste 	| Verificar se o link Cadastre-se está com direcionamento adequado|
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Clicar em "Cadastre-se" <br> 
 |Critério de Êxito | - A página de cadastro do usuário deve ser exibida com sucesso.|
 |   |    | 
 | **Caso de Teste**	| **CT-04 – Link "Comece agora" na Página Inicial**	|
-|:---:	|:---:	|
 |Requisito Associado |  -|
 | Objetivo do Teste 	| Verificar se o link Cadastre-se está com direcionamento adequado|
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Clicar em "Comece agora" <br> 
 |Critério de Êxito | - A página de cadastro do usuário deve ser exibida com sucesso.|
 |   |    | 
 | **Caso de Teste**	| **CT-05 – Ícone de Login na Página Inicial**	|
-|:---:	|:---:	|
 |Requisito Associado |  -|
 | Objetivo do Teste 	| Verificar se o ícone de login está com direcionamento adequado|
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Clicar no ícone de login no cabeçalho <br> 
 |Critério de Êxito | - A página de login deve ser exibida com sucesso.|
 |   |    | 
 | **Caso de Teste**	| **CT-06 – Efetuar login**	|
-|:---:	|:---:	|
 |Requisito Associado |  RF-002 - O sistema deve permitir que o usuário faça o login. |
 | Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Clicar no ícone de login no cabeçalho <br> - Preencher o campo de e-mail <br> - Preencher o campo ID empresa <br> - Preencher o campo da senha <br> - Clicar em "Entrar" |
