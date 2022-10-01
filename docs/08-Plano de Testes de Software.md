@@ -23,9 +23,9 @@ Apresente os cenários de testes utilizados na realização dos testes da sua ap
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Clicar em "Cadastre-se" <br> 
 |Critério de Êxito | - A página de cadastro do usuário deve ser exibida com sucesso.|
 |   |    | 
-| **Caso de Teste**	| **CT-04 – Link "Comece agora" na Página Inicial**	|
+| **Caso de Teste**	| **CT-04 – Botão "Comece agora" na Página Inicial**	|
 |Requisito Associado |  -|
-| Objetivo do Teste 	| Verificar se o link Cadastre-se está com direcionamento adequado|
+| Objetivo do Teste 	| Verificar se o botão "Comece agora" está com direcionamento adequado|
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Clicar em "Comece agora" <br> 
 |Critério de Êxito | - A página de cadastro do usuário deve ser exibida com sucesso.|
 |   |    | 
