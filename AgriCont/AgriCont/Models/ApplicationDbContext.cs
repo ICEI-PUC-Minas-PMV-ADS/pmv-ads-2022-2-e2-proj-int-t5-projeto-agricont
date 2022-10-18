@@ -14,5 +14,7 @@ namespace AgriCont.Models
         {
 
         }
+
+        public DbSet<Empresa> Empresas { get; set; }
     }
 }
