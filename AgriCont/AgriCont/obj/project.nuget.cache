@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9ZL9kj1JxKXr9OrPyH9nqWMTIvnRlVa7lFJW0Q0NgIxAuyPXbEgvf4/mH7rlVOioNiyO89BialO7zoxBbs4O8Q==",
+  "dgSpecHash": "E/1QgeyndqVpqEAbxhFWzGbgPRzA6tsiEqXiCdxwE9aXQMBxW40/PRKY6nofR9jqOHv9ochnvxt9T6oQjP25Iw==",
   "success": true,
   "projectFilePath": "C:\\Users\\anaan\\Source\\Repos\\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\\AgriCont\\AgriCont\\AgriCont.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\anaan\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\anaan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\anaan\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\anaan\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",

@@ -8,77 +8,77 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AgriCont
 build_property.RootNamespace = AgriCont
-build_property.ProjectDir = C:\Users\anaan\source\repos\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\AgriCont\AgriCont\
+build_property.ProjectDir = C:\Users\anaan\Source\Repos\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\AgriCont\AgriCont\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\anaan\source\repos\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\AgriCont\AgriCont
+build_property.MSBuildProjectDirectory = C:\Users\anaan\Source\Repos\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\AgriCont\AgriCont
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/anaan/source/repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Empresas/Create.cshtml]
+[C:/Users/anaan/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Empresas/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anaan/source/repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Empresas/Delete.cshtml]
+[C:/Users/anaan/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Empresas/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anaan/source/repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Empresas/Details.cshtml]
+[C:/Users/anaan/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Empresas/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anaan/source/repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Empresas/Edit.cshtml]
+[C:/Users/anaan/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Empresas/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anaan/source/repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Empresas/Index.cshtml]
+[C:/Users/anaan/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Empresas/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anaan/source/repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Home/Index.cshtml]
+[C:/Users/anaan/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anaan/source/repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Home/Privacy.cshtml]
+[C:/Users/anaan/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anaan/source/repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Shared/Error.cshtml]
+[C:/Users/anaan/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anaan/source/repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/anaan/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anaan/source/repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Usuarios/Create.cshtml]
+[C:/Users/anaan/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Usuarios/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anaan/source/repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Usuarios/Delete.cshtml]
+[C:/Users/anaan/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Usuarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anaan/source/repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Usuarios/Details.cshtml]
+[C:/Users/anaan/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Usuarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anaan/source/repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Usuarios/Edit.cshtml]
+[C:/Users/anaan/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Usuarios/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anaan/source/repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Usuarios/Index.cshtml]
+[C:/Users/anaan/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anaan/source/repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/_ViewImports.cshtml]
+[C:/Users/anaan/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anaan/source/repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/_ViewStart.cshtml]
+[C:/Users/anaan/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/anaan/source/repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Shared/_Layout.cshtml]
+[C:/Users/anaan/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8yigz2bllb
