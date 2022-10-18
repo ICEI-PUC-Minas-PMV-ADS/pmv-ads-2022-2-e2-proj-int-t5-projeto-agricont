@@ -18,6 +18,5 @@ namespace AgriCont.Models
         public DbSet<Empresa> Empresas { get; set; }
 
         public DbSet<Usuario> Usuarios { get; set; }
-
     }
 }
