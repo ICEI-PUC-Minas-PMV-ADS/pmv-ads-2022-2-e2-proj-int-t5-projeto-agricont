@@ -15,6 +15,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\noguti oliveira\Source\Repos\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\AgriCont\AgriCont
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/noguti oliveira/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Empresas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/noguti oliveira/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Empresas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/noguti oliveira/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Empresas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/noguti oliveira/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Empresas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/noguti oliveira/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Empresas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/noguti oliveira/Source/Repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
