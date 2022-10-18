@@ -48,7 +48,7 @@ namespace AgriCont.Controllers
         // GET: Usuarios/Create
         public IActionResult Create()
         {
-            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cep");
+            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cnpj");
             return View();
         }
 
@@ -66,7 +66,7 @@ namespace AgriCont.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cep", usuario.EmpresaId);
+            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cnpj", usuario.EmpresaId);
             return View(usuario);
         }
 
@@ -83,7 +83,7 @@ namespace AgriCont.Controllers
             {
                 return NotFound();
             }
-            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cep", usuario.EmpresaId);
+            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cnpj", usuario.EmpresaId);
             return View(usuario);
         }
 
@@ -120,7 +120,7 @@ namespace AgriCont.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cep", usuario.EmpresaId);
+            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cnpj", usuario.EmpresaId);
             return View(usuario);
         }
 
