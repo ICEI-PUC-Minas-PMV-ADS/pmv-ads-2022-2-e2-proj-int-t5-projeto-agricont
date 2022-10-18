@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using AgriCont.Models;
+using BCrypt.Net;
 
 namespace AgriCont.Controllers
 {
@@ -47,7 +48,7 @@ namespace AgriCont.Controllers
         // GET: Usuarios/Create
         public IActionResult Create()
         {
-            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cnpj");
+            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cep");
             return View();
         }
 
@@ -56,7 +57,7 @@ namespace AgriCont.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Email,Senha,EmpresaId")] Usuario usuario)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Email,Senha,EmpresaId,Perfil")] Usuario usuario)
         {
             if (ModelState.IsValid)
             {
@@ -65,7 +66,7 @@ namespace AgriCont.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cnpj", usuario.EmpresaId);
+            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cep", usuario.EmpresaId);
             return View(usuario);
         }
 
@@ -82,7 +83,7 @@ namespace AgriCont.Controllers
             {
                 return NotFound();
             }
-            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cnpj", usuario.EmpresaId);
+            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cep", usuario.EmpresaId);
             return View(usuario);
         }
 
@@ -91,7 +92,7 @@ namespace AgriCont.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Email,Senha,EmpresaId")] Usuario usuario)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Email,Senha,EmpresaId,Perfil")] Usuario usuario)
         {
             if (id != usuario.Id)
             {
@@ -119,7 +120,7 @@ namespace AgriCont.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cnpj", usuario.EmpresaId);
+            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cep", usuario.EmpresaId);
             return View(usuario);
         }
 

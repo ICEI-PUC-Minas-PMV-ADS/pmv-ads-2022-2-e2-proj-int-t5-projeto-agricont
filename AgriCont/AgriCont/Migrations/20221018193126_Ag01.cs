@@ -17,7 +17,8 @@ namespace AgriCont.Migrations
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Senha = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    EmpresaId = table.Column<int>(type: "int", nullable: false)
+                    EmpresaId = table.Column<int>(type: "int", nullable: false),
+                    Perfil = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {

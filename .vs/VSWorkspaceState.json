@@ -1,12 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\AgriCont",
-    "\\AgriCont\\AgriCont",
-    "\\AgriCont\\AgriCont\\bin\\Release",
-    "\\AgriCont\\AgriCont\\Views",
-    "\\AgriCont\\AgriCont\\Views\\Usuarios"
+    ""
   ],
-  "SelectedNode": "\\AgriCont\\AgriCont\\Views\\Usuarios\\Create.cshtml",
   "PreviewInSolutionExplorer": false
 }

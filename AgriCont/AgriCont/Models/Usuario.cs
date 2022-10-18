@@ -26,6 +26,15 @@ namespace AgriCont.Models
 
         [ForeignKey("EmpresaId")]
         public Empresa? Empresa { get; set; }
+
+        [Required(ErrorMessage = "Obrigatório Informar o perfil!")]
+        public Perfil Perfil { get; set; }
+    }
+
+        public enum Perfil
+    {
+        Admin,
+        User
     }
 }
 
