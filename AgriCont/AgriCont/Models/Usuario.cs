@@ -22,6 +22,8 @@ namespace AgriCont.Models
 
         [Display(Name = "Código da Empresa")]
         [Required(ErrorMessage = "Obrigatório informar o código da empresa!")]
+        public int EmpresaId { get; set; }
+
         [ForeignKey("EmpresaId")]
         public Empresa? Empresa { get; set; }
     }

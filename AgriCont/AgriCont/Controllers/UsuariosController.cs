@@ -21,7 +21,8 @@ namespace AgriCont.Controllers
         // GET: Usuarios
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Usuarios.ToListAsync());
+            var applicationDbContext = _context.Usuarios.Include(u => u.Empresa);
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Usuarios/Details/5
@@ -33,6 +34,7 @@ namespace AgriCont.Controllers
             }
 
             var usuario = await _context.Usuarios
+                .Include(u => u.Empresa)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (usuario == null)
             {
@@ -45,6 +47,7 @@ namespace AgriCont.Controllers
         // GET: Usuarios/Create
         public IActionResult Create()
         {
+            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cep");
             return View();
         }
 
@@ -53,7 +56,7 @@ namespace AgriCont.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Email,Senha")] Usuario usuario)
+        public async Task<IActionResult> Create([Bind("Id,Nome,Email,Senha,EmpresaId")] Usuario usuario)
         {
             if (ModelState.IsValid)
             {
@@ -61,6 +64,7 @@ namespace AgriCont.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cep", usuario.EmpresaId);
             return View(usuario);
         }
 
@@ -77,6 +81,7 @@ namespace AgriCont.Controllers
             {
                 return NotFound();
             }
+            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cep", usuario.EmpresaId);
             return View(usuario);
         }
 
@@ -85,7 +90,7 @@ namespace AgriCont.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Email,Senha")] Usuario usuario)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Email,Senha,EmpresaId")] Usuario usuario)
         {
             if (id != usuario.Id)
             {
@@ -112,6 +117,7 @@ namespace AgriCont.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cep", usuario.EmpresaId);
             return View(usuario);
         }
 
@@ -124,6 +130,7 @@ namespace AgriCont.Controllers
             }
 
             var usuario = await _context.Usuarios
+                .Include(u => u.Empresa)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (usuario == null)
             {
