@@ -589,3 +589,4 @@ C:\Users\anaan\Source\Repos\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\AgriC
 C:\Users\anaan\Source\Repos\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\AgriCont\AgriCont\obj\Debug\net6.0\AgriCont.genruntimeconfig.cache
 C:\Users\anaan\Source\Repos\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\AgriCont\AgriCont\obj\Debug\net6.0\ref\AgriCont.dll
 C:\Users\anaan\Source\Repos\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\AgriCont\AgriCont\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\noguti oliveira\Source\Repos\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\AgriCont\AgriCont\bin\Debug\net6.0\BCrypt.Net-Next.dll

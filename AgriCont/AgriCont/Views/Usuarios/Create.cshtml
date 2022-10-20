@@ -34,6 +34,7 @@
                 <select asp-for="Perfil" class="form-control" asp-items="Html.GetEnumSelectList<Perfil>()"></select>
                 <span asp-validation-for="Perfil" class="text-danger"></span>
             </div>
+     
             <div class="form-group">
                 <input type="submit" value="Create" class="btn" style=" background-color: #189D70; color: #EDEBEB;"/>
                 <a class="btn" style=" background-color: #189D70; color: #EDEBEB;" asp-action="Index">Voltar</a>
