@@ -8,11 +8,11 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AgriCont
 build_property.RootNamespace = AgriCont
-build_property.ProjectDir = C:\Users\anaan\Source\Repos\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\AgriCont\AgriCont\
+build_property.ProjectDir = C:\Users\anaan\source\repos\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\AgriCont\AgriCont\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\anaan\Source\Repos\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\AgriCont\AgriCont
+build_property.MSBuildProjectDirectory = C:\Users\anaan\source\repos\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\AgriCont\AgriCont
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/anaan/source/repos/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/AgriCont/AgriCont/Views/Empresas/Create.cshtml]
