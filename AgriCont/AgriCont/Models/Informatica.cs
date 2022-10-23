@@ -31,7 +31,7 @@ namespace AgriCont.Models
         [Display(Name = "Valor do Seguro")]
         public int ValorSeguro { get; set; }
 
-        [Display(Name = "Nome da Seguradora")]
+        [Display(Name = "Seguradora")]
         public string NomeSeguradora { get; set; }
 
         [Display(Name = "Descrição da Manutenção")]
@@ -60,7 +60,7 @@ namespace AgriCont.Models
         [Display(Name = "Status")]
         public Status status { get; set; }
 
-        [Display(Name = "Penhora")]
+        [Display(Name = "Penhorado?")]
         public Penhora penhora { get; set; }
 
         [ForeignKey("EmpresaId")]
