@@ -21,5 +21,7 @@ namespace AgriCont.Models
 
         public DbSet<Informatica> Informaticas { get; set; }
 
+        public DbSet<Ferramenta> Ferramentas { get; set; }
+
     }
 }

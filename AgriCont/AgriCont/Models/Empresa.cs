@@ -42,5 +42,7 @@ namespace AgriCont.Models
         [Display(Name = "E-mail (*)")]
         [Required(ErrorMessage = "Obrigatório informar o Email!")]
         public string? Email { get; set; }
+
+        public ICollection<Ferramenta>? Ferramentas { get; set; }
     }
 }
