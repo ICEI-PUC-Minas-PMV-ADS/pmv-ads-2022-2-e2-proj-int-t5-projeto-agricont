@@ -4,38 +4,38 @@
     ViewData["Title"] = "Edit";
 }
 
- <form asp-action="Edit">
-   <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-     <input type="hidden" asp-for="Id" />
+<form asp-action="Edit">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" />
 
-<h1>Edit</h1>
+    <h1>Edit</h1>
 
     <h4>Dados da Empresa</h4>
     <hr />
     <div class="row">
-        <div class="form-group">
+        <div class="form-group col-md-4">
             <label asp-for="RazaoSocial" class="control-label"></label>
             <input asp-for="RazaoSocial" class="form-control" placeholder="Digite a Razão Social" />
             <span asp-validation-for="RazaoSocial" class="text-danger"></span>
         </div>
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label asp-for="NomeFantasia" class="control-label"></label>
             <input asp-for="NomeFantasia" class="form-control" placeholder="Digite o Nome Fantasia" />
             <span asp-validation-for="NomeFantasia" class="text-danger"></span>
         </div>
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label asp-for="Cnpj" class="control-label"></label>
             <input asp-for="Cnpj" class="form-control" placeholder="00.000.000/0000-00" />
             <span asp-validation-for="Cnpj" class="text-danger"></span>
         </div>
     </div>
     <div class="row">
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label asp-for="Email" class="control-label"></label>
             <input asp-for="Email" class="form-control" placeholder="exampla@example.com.br" />
             <span asp-validation-for="Email" class="text-danger"></span>
         </div>
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
             <label asp-for="Telefone" class="control-label"></label>
             <input asp-for="Telefone" class="form-control" placeholder="00-0000-0000" />
             <span asp-validation-for="Telefone" class="text-danger"></span>
@@ -44,12 +44,12 @@
     <br />
     <h4>Endereço</h4>
     <hr />
-    <div class="form-group">
-        <label asp-for="Logradouro" class="control-label"></label>
-        <input asp-for="Logradouro" class="form-control" placeholder=" Digite o nome da Rua/Avenida" />
-        <span asp-validation-for="Logradouro" class="text-danger"></span>
-    </div>
     <div class="row">
+        <div class="form-group col-md-8">
+            <label asp-for="Logradouro" class="control-label"></label>
+            <input asp-for="Logradouro" class="form-control" placeholder=" Digite o nome da Rua/Avenida" />
+            <span asp-validation-for="Logradouro" class="text-danger"></span>
+        </div>
         <div class="form-group col-md-4">
             <label asp-for="Numero" class="control-label"></label>
             <input asp-for="Numero" class="form-control" placeholder="Digite o número do imóvel" />
@@ -75,5 +75,7 @@
 </form>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
