@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6VEThCZITYH0MIbM2PRuM3X7n+UzkB59+BZEgbuW4hA=",
+  "Hash": "eO9jaXQ6zKR+tU58sd8ZXVE1CKNdGfX+ptptF+dpGRY=",
   "Source": "AgriCont",
   "BasePath": "_content/AgriCont",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\facebookB.png"
+    },
+    {
+      "Identity": "C:\\Users\\dodos\\OneDrive\\Área de Trabalho\\Trabalho 2\\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\\AgriCont\\AgriCont\\wwwroot\\Images\\fotoagricont.png",
+      "SourceId": "AgriCont",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dodos\\OneDrive\\Área de Trabalho\\Trabalho 2\\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\\AgriCont\\AgriCont\\wwwroot\\",
+      "BasePath": "_content/AgriCont",
+      "RelativePath": "Images/fotoagricont.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\fotoagricont.png"
     },
     {
       "Identity": "C:\\Users\\dodos\\OneDrive\\Área de Trabalho\\Trabalho 2\\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\\AgriCont\\AgriCont\\wwwroot\\Images\\instagram.png",
