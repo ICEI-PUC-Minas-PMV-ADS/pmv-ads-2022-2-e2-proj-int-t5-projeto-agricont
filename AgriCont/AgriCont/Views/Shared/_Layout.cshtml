@@ -13,9 +13,9 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 700;font-size: 25px;line-height: 32px; margin-left:10px; padding-top:5px; padding-bottom:5px" asp-area="" asp-controller="Home" asp-action="Index">AgriCont</a>
+                <a class="navbar-brand" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 700;font-size: 25px;line-height: 32px; margin-left:10px; margin-top:5px; margin-bottom:5px" asp-area="" asp-controller="Home" asp-action="Index">AgriCont</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -23,16 +23,16 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:50px;margin-right:10px"  asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:50px;margin-right:10px" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Empresas" asp-action="Index">Cadastro Empresas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px"  asp-area="" asp-controller="Usuarios" asp-action="Index">Cadastro Usuário</a>
+                            <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Usuarios" asp-action="Index">Cadastro Usuário</a>
                         </li>
-                         <li class="nav-item">
-                            <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px"  asp-area="" asp-controller="Informaticas" asp-action="Index">Cadastrar  Item Informática</a>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Informaticas" asp-action="Index">Cadastrar  Item Informática</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Ferramentas" asp-action="Index">Cadastrar  Item Ferramentas</a>
@@ -48,23 +48,23 @@
                         }
                         else
                         {
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: #EDEBEB;" asp-area="" asp-controller="Usuarios" asp-action="Login"><img src="Images/loginB.png" id="login" style="height:20px; margin:5px; text-align:right"></a>
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: #EDEBEB;" asp-area="" asp-controller="Usuarios" asp-action="Login"><img src="Images/loginB.png" id="login" style="height:20px; margin:5px; text-align:right"></a>
+                            </li>
                         }
-                        </ul>
+                    </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div>
+    <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container" >
+        <div class="container">
             <div style="text-align:center; margin-bottom:5px; margin-top:5px">
                 <a href="http://youtube.com.br"><img src="Images/youtubeB.png" id="youtube" style="height:20px; margin:5px"></a>
                 <a href="http://instagram.com.br"><img src="Images/instagramB.png" id="insta" style="height:20px; margin:5px"></a>
@@ -79,3 +79,4 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+
