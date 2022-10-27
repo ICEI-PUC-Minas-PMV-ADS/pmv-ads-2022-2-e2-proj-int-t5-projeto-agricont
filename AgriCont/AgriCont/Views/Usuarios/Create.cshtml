@@ -36,10 +36,14 @@
                 <span asp-validation-for="Perfil" class="text-danger"></span>
             </div>
             <br />
-            <div class="form-group col-md-5">
-                <input type="submit" value="Cadastrar" class="btn" style=" background-color: #494949; color: #EDEBEB;"/>
-                <a class="btn" style=" background-color: #494949; color: #EDEBEB;" asp-action="Index">Voltar</a>
-            </div>            
+                <div class="row btn-toolbar justify-content-center" role="toolbar" aria-label="Toolbar com grupos de botões">
+                    <div class="btn-group mr-2 col-md-4" role="group" aria-label="Primeiro grupo">
+                        <input type="button" value="Cadastrar" class="btn" style=" background-color: #494949; color: #EDEBEB;"/>
+                    </div>
+                    <div class="btn-group mr-2  col-md-4" role="group" aria-label="Segundo grupo">
+                        <a type="button" class="btn" style=" background-color: #494949; color: #EDEBEB;" asp-action="Index">Voltar</a>
+                    </div> 
+                </div>
         </form>
     </div>
 </div>
