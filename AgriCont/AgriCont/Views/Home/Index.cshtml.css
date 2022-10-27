@@ -1,0 +1,30 @@
+﻿@media(min-width: 576px)
+.corpo{
+    padding: 4rem 2rem;
+}
+
+.corpo{
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #189d70;
+    width: 100%;
+    height: 350px;
+    font-family:'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.5;
+    text-align: left;
+    color:#ffffff;
+}
+
+homepage{
+    margin: 0;
+    font-family:'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    padding-left: 40px;
+}
