@@ -15,15 +15,17 @@
             <th>
                 @Html.DisplayNameFor(model => model.NumeroNotaFiscal)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descricao)
-            </th>
-            <th>
+                        <th>
                 @Html.DisplayNameFor(model => model.DataEmissao)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.ValorProduto)
+            </th    >
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
             </th>
+
+            <!--
             <th>
                 @Html.DisplayNameFor(model => model.NumeroApolice)
             </th>
@@ -61,6 +63,7 @@
                 @Html.DisplayNameFor(model => model.penhora)
             </th>
             <th></th>
+            -->
         </tr>
     </thead>
     <tbody>
@@ -70,14 +73,16 @@
                 @Html.DisplayFor(modelItem => item.NumeroNotaFiscal)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Descricao)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.DataEmissao)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ValorProduto)
             </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+
+            <!--
             <td>
                 @Html.DisplayFor(modelItem => item.NumeroApolice)
             </td>
@@ -114,6 +119,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.penhora)
             </td>
+            -->
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
