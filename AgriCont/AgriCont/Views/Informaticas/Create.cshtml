@@ -3,10 +3,13 @@
 @{
     ViewData["Title"] = "Cadastro de Produto";
 }
+<div class="container">
 
-<h1>Cadastro de Produto</h1>
+<h2>Cadastro de Produto de Informática</h2>
 
-<h4>Informática</h4>  <a asp-action="Index">Voltar</a>
+<div>
+<a asp-action="Index">Voltar</a>
+</div>
 <hr />
 
  <form asp-action="Create">
@@ -31,7 +34,7 @@
                 <span asp-validation-for="ValorProduto" class="text-danger"></span>
             </div>
             </div>
-            <div class="form-group">
+            <div class="form-group col-md-8">
                 <label asp-for="Descricao" class="control-label"></label>
                 <input asp-for="Descricao" class="form-control" />
                 <span asp-validation-for="Descricao" class="text-danger"></span>
@@ -55,38 +58,38 @@
                 <input asp-for="ValorSeguro" class="form-control" />
                 <span asp-validation-for="ValorSeguro" class="text-danger"></span>
             </div>
-            </div>
-            <div class="form-group">
+            <div class="form-group col-md-4">
                 <label asp-for="penhora" class="control-label"></label>
                 <select asp-for="penhora" class="form-control" asp-items="Html.GetEnumSelectList<Penhora>()"></select>
                 <span asp-validation-for="penhora" class="text-danger"></span>
             </div>
+            </div>
             <br />
             <h4>Status</h4>
             <hr />
-             <div class="form-group">
+        <div class="row">
+             <div class="form-group col-md-4">
                 <label asp-for="status" class="control-label"></label>
                 <select asp-for="status" class="form-control" asp-items="Html.GetEnumSelectList<Status>()"></select>
                 <span asp-validation-for="status" class="text-danger"></span>
             </div>
-            <div class="row">
-          <div class="form-group col-md-4">
+            <div class="form-group col-md-4">
                 <label asp-for="DataBaixa" class="control-label"></label>
                 <input asp-for="DataBaixa" class="form-control" />
                 <span asp-validation-for="DataBaixa" class="text-danger"></span>
             </div>          
-            <div class="form-group col-md-8">
+            <div class="form-group col-md-4">
                 <label asp-for="MotivoBaixa" class="control-label"></label>
                 <input asp-for="MotivoBaixa" class="form-control" />
                 <span asp-validation-for="MotivoBaixa" class="text-danger"></span>
             </div>
-            </div>
-           <div class="form-group">
+            <div class="form-group col-md-4">
                 <label asp-for="ValorDepreciacao" class="control-label"></label>
                 <input asp-for="ValorDepreciacao" class="form-control" />
                 <span asp-validation-for="ValorDepreciacao" class="text-danger"></span>
-            </div>  
-           <br />
+            </div>
+        </div>
+            <br />
             <h4>Manutenção</h4>
             <hr />
             <div class="row">
@@ -105,25 +108,23 @@
             <h4>Variações do Produto</h4>
             <hr /> 
             <div class="row">
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-4">
                 <label asp-for="ManutencaoSoftware" class="control-label"></label>
                 <input asp-for="ManutencaoSoftware" class="form-control" />
                 <span asp-validation-for="ManutencaoSoftware" class="text-danger"></span>
             </div>
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-4">
                 <label asp-for="NumeroSerie" class="control-label"></label>
                 <input asp-for="NumeroSerie" class="form-control" />
                 <span asp-validation-for="NumeroSerie" class="text-danger"></span>
             </div>
             </div>
-            <div class="form-group">
-             <br>     
-           
-               <input type="submit" value="Salvar" class="btn btn-primary" style=" background-color: #494949; color: #EDEBEB";/>
-            </div>
+        <br />
+        <div class="form-group">
+            <input type="submit" value="Salvar" class="btn btn-primary" style=" background-color: #494949; color: #EDEBEB";/>
+        </div>
         </form>
-   
-
+  </div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
