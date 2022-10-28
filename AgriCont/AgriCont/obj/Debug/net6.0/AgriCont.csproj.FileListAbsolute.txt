@@ -2182,3 +2182,4 @@ C:\Users\dodos\OneDrive\Área de Trabalho\Trabalho 2\pmv-ads-2022-2-e2-proj-int-
 C:\Users\dodos\OneDrive\Área de Trabalho\Trabalho 2\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\AgriCont\AgriCont\obj\Debug\net6.0\ref\AgriCont.dll
 C:\Users\noguti oliveira\Source\Repos\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\AgriCont\AgriCont\obj\Debug\net6.0\scopedcss\Views\Home\Index.cshtml.rz.scp.css
 C:\Users\anaan\Source\Repos\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\AgriCont\AgriCont\obj\Debug\net6.0\scopedcss\Views\Home\Index.cshtml.rz.scp.css
+C:\Users\Keirosu Vida\Source\Repos\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\AgriCont\AgriCont\obj\Debug\net6.0\scopedcss\Views\Home\Index.cshtml.rz.scp.css
