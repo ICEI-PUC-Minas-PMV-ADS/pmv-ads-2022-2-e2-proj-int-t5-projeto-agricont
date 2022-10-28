@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0ZzUEp+RpyoYoR8/CNakpr+bR/mvJ7MauIAevzs5FE2/m9Qvo4ypnXe8FKqEYVJGsM6moaxOm81nUHqV9dsF/w==",
+  "dgSpecHash": "bU3wD2/DG9Wqf3pYwUHbWJgYDhM85Aj4k8vTaGPFksGJvoBxa20A2XW0RD9pGFnBBTrGuojJCYMHWLh2p6A7qA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\noguti oliveira\\Source\\Repos\\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\\AgriCont\\AgriCont\\AgriCont.csproj",
+  "projectFilePath": "C:\\Users\\noguti oliveira\\source\\repos\\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\\AgriCont\\AgriCont\\AgriCont.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\noguti oliveira\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\noguti oliveira\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
