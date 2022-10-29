@@ -4,11 +4,11 @@
     ViewData["Title"] = "Login";
 }
 
-<div class="container" style="padding-top:30px">
-<h1>Login</h1>
+<div class="container-fluid" style="padding-top:30px">
+<h1 class="text-center" style="color:#189D70;">Login</h1>
 
 <hr />
-<div class="row">
+<div class="row justify-content-center">
     <div class="col-md-4">
         <form asp-action="Login">
             <div class="form-group">
@@ -22,8 +22,10 @@
                 <span asp-validation-for="Senha" class="text-danger"></span></br>
             </div>
             <div class="form-group">
-              <input type="submit" value="Entrar" class="btn btn-primary" />
-              <a class="btn btn-info" asp-controller="Home" asp-action="Index">Voltar</a>
+                <div class="text-center">
+              <input type="submit" value="Entrar" class="btn" style="background-color:#494949;color:#EDEBEB;" />
+              <a class="btn" style="background-color:#494949; color:#EDEBEB;" asp-controller="Home" asp-action="Index">Voltar</a>
+            </div>          
           </div>
         </form>
         <h3> @ViewBag.Message </h3>
