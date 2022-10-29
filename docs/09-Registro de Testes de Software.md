@@ -37,9 +37,9 @@ Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-
 
  <img src="img\Teste_Cadastro_Usuario.jpg">
 
- Assista ao vídeo clicando [aqui]
+ Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/blob/main/presentation/Etapa%203%20%20Videos/ETS-CT14.mp4)
 
- **Avaliação:** Houve êxito no teste, pois ao inserir os dados do usuário e cilcar em cadastrar, os dados foram salvos no banco de dados e mostrados na página conforme a imagem.
+ **Avaliação:** Houve êxito no teste, pois ao inserir os dados do usuário e clicar em cadastrar, os dados foram salvos no banco de dados e mostrados na página conforme a imagem.
 
 (Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.)
 
