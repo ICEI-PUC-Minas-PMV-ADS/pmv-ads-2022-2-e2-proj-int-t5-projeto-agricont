@@ -8,10 +8,12 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
+|RF-001| O sistema deve permitir que o usuário se cadastre na aplicação. |  UsuariosController.cs/Usuario.cs/ 20221018193126_Ag01.cs/ Usuario (Create.cshtml) |
+|RF-002|  O sistema deve permitir que o usuário faça o login.   |  UsuariosController.cs/ Login.cs/ Usuario (Login.cshtml)  |
+|RF-003|  O sistema deve permitir que o usuário altere a senha do seu login.    |  UsuariosController.cs/Usuario.cs/ 20221018193126_Ag01.cs/ Usuario (Edit.cshtml)   |
+|RF-004|  O sistema deve permitir que o usuário cadastre o patrimônio por categoria como: maquinário, veículos, ferramentas e informática       |  FerramentasController.cs/Ferramenta.cs/ Ferramentas (Create.cshtml) - InformaticasController.cs/ Informatica.cs/ Informaticas (Create.cshtml) |
+|RF-014|  O sistema deve permitir que o usuário edite todas as informações do cadastro do patrimônio. |  FerramentasController.cs/Ferramenta.cs/ Ferramentas (Edit.cshtml) - InformaticasController.cs/ Informatica.cs/ Informaticas (Edit.cshtml) |
 |RF-015| O sistema deve permitir que o usuário cadastre os dados da empresa.|EmpresasController.cs/ Empresa.cs / Migration-20221018064053_Ag00.cs/Empresa(Index.cshtm.)| 
-|RF-001| |  |
-|RF-001| |  |
-|RF-001| |  |
 |Ex| Permitir que o usuário cadastre tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
 |Ex| Emitir um relatório de tarefas no mês   | relatorio.shtml |
 
