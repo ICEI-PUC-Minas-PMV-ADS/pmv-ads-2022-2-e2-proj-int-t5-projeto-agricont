@@ -32,5 +32,15 @@ Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-
 
 **Avaliação:** Tivemos êxito no teste, pois ao inserir as informações da empresa e clicar em salvar, os dados persistiu no banco de dados, conforme demonstrado na foto.
 
+ ## CT-14 - Tela cadastro do usuário
+ **Evidências do Teste**
+
+ <img src="img\Teste_Cadastro_Usuario.jpg">
+
+ Assista ao vídeo clicando [aqui]
+
+ **Avaliação:** Houve êxito no teste, pois ao inserir os dados do usuário e cilcar em cadastrar, os dados foram salvos no banco de dados e mostrados na página conforme a imagem.
 
 (Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.)
+
+
