@@ -1,8 +1,29 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+Esta seção apresenta as evidências e resultados dos testes definidos anteriormente em Plano de Testes de Sottware.
 
-Para cada caso de teste definido no Plano de Testes de Software, realize o registro das evidências dos testes feitos na aplicação pela equipe, que comprovem que o critério de êxito foi alcançado (ou não!!!). Para isso, utilize uma ferramenta de captura de tela que mostre cada um dos casos de teste definidos (obs.: cada caso de teste deverá possuir um vídeo do tipo _screencast_ para caracterizar uma evidência do referido caso).
+**CT-01 – Página Inicial**
+
+Evidência do Teste: 
+
+![image](https://user-images.githubusercontent.com/85913563/198852326-c36edf36-7fb0-4dc5-a1f9-e896b593e68c.png)
+
+Avaliação: A página apresenta as informações que indicam a importância do controle patrimonial portanto houve êxito no teste.
+
+**CT-05 – Ícone de Login na Página Inicial**
+
+Evidência do Teste: 
+
+Avaliação: A página de login foi exibida com sucesso portanto houve êxito no teste.
+
+**CT-06 –Efetuar Login**
+
+Evidência do Teste: 
+
+Avaliação: A aplicação permitir o preenchimento de todos os campos do login e ao clicar em "Entrar" a conta do usuário foi liberado portanto houve êxito no teste.
+
+
+**CT-13-Tela cadastro de empresa**
 
 | **Caso de teste**   | **CT-13-Tela cadastro de empresa**|
 |:---:	|:---:	|
@@ -22,6 +43,12 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-
 **CT-13 - Avaliação do teste:**
 
 Tivemos êxito no teste, pois ao inserir as informações da empresa e clicar em salvar, os dados persistiu no banco de dados, conforme demonstrado na foto.
+
+**CT-14-Tela cadastro do usuário**
+
+Evidências do Teste:
+
+Avaliação: 
 
 
 ## Avaliação
