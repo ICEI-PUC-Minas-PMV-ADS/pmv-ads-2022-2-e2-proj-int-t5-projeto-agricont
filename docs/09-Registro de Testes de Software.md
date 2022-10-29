@@ -20,7 +20,7 @@ Esta seção apresenta as evidências e resultados dos testes definidos anterior
 
 **Evidência do Teste:** Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/blob/main/presentation/Etapa%203%20%20Videos/ETS-CT06.mp4)
 
-**Avaliação:** A aplicação permitir o preenchimento de todos os campos do login e ao clicar em "Entrar" a conta do usuário foi liberado portanto houve êxito no teste.
+**Avaliação:** A aplicação permite o preenchimento de todos os campos do login e ao clicar em "Entrar" a conta do usuário foi liberado portanto houve êxito no teste.
 
 ## CT-13 - Tela cadastro de empresa
 
