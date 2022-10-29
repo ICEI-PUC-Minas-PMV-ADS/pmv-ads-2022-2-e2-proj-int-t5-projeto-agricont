@@ -12,7 +12,7 @@ O Cliente, através da Interface de Usuário disponibilizada pelo front-end, ger
 
 O diagrama de classes ilustra graficamente como será a estrutura do software, e como cada uma das classes da sua estrutura estarão interligadas. Essas classes servem de modelo para materializar os objetos que executarão na memória.
 
-![Diagrama de Classes](img/Diagrama%20de%20Classes%20.png)
+![Diagrama de Classes](img/DiagramaDeClasses.png)
 
 ## Modelo ER (Projeto Conceitual)
 
