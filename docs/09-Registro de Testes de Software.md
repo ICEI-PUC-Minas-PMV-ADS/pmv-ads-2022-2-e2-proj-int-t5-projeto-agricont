@@ -13,7 +13,7 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 
 **Foto do Cadastro da Empresa**
 
-<img src="img/Teste_Cadastro_Empresa.jpg" width = 500>
+<img src="img/Teste_Cadastro_Empresa.jpg">
 
 
 **Avaliação do teste:**
