@@ -8,8 +8,13 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 
 |ID    | Descrição do Requisito  | Artefato(s) produzido(s) |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
-|RF-002| Emitir um relatório de tarefas no mês   | relatorio.shtml |
+|RF-015| O sistema deve permitir que o usuário cadastre os dados da empresa.|EmpresasController.cs/ Empresa.cs / Migration-20221018064053_Ag00.cs/Empresa(Index.cshtm.)| 
+|RF-001| |  |
+|RF-001| |  |
+|RF-001| |  |
+|Ex| Permitir que o usuário cadastre tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
+|Ex| Emitir um relatório de tarefas no mês   | relatorio.shtml |
+
 
 # Instruções de acesso
 
