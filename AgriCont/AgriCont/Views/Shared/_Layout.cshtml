@@ -23,14 +23,16 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
+                         @if (User.Identity.IsAuthenticated)
+                        {
                         <li class="nav-item">
                             <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:50px;margin-right:10px" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Empresas" asp-action="Index">Cadastro Empresas</a>
+                            <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Empresas" asp-action="Index">Empresa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Usuarios" asp-action="Index">Cadastro Usuário</a>
+                            <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuário</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Informaticas" asp-action="Index">Cadastrar  Item Informática</a>
@@ -38,12 +40,25 @@
                         <li class="nav-item">
                             <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Ferramentas" asp-action="Index">Cadastrar  Item Ferramentas</a>
                         </li>
+                        }
+                        else
+                        {
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:50px;margin-right:10px" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Empresas" asp-action="Create">Cadastro Empresas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Usuarios" asp-action="Create">Cadastro Usuário</a>
+                        </li>
+                        }
                     </ul>
                     <ul class="navbar-nav">
 
                         @if (User.Identity.IsAuthenticated)
                         {
-                            <li class="nav-item" style= "font-weight:bold;">
+                            <li class="nav-item" style= "font-weight:bold; color: #EDEBEB;">
                                 Olá,@User.Identity.Name <a class="nav-link" style="color: #EDEBEB;" asp-area="" asp-controller="Usuarios" asp-action="Logout">Sair</a>
                             </li>
                         }
