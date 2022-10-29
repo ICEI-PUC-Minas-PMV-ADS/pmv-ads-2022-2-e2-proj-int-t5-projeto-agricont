@@ -133,15 +133,19 @@
         </div>
         <br />
         <div class="form-group">
-            <input type="submit" value="Salvar" class="btn" style=" background-color: #494949; color: #EDEBEB" ; />
+            <input type="submit" value="Save" class="btn btn-primary" />
         </div>
     </form>
+</div>
+</div>
 
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
 
-
-    @section Scripts {
-        @{
-            await Html.RenderPartialAsync("_ValidationScriptsPartial");
-        }
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
     }
     </div>
