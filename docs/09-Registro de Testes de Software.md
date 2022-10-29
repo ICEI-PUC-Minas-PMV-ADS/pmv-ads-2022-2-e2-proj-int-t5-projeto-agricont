@@ -11,12 +11,15 @@ Para cada caso de teste definido no Plano de Testes de Software, realize o regis
 | Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> -Clicar em cadastre-se <br> - Clicar em cadastre sua empresa <br> - Inserir as informações <br> - Clicar no botão salvar|  
 |Critério de Êxito |  Êxito no Teste|
 
-**Foto do Cadastro da Empresa**
+**CT-13 - Foto do Cadastro da Empresa**
 
 <img src="img/Teste_Cadastro_Empresa.jpg">
 
+**CT-13 - Vídeo com o Teste sendo executado**
 
-**Avaliação do teste:**
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/blob/main/presentation/Etapa%203%20%20Videos/Teste%20Cadastro%20Empresa.mp4
+
+**CT-13 - Avaliação do teste:**
 
 Tivemos êxito no teste, pois ao inserir as informações da empresa e clicar em salvar, os dados persistiu no banco de dados, conforme demonstrado na foto.
 
