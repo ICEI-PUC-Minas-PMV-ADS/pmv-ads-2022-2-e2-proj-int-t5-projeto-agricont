@@ -12,3 +12,7 @@ O padrão de layout a ser utilizado pelo site tem correspondência ao projeto de
 
 <img src="img/template-padrao.png">
 Figura X - Estrutura Padrão do Site
+
+## Tela Página Inicial
+<img src="img/Template2.png">
+Figura X - Tela Inicial
