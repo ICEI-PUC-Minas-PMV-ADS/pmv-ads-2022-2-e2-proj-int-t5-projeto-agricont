@@ -15,8 +15,7 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 |RF-010|  O site deve informar sobre a importância de um controle patrimonial.       |  Home (Index.cshtml) |
 |RF-014|  O sistema deve permitir que o usuário edite todas as informações do cadastro do patrimônio. |  FerramentasController.cs/Ferramenta.cs/ Ferramentas (Edit.cshtml) - InformaticasController.cs/ Informatica.cs/ Informaticas (Edit.cshtml) |
 |RF-015| O sistema deve permitir que o usuário cadastre os dados da empresa.|EmpresasController.cs/ Empresa.cs / Migration-20221018064053_Ag00.cs/Empresa(Index.cshtm.)| 
-|Ex| Permitir que o usuário cadastre tarefas | tarefas.shtml / tarefas.cs / controllertarefas.cs | 
-|Ex| Emitir um relatório de tarefas no mês   | relatorio.shtml |
+
 
 
 # Instruções de acesso
