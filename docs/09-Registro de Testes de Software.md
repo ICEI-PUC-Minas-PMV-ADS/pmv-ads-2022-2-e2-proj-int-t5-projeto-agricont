@@ -18,7 +18,12 @@ Esta seção apresenta as evidências e resultados dos testes definidos anterior
 
 ## CT-06 – Efetuar Login
 
-**Evidência do Teste:** Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/blob/main/presentation/Etapa%203%20%20Videos/ETS-CT06.mp4)
+
+**Evidência do Teste:** 
+
+<img src="img/Teste_Login.png">
+
+Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/blob/main/presentation/Etapa%203%20%20Videos/ETS-CT06.mp4)
 
 **Avaliação:** A aplicação permite o preenchimento de todos os campos do login e ao clicar em "Entrar" a conta do usuário foi liberado portanto houve êxito no teste.
 
@@ -30,7 +35,7 @@ Esta seção apresenta as evidências e resultados dos testes definidos anterior
 
 Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/blob/main/presentation/Etapa%203%20%20Videos/ETS-CT13.mp4)
 
-**Avaliação:** Tivemos êxito no teste, pois ao inserir as informações da empresa e clicar em salvar, os dados persistiu no banco de dados, conforme demonstrado na foto.
+**Avaliação:** Tivemos êxito no teste, pois ao inserir as informações da empresa e clicar em salvar, os dados persistiram no banco de dados, conforme demonstrado na foto.
 
  ## CT-14 - Tela cadastro do usuário
  **Evidências do Teste**
