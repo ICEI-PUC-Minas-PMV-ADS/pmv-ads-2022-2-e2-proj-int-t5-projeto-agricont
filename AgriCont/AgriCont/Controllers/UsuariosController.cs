@@ -45,7 +45,8 @@ namespace AgriCont.Controllers
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, user.Nome),
-                    new Claim(ClaimTypes.NameIdentifier, user.Nome),
+                    new Claim("EmpresaId", user.EmpresaId.ToString()),
+                    new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                     new Claim(ClaimTypes.Role, user.Perfil.ToString())
                 };
 
@@ -82,8 +83,7 @@ namespace AgriCont.Controllers
         // GET: Usuarios
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Usuarios.Include(u => u.Empresa);
-            return View(await applicationDbContext.ToListAsync());
+            return View(await _context.Usuarios.Where(u => u.Id == int.Parse(User.Claims.ElementAt(1).Value)).ToListAsync());
         }
 
         // GET: Usuarios/Details/5
@@ -124,7 +124,7 @@ namespace AgriCont.Controllers
                 usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
                 _context.Add(usuario);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Login));
             }
             ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cnpj", usuario.EmpresaId);
             return View(usuario);

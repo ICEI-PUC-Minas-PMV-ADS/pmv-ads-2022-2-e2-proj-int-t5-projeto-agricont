@@ -36,6 +36,9 @@
                 <span asp-validation-for="Perfil" class="text-danger"></span>
             </div>
             <br />
+                <div class="form-group text-primary text-center">
+                <p>Se sua empresa ainda não possui cadastro <a asp-controller="Empresas" asp-action="Create">clique aqui</a></p>
+            </div>
                 <div class="row btn-toolbar justify-content-center" role="toolbar" aria-label="Toolbar com grupos de botões">
                     <div class="btn-group mr-2 col-md-4" role="group" aria-label="Primeiro grupo">
                         <input type="submit" value="Cadastrar" class="btn" style=" background-color: #494949; color: #EDEBEB;" />
@@ -44,6 +47,7 @@
                         <a type="button" class="btn" style=" background-color: #494949; color: #EDEBEB;" asp-controller="Home" asp-action="Index">Voltar</a>
                     </div>
                 </div>
+                <br />
             </form>
     </div>
 </div>

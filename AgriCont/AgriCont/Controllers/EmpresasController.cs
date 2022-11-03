@@ -21,7 +21,7 @@ namespace AgriCont.Controllers
         // GET: Empresas
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Empresas.ToListAsync());
+            return View(await _context.Empresas.Where(e => e.Id == int.Parse(User.Claims.ElementAt(1).Value)).ToListAsync());
         }
 
         // GET: Empresas/Details/5

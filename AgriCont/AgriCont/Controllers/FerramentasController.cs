@@ -21,8 +21,7 @@ namespace AgriCont.Controllers
         // GET: Ferramentas
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Ferramentas.Include(f => f.Empresa);
-            return View(await applicationDbContext.ToListAsync());
+            return View(await _context.Ferramentas.Where(f => f.EmpresaId == int.Parse(User.Claims.ElementAt(1).Value)).ToListAsync());
         }
 
         // GET: Ferramentas/Details/5

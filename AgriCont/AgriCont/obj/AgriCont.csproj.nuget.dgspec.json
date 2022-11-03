@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anaan\\Source\\Repos\\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\\AgriCont\\AgriCont\\AgriCont.csproj": {}
+    "C:\\Users\\anaan\\source\\repos\\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\\AgriCont\\AgriCont\\AgriCont.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anaan\\Source\\Repos\\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\\AgriCont\\AgriCont\\AgriCont.csproj": {
+    "C:\\Users\\anaan\\source\\repos\\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\\AgriCont\\AgriCont\\AgriCont.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anaan\\Source\\Repos\\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\\AgriCont\\AgriCont\\AgriCont.csproj",
+        "projectUniqueName": "C:\\Users\\anaan\\source\\repos\\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\\AgriCont\\AgriCont\\AgriCont.csproj",
         "projectName": "AgriCont",
-        "projectPath": "C:\\Users\\anaan\\Source\\Repos\\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\\AgriCont\\AgriCont\\AgriCont.csproj",
+        "projectPath": "C:\\Users\\anaan\\source\\repos\\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\\AgriCont\\AgriCont\\AgriCont.csproj",
         "packagesPath": "C:\\Users\\anaan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anaan\\Source\\Repos\\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\\AgriCont\\AgriCont\\obj\\",
+        "outputPath": "C:\\Users\\anaan\\source\\repos\\pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont\\AgriCont\\AgriCont\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
