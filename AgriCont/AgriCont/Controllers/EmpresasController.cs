@@ -59,7 +59,7 @@ namespace AgriCont.Controllers
             {
                 _context.Add(empresa);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Create", "Usuarios");
             }
             return View(empresa);
         }
