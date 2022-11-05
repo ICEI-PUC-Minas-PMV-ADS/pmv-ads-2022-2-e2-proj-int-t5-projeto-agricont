@@ -9,6 +9,7 @@
   <ItemGroup>
     <Compile Remove="Migrations\20221018130721_Ag01.cs" />
     <Compile Remove="Migrations\20221018130721_Ag01.Designer.cs" />
+    <Compile Remove="Models\FaleConosco.cs" />
   </ItemGroup>
 
   <ItemGroup>
