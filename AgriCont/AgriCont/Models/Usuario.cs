@@ -15,6 +15,7 @@ namespace AgriCont.Models
 
         [Display(Name = "E-mail (*)")]
         [Required(ErrorMessage = "Obrigatório informar o email!")]
+        [RegularExpression(@"^[^@\s]+@[^@\s]+\.(com|org|net|gov|br)$", ErrorMessage="Por favor, digite um e-mail válido!")]
         public string? Email { get; set; }
 
         [Display(Name = "Senha (*)")]

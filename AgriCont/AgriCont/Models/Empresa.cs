@@ -18,6 +18,7 @@ namespace AgriCont.Models
         public string? NomeFantasia { get; set; }
 
         [Display(Name = "CNPJ (*)")]
+        [RegularExpression(@"\d{2}\.\d{3}\.\d{3}\/\d{4}\-\d{2}", ErrorMessage = "Por favor, digite um CNPJ válido!")]
         [Required(ErrorMessage = "Obrigatório informar o CNPJ!")]
         public string? Cnpj { get; set; }
 
@@ -32,14 +33,17 @@ namespace AgriCont.Models
         public string? Complemento { get; set; }
 
         [Display(Name = "CEP(*)")]
+        [RegularExpression(@"\d{5}\-\d{3}", ErrorMessage = "Por favor, digite um CEP válido!")]
         [Required(ErrorMessage = "Obrigatório informar o CEP!")]
         public string? Cep { get; set; }
 
         [Display(Name = "Telefone (*)")]
+        [RegularExpression(@"\d{2}\-\d{4}-\d{4}", ErrorMessage = "Por favor, digite um Telefone válido!")]
         [Required(ErrorMessage = "Obrigatório informar o Telefone!")]
         public string? Telefone { get; set; }
 
         [Display(Name = "E-mail (*)")]
+        [RegularExpression(@"^[^@\s]+@[^@\s]+\.(com|org|net|gov|br)$", ErrorMessage = "Por favor, digite um e-mail válido!")]
         [Required(ErrorMessage = "Obrigatório informar o Email!")]
         public string? Email { get; set; }
 

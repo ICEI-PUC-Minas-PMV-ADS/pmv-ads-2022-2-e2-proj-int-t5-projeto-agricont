@@ -66,7 +66,7 @@ namespace AgriCont.Models
 
         public string? Marca { get; set; }
 
-
+        [Display(Name = "Código da Empresa")]
         public int EmpresaId { get; set; }
         [ForeignKey("EmpresaId")]
 
