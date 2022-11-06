@@ -1,14 +1,18 @@
-﻿@model AgriCont.Models.Ferramenta
+﻿@model AgriCont.Models.Maquinario
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Delete";
 }
-<div class="container">
- <br />
 
-<div>
-  <h2>Detalhes do Produto - Ferramenta</h2>
-    <hr />
+<div class="container">
+    <br />
+
+    <h2>Excluir</h2>
+
+    <h3>Você tem certeza que quer excluir este item de Maquinário?</h3>
+    <div>
+        <h4></h4>
+        <hr />
     <dl class="row">
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.NumNotaFiscal)
@@ -95,16 +99,16 @@
             @Html.DisplayFor(model => model.DescricaoManutencao)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ComposicaoMaterial)
+            @Html.DisplayNameFor(model => model.Tamanho)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ComposicaoMaterial)
+            @Html.DisplayFor(model => model.Tamanho)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Marca)
+            @Html.DisplayNameFor(model => model.TipoEquipamento)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Marca)
+            @Html.DisplayFor(model => model.TipoEquipamento)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Empresa)
@@ -113,9 +117,11 @@
             @Html.DisplayFor(model => model.Empresa.Cnpj)
         </dd>
     </dl>
-</div>
-<div>
-        <a asp-action="Edit" class="btn" style=" background-color: #494949; color: #EDEBEB" asp-route-id="@Model?.Id">Editar</a>
-        <a asp-action="Index" class="btn" style=" background-color: #494949; color: #EDEBEB">Voltar</a>
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="Id" />
+            <input type="submit" value="Excluir" class="btn btn-danger" />
+            <a asp-action="Index" class="btn" style=" background-color: #494949; color: #EDEBEB">Voltar</a>
+        </form>
 </div>
 </div>

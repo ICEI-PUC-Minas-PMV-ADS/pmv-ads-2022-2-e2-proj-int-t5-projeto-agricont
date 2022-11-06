@@ -9,89 +9,89 @@ using AgriCont.Models;
 
 namespace AgriCont.Controllers
 {
-    public class FerramentasController : Controller
+    public class MaquinariosController : Controller
     {
         private readonly ApplicationDbContext _context;
 
-        public FerramentasController(ApplicationDbContext context)
+        public MaquinariosController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: Ferramentas
+        // GET: Maquinarios
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Ferramentas.Where(f => f.EmpresaId == int.Parse(User.Claims.ElementAt(1).Value)).ToListAsync());
+            return View(await _context.Maquinarios.Where(m => m.EmpresaId == int.Parse(User.Claims.ElementAt(1).Value)).ToListAsync());
         }
 
-        // GET: Ferramentas/Details/5
+        // GET: Maquinarios/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null || _context.Ferramentas == null)
+            if (id == null || _context.Maquinarios == null)
             {
                 return NotFound();
             }
 
-            var ferramenta = await _context.Ferramentas
-                .Include(f => f.Empresa)
+            var maquinario = await _context.Maquinarios
+                .Include(m => m.Empresa)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (ferramenta == null)
+            if (maquinario == null)
             {
                 return NotFound();
             }
 
-            return View(ferramenta);
+            return View(maquinario);
         }
 
-        // GET: Ferramentas/Create
+        // GET: Maquinarios/Create
         public IActionResult Create()
         {
             ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id");
             return View();
         }
 
-        // POST: Ferramentas/Create
+        // POST: Maquinarios/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,NumNotaFiscal,DataEmissao,ValorProduto,DescricaoProduto,Seguradora,NumApolice,ValorSeguro,Tipo,status,DataBaixa,MotivoBaixa,ValorDepreciacao,DataManutencao,DescricaoManutencao,ComposicaoMaterial,Marca,EmpresaId")] Ferramenta ferramenta)
+        public async Task<IActionResult> Create([Bind("Id,NumNotaFiscal,DataEmissao,ValorProduto,DescricaoProduto,Seguradora,NumApolice,ValorSeguro,Tipo,status,DataBaixa,MotivoBaixa,ValorDepreciacao,DataManutencao,DescricaoManutencao,Tamanho,TipoEquipamento,EmpresaId")] Maquinario maquinario)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(ferramenta);
+                _context.Add(maquinario);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cnpj", ferramenta.EmpresaId);
-            return View(ferramenta);
+            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cnpj", maquinario.EmpresaId);
+            return View(maquinario);
         }
 
-        // GET: Ferramentas/Edit/5
+        // GET: Maquinarios/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null || _context.Ferramentas == null)
+            if (id == null || _context.Maquinarios == null)
             {
                 return NotFound();
             }
 
-            var ferramenta = await _context.Ferramentas.FindAsync(id);
-            if (ferramenta == null)
+            var maquinario = await _context.Maquinarios.FindAsync(id);
+            if (maquinario == null)
             {
                 return NotFound();
             }
-            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cnpj", ferramenta.EmpresaId);
-            return View(ferramenta);
+            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cnpj", maquinario.EmpresaId);
+            return View(maquinario);
         }
 
-        // POST: Ferramentas/Edit/5
+        // POST: Maquinarios/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,NumNotaFiscal,DataEmissao,ValorProduto,DescricaoProduto,Seguradora,NumApolice,ValorSeguro,Tipo,status,DataBaixa,MotivoBaixa,ValorDepreciacao,DataManutencao,DescricaoManutencao,ComposicaoMaterial,Marca,EmpresaId")] Ferramenta ferramenta)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,NumNotaFiscal,DataEmissao,ValorProduto,DescricaoProduto,Seguradora,NumApolice,ValorSeguro,Tipo,status,DataBaixa,MotivoBaixa,ValorDepreciacao,DataManutencao,DescricaoManutencao,Tamanho,TipoEquipamento,EmpresaId")] Maquinario maquinario)
         {
-            if (id != ferramenta.Id)
+            if (id != maquinario.Id)
             {
                 return NotFound();
             }
@@ -100,12 +100,12 @@ namespace AgriCont.Controllers
             {
                 try
                 {
-                    _context.Update(ferramenta);
+                    _context.Update(maquinario);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!FerramentaExists(ferramenta.Id))
+                    if (!MaquinarioExists(maquinario.Id))
                     {
                         return NotFound();
                     }
@@ -116,51 +116,51 @@ namespace AgriCont.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cnpj", ferramenta.EmpresaId);
-            return View(ferramenta);
+            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cnpj", maquinario.EmpresaId);
+            return View(maquinario);
         }
 
-        // GET: Ferramentas/Delete/5
+        // GET: Maquinarios/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null || _context.Ferramentas == null)
+            if (id == null || _context.Maquinarios == null)
             {
                 return NotFound();
             }
 
-            var ferramenta = await _context.Ferramentas
-                .Include(f => f.Empresa)
+            var maquinario = await _context.Maquinarios
+                .Include(m => m.Empresa)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (ferramenta == null)
+            if (maquinario == null)
             {
                 return NotFound();
             }
 
-            return View(ferramenta);
+            return View(maquinario);
         }
 
-        // POST: Ferramentas/Delete/5
+        // POST: Maquinarios/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            if (_context.Ferramentas == null)
+            if (_context.Maquinarios == null)
             {
-                return Problem("Entity set 'ApplicationDbContext.Ferramentas'  is null.");
+                return Problem("Entity set 'ApplicationDbContext.Maquinarios'  is null.");
             }
-            var ferramenta = await _context.Ferramentas.FindAsync(id);
-            if (ferramenta != null)
+            var maquinario = await _context.Maquinarios.FindAsync(id);
+            if (maquinario != null)
             {
-                _context.Ferramentas.Remove(ferramenta);
+                _context.Maquinarios.Remove(maquinario);
             }
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool FerramentaExists(int id)
+        private bool MaquinarioExists(int id)
         {
-          return _context.Ferramentas.Any(e => e.Id == id);
+          return _context.Maquinarios.Any(e => e.Id == id);
         }
     }
 }

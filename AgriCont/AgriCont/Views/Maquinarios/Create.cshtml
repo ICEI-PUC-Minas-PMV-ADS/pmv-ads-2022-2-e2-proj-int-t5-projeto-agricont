@@ -1,21 +1,20 @@
-﻿@model AgriCont.Models.Ferramenta
+﻿@model AgriCont.Models.Maquinario
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Create";
 }
+
 <div class="container">
-  <br />
+    <br />
+    <h2>Cadastro de Produto de Maquinário</h2>
+ <div class="d-flex flex-row-reverse bd-highlight">
+       <a asp-action="Index" class="btn d-flex flex-row-reverse bd-highlight" style=" background-color: #494949; color: #EDEBEB">Voltar</a>
+ </div>
 
-<h2>Editar Dados do Produto</h2>
+<hr />
 
-    <div class="d-flex flex-row-reverse bd-highlight">
-        <a asp-action="Index" class="btn d-flex flex-row-reverse bd-highlight" style=" background-color: #494949; color: #EDEBEB">Voltar</a>
-    </div>
-
-    <hr />
-
-    <form asp-action="Edit">
-        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<form asp-action="Create">
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
         <h4>Dados da Nota Fiscal</h4>
         <hr />
@@ -41,63 +40,62 @@
                 <span asp-validation-for="DescricaoProduto" class="text-danger"></span>
             </div>
         </div>
-        <br />
-        <h4>Dados do Seguro</h4>
-        <hr />
-        <div class="row">
+
+            <br />
+            <h4>Dados do Seguro</h4>
+            <hr />
+            <div class="row">
             <div class="form-group col-md-4">
                 <label asp-for="Seguradora" class="control-label"></label>
                 <input asp-for="Seguradora" class="form-control" />
                 <span asp-validation-for="Seguradora" class="text-danger"></span>
             </div>
-            <div class="form-group col-md-4">
+                <div class="form-group col-md-4">
                 <label asp-for="NumApolice" class="control-label"></label>
                 <input asp-for="NumApolice" class="form-control" />
                 <span asp-validation-for="NumApolice" class="text-danger"></span>
             </div>
-            <div class="form-group col-md-4">
+                <div class="form-group col-md-4">
                 <label asp-for="ValorSeguro" class="control-label"></label>
                 <input asp-for="ValorSeguro" class="form-control" />
                 <!--<span asp-validation-for="ValorSeguro" class="text-danger"></span>-->
             </div>
-            <div class="form-group col-md-4">
+                <div class="form-group col-md-4">
                 <label asp-for="Tipo" class="control-label"></label>
-                <select asp-for="Tipo" class="form-control" asp-items="Html.GetEnumSelectList<Penhorado>()"></select>
+                <select asp-for="Tipo" class="form-control" asp-items="Html.GetEnumSelectList<Penhorado1>()"></select>
                 <span asp-validation-for="Tipo" class="text-danger"></span>
             </div>
-        </div>
-        <br />
-        <h4>Status</h4>
-        <hr />
-
-        <div class="row">
-            <div class="form-group col-md-4">
+            </div>
+            <br />
+            <h4>Status</h4>
+            <hr />
+                <div class="row">
+                <div class="form-group col-md-4">
                 <label asp-for="status" class="control-label"></label>
-                <select asp-for="status" class="form-control" asp-items="Html.GetEnumSelectList<Status1>()"></select>
+                <select asp-for="status" class="form-control" asp-items="Html.GetEnumSelectList<Status2>()"></select>
                 <span asp-validation-for="status" class="text-danger"></span>
             </div>
-            <div class="form-group col-md-4">
+                <div class="form-group col-md-4">
                 <label asp-for="DataBaixa" class="control-label"></label>
                 <input asp-for="DataBaixa" class="form-control" />
                 <!--<span asp-validation-for="DataBaixa" class="text-danger"></span>-->
             </div>
-            <div class="form-group col-md-4">
+                <div class="form-group col-md-4">
                 <label asp-for="MotivoBaixa" class="control-label"></label>
                 <input asp-for="MotivoBaixa" class="form-control" />
                 <span asp-validation-for="MotivoBaixa" class="text-danger"></span>
             </div>
-            <div class="form-group col-md-4">
+                <div class="form-group col-md-4">
                 <label asp-for="ValorDepreciacao" class="control-label"></label>
                 <input asp-for="ValorDepreciacao" class="form-control" />
                 <!--<span asp-validation-for="ValorDepreciacao" class="text-danger"></span>-->
             </div>
-
-        </div>
-        <br />
-        <h4>Manutenção</h4>
-        <hr />
-        <div class="row">
-            <div class="form-group col-md-4">
+            </div>
+            <br />
+            <h4>Manutenção</h4>
+            <hr />
+                <div class="row">
+                <div class="form-group col-md-4">
                 <label asp-for="DataManutencao" class="control-label"></label>
                 <input asp-for="DataManutencao" class="form-control" />
                 <span asp-validation-for="DataManutencao" class="text-danger"></span>
@@ -107,35 +105,37 @@
                 <input asp-for="DescricaoManutencao" class="form-control" />
                 <span asp-validation-for="DescricaoManutencao" class="text-danger"></span>
             </div>
-        </div>
-        <br />
-        <h4>Variações do Produto</h4>
-        <hr />
-        <div class="row">
-            <div class="form-group col-md-4">
-                <label asp-for="ComposicaoMaterial" class="control-label"></label>
-                <input asp-for="ComposicaoMaterial" class="form-control" />
-                <span asp-validation-for="ComposicaoMaterial" class="text-danger"></span>
             </div>
-
-            <div class="form-group col-md-4">
-                <label asp-for="Marca" class="control-label"></label>
-                <input asp-for="Marca" class="form-control" />
-                <span asp-validation-for="Marca" class="text-danger"></span>
-            </div>
-
-            <div class="form-group col-md-4">
-                <label asp-for="EmpresaId" class="control-label"></label>
-                <input asp-for="EmpresaId" class="form-control" asp-items="ViewBag.EmpresaId">
-            </div>
-
             <br />
-        </div>
+            <h4>Variações do Produto</h4>
+            <hr />
+            <div class="row">
+                <div class="form-group col-md-4">
+                <label asp-for="Tamanho" class="control-label"></label>
+                <input asp-for="Tamanho" class="form-control" />
+                <span asp-validation-for="Tamanho" class="text-danger"></span>
+            </div>
+                <div class="form-group col-md-4">
+                <label asp-for="TipoEquipamento" class="control-label"></label>
+                <input asp-for="TipoEquipamento" class="form-control" />
+                <span asp-validation-for="TipoEquipamento" class="text-danger"></span>
+            </div>
+                <div class="form-group col-md-4">
+                <label asp-for="EmpresaId" class="control-label"></label>
+                <input asp-for="EmpresaId" class ="form-control" asp-items="ViewBag.EmpresaId">
+            </div>
+    <br />
+    </div>    
         <br />
         <div class="form-group">
-            <input type="submit" value="Salvar" class="btn btn-primary" style=" background-color: #494949; color: #EDEBEB" />
+            <input type="submit" value="Salvar" class="btn" style=" background-color: #494949; color: #EDEBEB" ; />
         </div>
-    </form>
+</form>
 </div>
-
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+   
 

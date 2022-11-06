@@ -23,5 +23,7 @@ namespace AgriCont.Models
 
         public DbSet<Ferramenta> Ferramentas { get; set; }
 
+        public DbSet<Maquinario> Maquinarios { get; set; }
+
     }
 }

@@ -1,14 +1,15 @@
-﻿@model AgriCont.Models.Ferramenta
+﻿@model AgriCont.Models.Maquinario
 
 @{
     ViewData["Title"] = "Details";
 }
-<div class="container">
- <br />
 
-<div>
-  <h2>Detalhes do Produto - Ferramenta</h2>
-    <hr />
+<div class="container">
+    <br />
+
+    <div>
+        <h2>Detalhes do Produto - Ferramenta</h2>
+        <hr />
     <dl class="row">
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.NumNotaFiscal)
@@ -95,16 +96,16 @@
             @Html.DisplayFor(model => model.DescricaoManutencao)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ComposicaoMaterial)
+            @Html.DisplayNameFor(model => model.Tamanho)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ComposicaoMaterial)
+            @Html.DisplayFor(model => model.Tamanho)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Marca)
+            @Html.DisplayNameFor(model => model.TipoEquipamento)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Marca)
+            @Html.DisplayFor(model => model.TipoEquipamento)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Empresa)

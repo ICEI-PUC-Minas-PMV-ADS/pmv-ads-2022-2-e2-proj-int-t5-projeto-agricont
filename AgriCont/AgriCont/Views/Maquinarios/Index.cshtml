@@ -1,10 +1,11 @@
-﻿@model IEnumerable<AgriCont.Models.Ferramenta>
+﻿@model IEnumerable<AgriCont.Models.Maquinario>
 
 @{
     ViewData["Title"] = "Index";
 }
-<div class="container"style="padding-top:30px">
-<h2>Index</h2>
+
+<div class="container" style="padding-top:30px">
+    <h2>Index</h2>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -56,10 +57,10 @@
                 @Html.DisplayNameFor(model => model.DescricaoManutencao)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ComposicaoMaterial)
+                @Html.DisplayNameFor(model => model.Tamanho)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Marca)
+                @Html.DisplayNameFor(model => model.TipoEquipamento)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Empresa)
@@ -115,15 +116,15 @@
                 @Html.DisplayFor(modelItem => item.DescricaoManutencao)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ComposicaoMaterial)
+                @Html.DisplayFor(modelItem => item.Tamanho)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Marca)
+                @Html.DisplayFor(modelItem => item.TipoEquipamento)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Empresa.Cnpj)
             </td>
-           -->
+            -->
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
