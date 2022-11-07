@@ -25,5 +25,6 @@ namespace AgriCont.Models
 
         public DbSet<Maquinario> Maquinarios { get; set; }
 
+        public DbSet<Veiculo> Veiculos { get; set; }
     }
 }

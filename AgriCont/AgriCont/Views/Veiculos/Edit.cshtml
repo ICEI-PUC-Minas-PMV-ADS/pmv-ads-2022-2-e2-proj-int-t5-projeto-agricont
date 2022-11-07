@@ -1,0 +1,147 @@
+﻿@model AgriCont.Models.Veiculo
+
+@{
+    ViewData["Title"] = "Editar Veículos";
+}
+
+<div class="container" style="padding-top:30px">
+    <h2>Editar dados do veículo</h2>
+    <div class="d-flex flex-row-reverse bd-highlight">
+        <a asp-action="Index" class="btn d-flex flex-row-reverse bd-highlight" style=" background-color: #494949; color: #EDEBEB">Voltar</a>
+    </div>
+    <hr />
+    
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+        <h4>Dados da Nota Fiscal</h4>
+        <hr />
+        <div class="row">
+            <div class="form-group col-md-4">
+                <label asp-for="NumNotaFiscal" class="control-label"></label>
+                <input asp-for="NumNotaFiscal" class="form-control" />
+                <span asp-validation-for="NumNotaFiscal" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-4">
+                <label asp-for="DataEmissao" class="control-label"></label>
+                <input asp-for="DataEmissao" class="form-control" />
+                <span asp-validation-for="DataEmissao" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-4">
+                <label asp-for="ValorProduto" class="control-label"></label>
+                <input asp-for="ValorProduto" class="form-control" />
+                <span asp-validation-for="ValorProduto" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-8">
+                <label asp-for="DescricaoProduto" class="control-label"></label>
+                <input asp-for="DescricaoProduto" class="form-control" />
+                <span asp-validation-for="DescricaoProduto" class="text-danger"></span>
+            </div>
+            </div>
+            <br/>
+
+
+        <h4>Dados do seguro</h4>
+        <hr />
+        <div class="row">
+            <div class="form-group col-md-4">
+                <label asp-for="NomeSeguradora" class="control-label"></label>
+                <input asp-for="NomeSeguradora" class="form-control" />
+                <span asp-validation-for="NomeSeguradora" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-4">
+                <label asp-for="NumeroApolice" class="control-label"></label>
+                <input asp-for="NumeroApolice" class="form-control" />
+                <span asp-validation-for="NumeroApolice" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-4">
+                <label asp-for="ValorSeguro" class="control-label"></label>
+                <input asp-for="ValorSeguro" class="form-control" />
+                <span asp-validation-for="ValorSeguro" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-4">
+                <label asp-for="Tipo" class="control-label"></label>
+                <select asp-for="Tipo" class="form-control" asp-items="Html.GetEnumSelectList<Penhorado1>()"></select>
+                <span asp-validation-for="Tipo" class="text-danger"></span>
+            </div>
+            </div>
+            <br/>
+
+        <h4>Status</h4>
+        <hr />
+        <div class="row">
+            <div class="form-group col-md-4">
+                <label asp-for="status" class="control-label"></label>
+                <select asp-for="status" class="form-control" asp-items="Html.GetEnumSelectList<Status2>()"></select>
+                <span asp-validation-for="status" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-4">
+                <label asp-for="DataBaixa" class="control-label"></label>
+                <input asp-for="DataBaixa" class="form-control" />
+                <span asp-validation-for="DataBaixa" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-4">
+                <label asp-for="MotivoBaixa" class="control-label"></label>
+                <input asp-for="MotivoBaixa" class="form-control" />
+                <span asp-validation-for="MotivoBaixa" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-4">
+                <label asp-for="ValorDepreciacao" class="control-label"></label>
+                <input asp-for="ValorDepreciacao" class="form-control" />
+                <span asp-validation-for="ValorDepreciacao" class="text-danger"></span>
+            </div>
+            </div>
+            <br/>
+
+        <h4>Dados da manutenção</h4>
+        <hr />
+        <div class="row">
+            <div class="form-group col-md-4">
+            <label asp-for="DataManutencao" class="control-label"></label>
+            <input asp-for="DataManutencao" class="form-control" />
+            <span asp-validation-for="DataManutencao" class="text-danger"></span>
+        </div>
+            <div class="form-group col-md-4">
+            <label asp-for="DescricaoManutencao" class="control-label"></label>
+            <input asp-for="DescricaoManutencao" class="form-control" />
+            <span asp-validation-for="DescricaoManutencao" class="text-danger"></span>
+        </div>
+        </div>
+        <br/>
+
+        <h4>Variações do produto</h4>
+        <hr />
+        <div class="row">
+            <div class="form-group col-md-4">
+                <label asp-for="AnoVeiculo" class="control-label"></label>
+                <input asp-for="AnoVeiculo" class="form-control" />
+                <span asp-validation-for="AnoVeiculo" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-4">
+                <label asp-for="NumeroChassi" class="control-label"></label>
+                <input asp-for="NumeroChassi" class="form-control" />
+                <span asp-validation-for="NumeroChassi" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-4">
+                        <label asp-for="EmpresaId" class="control-label"></label>
+                <input asp-for="EmpresaId" class="form-control" asp-items="ViewBag.EmpresaId">
+                        
+                    </div>
+            </div>
+            </br>
+
+
+        <div class="form-group">
+            <input type="submit" value="Salvar" class="btn btn-primary" style=" background-color: #494949; color: #EDEBEB" />
+        </div>
+        </form>
+    </div>
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
