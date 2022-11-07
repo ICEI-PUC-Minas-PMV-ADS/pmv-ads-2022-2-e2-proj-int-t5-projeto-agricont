@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using AgriCont.Models;
 
 namespace AgriCont.Models
 {
@@ -25,8 +24,6 @@ namespace AgriCont.Models
         public DbSet<Ferramenta> Ferramentas { get; set; }
 
         public DbSet<Maquinario> Maquinarios { get; set; }
-
-        public DbSet<AgriCont.Models.FormContato> FormContato { get; set; }
 
     }
 }

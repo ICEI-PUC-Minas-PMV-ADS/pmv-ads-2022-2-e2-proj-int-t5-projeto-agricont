@@ -67,7 +67,7 @@ namespace AgriCont.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Empresas", (string)null);
+                    b.ToTable("Empresas");
                 });
 
             modelBuilder.Entity("AgriCont.Models.Ferramenta", b =>
@@ -137,7 +137,7 @@ namespace AgriCont.Migrations
 
                     b.HasIndex("EmpresaId");
 
-                    b.ToTable("Ferramentas", (string)null);
+                    b.ToTable("Ferramentas");
                 });
 
             modelBuilder.Entity("AgriCont.Models.Informatica", b =>
@@ -212,7 +212,7 @@ namespace AgriCont.Migrations
 
                     b.HasIndex("EmpresaId");
 
-                    b.ToTable("Informaticas", (string)null);
+                    b.ToTable("Informaticas");
                 });
 
             modelBuilder.Entity("AgriCont.Models.Maquinario", b =>
@@ -282,7 +282,7 @@ namespace AgriCont.Migrations
 
                     b.HasIndex("EmpresaId");
 
-                    b.ToTable("Maquinarios", (string)null);
+                    b.ToTable("Maquinarios");
                 });
 
             modelBuilder.Entity("AgriCont.Models.Usuario", b =>
@@ -315,7 +315,7 @@ namespace AgriCont.Migrations
 
                     b.HasIndex("EmpresaId");
 
-                    b.ToTable("Usuarios", (string)null);
+                    b.ToTable("Usuarios");
                 });
 
             modelBuilder.Entity("AgriCont.Models.Ferramenta", b =>
