@@ -83,7 +83,7 @@ namespace AgriCont.Controllers
         // GET: Usuarios
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Usuarios.Where(u => u.Id == int.Parse(User.Claims.ElementAt(1).Value)).ToListAsync());
+            return View(await _context.Usuarios.Where(u => u.Id == int.Parse(User.Claims.ElementAt(2).Value)).ToListAsync());
         }
 
         // GET: Usuarios/Details/5
