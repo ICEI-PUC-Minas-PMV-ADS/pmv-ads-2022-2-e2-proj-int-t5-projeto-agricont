@@ -21,7 +21,7 @@
                         @Html.DisplayNameFor(model => model.Email)
                     </th>
                     <th>
-                        @Html.DisplayNameFor(model => model.Empresa)
+                        @Html.DisplayNameFor(model => model.EmpresaId)
                     </th>
                     <th>
                         @Html.DisplayNameFor(model => model.Perfil)
@@ -42,7 +42,7 @@
                             @Html.DisplayFor(modelItem => item.Email)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Empresa!.Cnpj)
+                            @Html.DisplayFor(modelItem => item.EmpresaId)
                         </td>
                         <td>
                             @Html.DisplayFor(modelItem => item.Perfil)
