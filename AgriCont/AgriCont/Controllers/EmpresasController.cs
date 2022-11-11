@@ -59,7 +59,16 @@ namespace AgriCont.Controllers
             {
                 _context.Add(empresa);
                 await _context.SaveChangesAsync();
-                return RedirectToAction("Create", "Usuarios");
+
+                var response = await _context.Empresas.ToListAsync();
+
+                var empresaId = (from t in response
+                                 select new { Id = t.Id })
+                                 .Distinct()
+                                 .OrderByDescending(x => x.Id).FirstOrDefault();
+
+                ViewBag.Id = empresaId;
+              //  return RedirectToAction("Create", "Usuarios");
             }
             return View(empresa);
         }

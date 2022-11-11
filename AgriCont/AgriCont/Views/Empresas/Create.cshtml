@@ -3,11 +3,15 @@
 @{
     ViewData["Title"] = "Create";
 }
+
+
 <div class="container">
     <br />
 <form asp-action="Create">
     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
+    @if (ViewBag.Id == null)
+    { 
     <h4>Dados da Empresa</h4>
     <hr />
     <div class="row">
@@ -63,18 +67,34 @@
             <input asp-for="Cep" class="form-control" placeholder="00000-000" />
             <span asp-validation-for="Cep" class="text-danger"></span>
         </div>
-    </div>
+        </div>
 
-    <br />
-    <div class="form-group">
+        <br />
+        <div class="form-group">
         <input type="submit" value="Salvar" class="btn btn-primary" style=" background-color: #494949; color: #EDEBEB" />
         <a asp-controller="Home" asp-action="Index" class="btn btn-primary" style=" background-color: #494949; color: #EDEBEB">Voltar</a>
-    </div>
+        </div>
+    }
+    else
+    {
+        <div class="text-center">
+            <h5 style="text-align:center; color: #189D70;"> Seu Código de Empresa foi gerado com sucesso!!!</h5>
+            <br>
+            <h5> @ViewBag.Id </h5>
+            <br>
+            <h6> Por favor, retornar e finalizar Cadastro de Usuário!!</h6>
+            <br>
+            <a type=" button" class="btn" style="background-color:#494949;color:#EDEBEB" asp-controller="Usuarios" asp-action="Create">OK</a>
+        </div>
+
+
+    }
 </form>
 </div>
-
+    
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
     }
+   
