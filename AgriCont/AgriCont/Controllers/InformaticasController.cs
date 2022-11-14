@@ -21,7 +21,8 @@ namespace AgriCont.Controllers
         // GET: Informaticas
         public async Task<IActionResult> Index()
         {
-              return View(await _context.Informaticas.ToListAsync());
+            var applicationDbContext = _context.Informaticas.Include(i => i.Empresa);
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Informaticas/Details/5
@@ -33,6 +34,7 @@ namespace AgriCont.Controllers
             }
 
             var informatica = await _context.Informaticas
+                .Include(i => i.Empresa)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (informatica == null)
             {
@@ -45,6 +47,7 @@ namespace AgriCont.Controllers
         // GET: Informaticas/Create
         public IActionResult Create()
         {
+            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cep");
             return View();
         }
 
@@ -53,7 +56,7 @@ namespace AgriCont.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,NumeroNotaFiscal,Descricao,DataEmissao,ValorProduto,NumeroApolice,ValorSeguro,NomeSeguradora,DescricaoManutencao,DataManutencao,ValorDepreciacao,MotivoBaixa,DataBaixa,ManutencaoSoftware,NumeroSerie,status,penhora")] Informatica informatica)
+        public async Task<IActionResult> Create([Bind("Id,NumNotaFiscal,DataEmissao,ValorProduto,DescricaoProduto,Seguradora,NumApolice,ValorSeguro,Tipo,status,DataBaixa,MotivoBaixa,ValorDepreciacao,DataManutencao,DescricaoManutencao,ManutencaoSoftware,NumeroSerie,EmpresaId")] Informatica informatica)
         {
             if (ModelState.IsValid)
             {
@@ -61,6 +64,7 @@ namespace AgriCont.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cep", informatica.EmpresaId);
             return View(informatica);
         }
 
@@ -77,6 +81,7 @@ namespace AgriCont.Controllers
             {
                 return NotFound();
             }
+            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cep", informatica.EmpresaId);
             return View(informatica);
         }
 
@@ -85,7 +90,7 @@ namespace AgriCont.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,NumeroNotaFiscal,Descricao,DataEmissao,ValorProduto,NumeroApolice,ValorSeguro,NomeSeguradora,DescricaoManutencao,DataManutencao,ValorDepreciacao,MotivoBaixa,DataBaixa,ManutencaoSoftware,NumeroSerie,status,penhora")] Informatica informatica)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,NumNotaFiscal,DataEmissao,ValorProduto,DescricaoProduto,Seguradora,NumApolice,ValorSeguro,Tipo,status,DataBaixa,MotivoBaixa,ValorDepreciacao,DataManutencao,DescricaoManutencao,ManutencaoSoftware,NumeroSerie,EmpresaId")] Informatica informatica)
         {
             if (id != informatica.Id)
             {
@@ -112,6 +117,7 @@ namespace AgriCont.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cep", informatica.EmpresaId);
             return View(informatica);
         }
 
@@ -124,6 +130,7 @@ namespace AgriCont.Controllers
             }
 
             var informatica = await _context.Informaticas
+                .Include(i => i.Empresa)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (informatica == null)
             {

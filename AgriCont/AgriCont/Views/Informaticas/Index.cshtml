@@ -1,55 +1,61 @@
 ﻿@model IEnumerable<AgriCont.Models.Informatica>
 
+
 @{
     ViewData["Title"] = "Index";
 }
-<div class="container" style="padding-top:30px">
-<h1>Index</h1>
+<div class="container"style="padding-top:30px">
+<h2>Index</h2>
 
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
+    <table class="table" id="table-informaticas">
+
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.NumeroNotaFiscal)
+                @Html.DisplayNameFor(model => model.NumNotaFiscal)
             </th>
-                        <th>
+            <th>
                 @Html.DisplayNameFor(model => model.DataEmissao)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.ValorProduto)
-            </th    >
-            <th>
-                @Html.DisplayNameFor(model => model.Descricao)
             </th>
-            <th></th>
-
+            <th>
+                @Html.DisplayNameFor(model => model.DescricaoProduto)
+            </th>
             <!--
             <th>
-                @Html.DisplayNameFor(model => model.NumeroApolice)
+                @Html.DisplayNameFor(model => model.Seguradora)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumApolice)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.ValorSeguro)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.NomeSeguradora)
+                @Html.DisplayNameFor(model => model.Tipo)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DescricaoManutencao)
+                @Html.DisplayNameFor(model => model.status)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DataManutencao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ValorDepreciacao)
+                @Html.DisplayNameFor(model => model.DataBaixa)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.MotivoBaixa)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DataBaixa)
+                @Html.DisplayNameFor(model => model.ValorDepreciacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataManutencao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DescricaoManutencao)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.ManutencaoSoftware)
@@ -58,20 +64,17 @@
                 @Html.DisplayNameFor(model => model.NumeroSerie)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.status)
+                @Html.DisplayNameFor(model => model.Empresa)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.penhora)
-            </th>
-            <th></th>
             -->
+            <th></th>
         </tr>
     </thead>
     <tbody>
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.NumeroNotaFiscal)
+                @Html.DisplayFor(modelItem => item.NumNotaFiscal)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.DataEmissao)
@@ -80,33 +83,38 @@
                 @Html.DisplayFor(modelItem => item.ValorProduto)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Descricao)
+                @Html.DisplayFor(modelItem => item.DescricaoProduto)
             </td>
-
             <!--
             <td>
-                @Html.DisplayFor(modelItem => item.NumeroApolice)
+                @Html.DisplayFor(modelItem => item.Seguradora)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumApolice)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ValorSeguro)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.NomeSeguradora)
+                @Html.DisplayFor(modelItem => item.Tipo)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.DescricaoManutencao)
+                @Html.DisplayFor(modelItem => item.status)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.DataManutencao)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ValorDepreciacao)
+                @Html.DisplayFor(modelItem => item.DataBaixa)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.MotivoBaixa)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.DataBaixa)
+                @Html.DisplayFor(modelItem => item.ValorDepreciacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataManutencao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescricaoManutencao)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ManutencaoSoftware)
@@ -115,12 +123,9 @@
                 @Html.DisplayFor(modelItem => item.NumeroSerie)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.status)
+                @Html.DisplayFor(modelItem => item.Empresa.Cnpj)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.penhora)
-            </td>
-            -->
+           -->
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |

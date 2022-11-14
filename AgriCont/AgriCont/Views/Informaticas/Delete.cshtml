@@ -1,28 +1,22 @@
 ﻿@model AgriCont.Models.Informatica
-
 @{
     ViewData["Title"] = "Delete";
 }
 <div class="container">
-<br />
+  <br />
+
 <h2>Excluir</h2>
 
-    <h4>Você tem certeza que quer excluir este item de Informática?</h4>
+<h3>Você tem certeza que quer excluir este item de Informática?</h3>
 <div>
     <h4></h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NumeroNotaFiscal)
+            @Html.DisplayNameFor(model => model.NumNotaFiscal)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NumeroNotaFiscal)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Descricao)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Descricao)
+            @Html.DisplayFor(model => model.NumNotaFiscal)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.DataEmissao)
@@ -37,10 +31,22 @@
             @Html.DisplayFor(model => model.ValorProduto)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NumeroApolice)
+            @Html.DisplayNameFor(model => model.DescricaoProduto)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NumeroApolice)
+            @Html.DisplayFor(model => model.DescricaoProduto)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Seguradora)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Seguradora)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NumApolice)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NumApolice)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.ValorSeguro)
@@ -49,28 +55,22 @@
             @Html.DisplayFor(model => model.ValorSeguro)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NomeSeguradora)
+            @Html.DisplayNameFor(model => model.Tipo)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NomeSeguradora)
+            @Html.DisplayFor(model => model.Tipo)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DescricaoManutencao)
+            @Html.DisplayNameFor(model => model.status)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DescricaoManutencao)
+            @Html.DisplayFor(model => model.status)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DataManutencao)
+            @Html.DisplayNameFor(model => model.DataBaixa)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DataManutencao)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ValorDepreciacao)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ValorDepreciacao)
+            @Html.DisplayFor(model => model.DataBaixa)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.MotivoBaixa)
@@ -79,10 +79,22 @@
             @Html.DisplayFor(model => model.MotivoBaixa)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DataBaixa)
+            @Html.DisplayNameFor(model => model.ValorDepreciacao)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DataBaixa)
+            @Html.DisplayFor(model => model.ValorDepreciacao)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DataManutencao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DataManutencao)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DescricaoManutencao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DescricaoManutencao)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.ManutencaoSoftware)
@@ -97,24 +109,17 @@
             @Html.DisplayFor(model => model.NumeroSerie)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.status)
+            @Html.DisplayNameFor(model => model.Empresa)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.status)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.penhora)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.penhora)
+            @Html.DisplayFor(model => model.Empresa.Cnpj)
         </dd>
     </dl>
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Excluir" class="btn btn-danger" />
+        <input type="submit" value="Excluir" class="btn btn-danger" /> 
         <a asp-action="Index" class="btn" style=" background-color: #494949; color: #EDEBEB">Voltar</a>
-
     </form>
 </div>
 </div>
