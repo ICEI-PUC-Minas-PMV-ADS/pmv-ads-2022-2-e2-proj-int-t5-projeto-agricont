@@ -9,6 +9,8 @@ using AgriCont.Models;
 using BCrypt.Net;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
+using System.Net.Mail;
+using System.Net;
 
 namespace AgriCont.Controllers
 {
@@ -78,6 +80,88 @@ namespace AgriCont.Controllers
         public IActionResult AccessDenied()
         {
             return View();
+        }
+
+        public async Task<bool> Email(Usuario usuario)
+        {
+            try
+            {
+                string senha = Guid.NewGuid().ToString().Substring(0, 8);
+                usuario.GerarNovaSenha(senha);
+
+                MailMessage mail = new MailMessage()
+                {
+                    From = new MailAddress("agricontweb@gmail.com", "AgriCont")
+                };
+
+                mail.To.Add(new MailAddress(usuario.Email));
+
+                mail.Subject = "Alteração de senha - Agricont";
+
+                mail.Body = "Sua nova senha é " + senha + ".";
+                mail.IsBodyHtml = true;
+                mail.Priority = MailPriority.High;
+                _context.Update(usuario);
+                await _context.SaveChangesAsync();
+
+
+                //outras opções
+                //mail.Attachments.Add(new Attachment(arquivo));
+                //
+
+                using (SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587))
+                {
+                    smtp.UseDefaultCredentials = false;
+                    smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
+                    smtp.Credentials = new NetworkCredential("agricontwebb@gmail.com", "ggcwxwokkfbkjlbq");
+                    smtp.EnableSsl = true;
+                    smtp.Timeout = 20_000;
+                    await smtp.SendMailAsync(mail);
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+
+        }
+        public IActionResult EditPassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> RedefinirSenha([Bind("Email,EmpresaId")] Usuario usuario)
+        {
+            try
+            {
+                if (!String.IsNullOrWhiteSpace(usuario.Email) && (usuario.EmpresaId > 0))
+                {
+                    var user = await _context.Usuarios.Include(u => u.Empresa).FirstOrDefaultAsync(m => m.Email.ToUpper() == usuario.Email.ToUpper() && m.EmpresaId == usuario.EmpresaId);
+
+                    if (user != null)
+                    {
+                        if (await Email(user))
+                        {
+                            TempData["MensagemSucesso"] = $"Enviamos uma nova senha no email cadastrado, vá para tela de login.";
+                            return View(usuario);
+                        }
+                        else
+                        {
+                            TempData["MensagemErro"] = $"Não foi possível redefinir senha. Favor checkar os dados informados.";
+                            return NotFound();
+                        }
+                    }
+                }
+            }
+            catch (Exception erro)
+            {
+                TempData["MensagemErro"] = $"Não foi possível redefinir senha. Favor tentar novamente.";
+                return View();
+            }
+            return View(usuario);
         }
 
         // GET: Usuarios

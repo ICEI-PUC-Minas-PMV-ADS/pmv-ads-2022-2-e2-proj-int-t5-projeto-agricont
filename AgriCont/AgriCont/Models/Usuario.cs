@@ -33,6 +33,11 @@ namespace AgriCont.Models
         [Display(Name = "Perfil (*)")]
         [Required(ErrorMessage = "Obrigatório Informar o perfil!")]
         public Perfil Perfil { get; set; }
+
+        public void GerarNovaSenha(string senha)
+        {
+            this.Senha = BCrypt.Net.BCrypt.HashPassword(senha);
+        }
     }
 
         public enum Perfil
