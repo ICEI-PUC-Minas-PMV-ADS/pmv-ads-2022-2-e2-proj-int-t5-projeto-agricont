@@ -14,6 +14,11 @@ namespace AgriCont.Models
         [RegularExpression(@"^[^@\s]+@[^@\s]+\.(com|org|net|gov|br)$", ErrorMessage = "Por favor, digite um e-mail válido!")]
         public string Email { get; set; }
 
+        [Display(Name = "Telefone (*)")]
+        [RegularExpression(@"\d{2}\-\d{4}-\d{4}", ErrorMessage = "Por favor, digite um Telefone válido!")]
+        [Required(ErrorMessage = "Obrigatório informar o Telefone!")]
+        public string Telefone { get; set; }
+
         [Required(ErrorMessage = "Obrigatório escrever uma mensagem!"), Display(Name = "Mensagem(*)")]
         public string Mensagem { get; set; }
     }

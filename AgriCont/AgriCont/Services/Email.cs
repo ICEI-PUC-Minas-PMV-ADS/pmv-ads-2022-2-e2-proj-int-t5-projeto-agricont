@@ -10,6 +10,7 @@ namespace AgriCont.Services
         private Email username;
         private FormFaleConosco mensagem;
         private FormFaleConosco nome;
+        private FormFaleConosco telefone;
         public Email(IConfiguration configuration)
         {
             _configuration = configuration;
@@ -25,7 +26,12 @@ namespace AgriCont.Services
             throw new NotImplementedException();
         }
 
-        public bool EnviarEmail(string email, string nome,string mensagem)
+        public bool Enviar(string nome, string email, string mensagem, string telefone)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool EnviarEmail(string email, string nome,string mensagem, string telefone)
         {
             try
             {
@@ -36,7 +42,7 @@ namespace AgriCont.Services
 
                 mail.To.Add("agricontweb@gmail.com");
                 mail.Subject = "Fale Conosco - "+ nome;
-                mail.Body = "De: " + nome + ". " + " E-mail: " + email + "  Mensagem: " + mensagem;
+                mail.Body = "De: " + nome + ". " + " E-mail: " + email + " Telefone: "+ telefone + " Mensagem: " + mensagem;
                 mail.IsBodyHtml = true;
                 mail.Priority = MailPriority.High;
 

@@ -19,18 +19,18 @@ namespace AgriCont.Controllers
         }
 
         [HttpPost]
-        public IActionResult FaleConosco(string nome, string email, string mensagem)
+        public IActionResult FaleConosco(string nome, string email, string mensagem, string telefone)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
 
-                    bool v = _email.EnviarEmail(email, nome, mensagem);
+                    bool v = _email.EnviarEmail(email, nome, mensagem, telefone);
 
                     if (v)
                     {
-                        TempData["MensagemSucesso"] = "Foi enviado com sucesso!";
+                       
                         return RedirectToAction("Index", "Home");
                     }
                     else
@@ -50,12 +50,12 @@ namespace AgriCont.Controllers
             }
 
         }
-        public void EnviarEmail(Email username, string emailEnviado, FormFaleConosco mensagem)
+        public void EnviarEmail(Email username, string v, FormFaleConosco mensagem)
         {
             throw new NotImplementedException();
         }
 
-        public bool EnviarEmail(string nome, string email, string mensagem)
+        public bool EnviarEmail(string nome, string email, string mensagem, string telefone)
         {
             throw new NotImplementedException();
         }
