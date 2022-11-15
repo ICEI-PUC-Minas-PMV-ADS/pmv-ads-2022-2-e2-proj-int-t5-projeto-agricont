@@ -1,4 +1,5 @@
 ﻿using AgriCont.Models;
+using AgriCont.Services;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -43,7 +44,7 @@ namespace AgriCont
                     options.AccessDeniedPath = "/Usuarios/AccessDenied/";
                     options.LoginPath = "/Usuarios/Login/";
                 });
-
+            services.AddScoped<IEmail, Email>();
             services.AddControllersWithViews();
         }
 

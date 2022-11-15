@@ -23,15 +23,6 @@ namespace AgriCont.Controllers
             return View();
         }
 
-        public IActionResult FaleConosco()
-        {
-            return View();
-        }
-
-        public IActionResult Sucesso()
-        {
-            return View();
-        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
