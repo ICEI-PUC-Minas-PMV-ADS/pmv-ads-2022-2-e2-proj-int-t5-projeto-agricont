@@ -67,8 +67,9 @@ namespace AgriCont.Controllers
                                  .Distinct()
                                  .OrderByDescending(x => x.Id).FirstOrDefault();
 
-                ViewBag.Id = empresaId;
-              //  return RedirectToAction("Create", "Usuarios");
+                String Id = empresaId.ToString().Trim(new Char[] { ' ', '{', '}' });
+                ViewBag.Id = Id.Replace("Id", "Código:").Replace("=", "");
+                //  return RedirectToAction("Create", "Usuarios");
             }
             return View(empresa);
         }
