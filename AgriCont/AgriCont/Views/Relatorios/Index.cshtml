@@ -1,0 +1,120 @@
+﻿@{
+    ViewData["Title"] = "Itens Cadastrados";
+    var empresa = (Empresa)ViewData["empresa"];
+}
+
+<div class="container" style="padding-top:30px">
+
+    <h4>Relatório de Itens Cadastrados</h4>
+    <hr />
+
+            <p>Empresa: @empresa.RazaoSocial</p>
+            <p>CNPJ: @empresa.Cnpj</p>
+
+    <table class="table" id="table-Relatorios">
+            <tr>
+                <th>Descrição</th>
+                <th>Status</th>
+                <th>Categoria</th>
+                <th></th>
+            </tr>
+    <tbody>
+    @foreach (var item in empresa.Informaticas)
+            {
+
+                <tr>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DescricaoProduto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.status)
+                    </td>
+
+
+                    <td>
+                        <h8>Informática</h8>
+                    </td>
+
+                    <td>
+
+                        <a asp-controller="Informaticas" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                        <a asp-controller="Informaticas" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
+                
+                    </td>
+                </tr>
+            }
+            @foreach (var item in empresa.Ferramentas)
+            {
+                <tr>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DescricaoProduto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.status)
+                    </td>
+
+
+                    <td>
+                        <h8>Ferramentas</h8>
+                    </td>
+
+                    <td>
+              
+                        <a asp-controller="Ferramentas" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                        <a asp-controller="Ferramentas" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
+               
+                    </td>
+                </tr>
+            }
+            @foreach (var item in empresa.Maquinarios)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DescricaoProduto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.status)
+                    </td>
+
+
+                    <td>
+                        <h8>Maquinários</h8>
+                    </td>
+
+                    <td>
+        
+                        <a asp-controller="Maquinarios" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                        <a asp-controller="Maquinarios" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
+          
+                    </td>
+             </tr>
+            }
+            @foreach (var item in empresa.Veiculos)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DescricaoProduto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.status)
+                    </td>
+
+
+                    <td>
+                        <h8>Veículos</h8>
+                    </td>
+
+                    <td>
+            
+                        <a asp-controller="Veiculos" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                        <a asp-controller="Veiculos" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
+       
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

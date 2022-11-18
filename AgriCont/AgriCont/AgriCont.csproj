@@ -13,6 +13,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Views\Relatorios\Create.cshtml" />
+    <None Include="Views\Relatorios\Delete.cshtml" />
+    <None Include="Views\Relatorios\Details.cshtml" />
+    <None Include="Views\Relatorios\Edit.cshtml" />
+    <None Include="Views\Relatorios\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />

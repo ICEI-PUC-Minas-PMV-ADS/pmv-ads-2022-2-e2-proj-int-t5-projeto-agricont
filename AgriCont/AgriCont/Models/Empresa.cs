@@ -48,6 +48,8 @@ namespace AgriCont.Models
         public string? Email { get; set; }
 
         public ICollection<Ferramenta>? Ferramentas { get; set; }
+        public ICollection<Informatica>? Informaticas { get; set; }
         public ICollection<Maquinario>? Maquinarios { get; set; }
+        public ICollection<Veiculo>? Veiculos { get; set; }
     }
 }
