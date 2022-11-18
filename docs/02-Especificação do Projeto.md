@@ -82,10 +82,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| As informações declaradas devem ser exibidas de forma privada ao usuário que declarou.  |  ALTA  | 
 |RNF-002| O sistema deverá funcionar 24 horas por dia.  |    ALTA     | 
 |RNF-003| O sistema deverá ser capaz através de um banco de dados guardar todas as informações do usuário.  |  ALTA  | 
-|RNF-004| O site deverá conter paleta de cores de diferentes tipos para leitura noturna e daltonismo.  |  MÉDIA  | 
-|RNF-005| O site deverá ser responsivo para permitir a visualização em um celular de forma adequada.  |  ALTA  | 
-|RNF-006| O site deverá conter Interação por voz e som para deficientes visuais.  |  ALTA  | 
-|RNF-007| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)  |  ALTA  | 
+|RNF-004| O site deverá ser responsivo para permitir a visualização em um celular de forma adequada.  |  ALTA  | 
+|RNF-005| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge)  |  ALTA  | 
 
 ## Restrições
 
