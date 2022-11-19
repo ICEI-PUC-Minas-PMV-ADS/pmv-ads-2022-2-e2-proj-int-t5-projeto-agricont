@@ -42,7 +42,7 @@ namespace AgriCont.Services
 
                 mail.To.Add("agricontweb@gmail.com");
                 mail.Subject = "Fale Conosco - "+ nome;
-                mail.Body = "De: " + nome + ". " + " E-mail: " + email + " Telefone: "+ telefone + " Mensagem: " + mensagem;
+                mail.Body = "De: " + nome + ".   " + " E-mail: " + email + "   Telefone: "+ telefone + "   Mensagem: " + mensagem;
                 mail.IsBodyHtml = true;
                 mail.Priority = MailPriority.High;
 

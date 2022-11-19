@@ -203,16 +203,25 @@ namespace AgriCont.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nome,Email,Senha,EmpresaId,Perfil")] Usuario usuario)
         {
-            if (ModelState.IsValid)
+            try
             {
-                usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
-                _context.Add(usuario);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Login));
+                if (ModelState.IsValid)
+                {
+                    usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
+                    _context.Add(usuario);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Login));
+                }
+                ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cnpj", usuario.EmpresaId);
+                return View(usuario);
             }
-            ViewData["EmpresaId"] = new SelectList(_context.Empresas, "Id", "Cnpj", usuario.EmpresaId);
-            return View(usuario);
+            catch
+            {
+                TempData["MensagemErro"] = "Ocorreu um erro inesperado. Por favor, verifique os dados.";
+                return View();
+            }
         }
+
 
         // GET: Usuarios/Edit/5
         public async Task<IActionResult> Edit(int? id)
