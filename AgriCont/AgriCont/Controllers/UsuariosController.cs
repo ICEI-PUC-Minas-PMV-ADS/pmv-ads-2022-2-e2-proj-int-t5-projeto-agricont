@@ -115,7 +115,7 @@ namespace AgriCont.Controllers
                     smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
                     smtp.Credentials = new NetworkCredential("agricontwebb@gmail.com", "ggcwxwokkfbkjlbq");
                     smtp.EnableSsl = true;
-                    smtp.Timeout = 20_000;
+                    smtp.Timeout = 10_000;
                     await smtp.SendMailAsync(mail);
                 }
 
@@ -133,7 +133,7 @@ namespace AgriCont.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> RedefinirSenha([Bind("Email,EmpresaId")] Usuario usuario)
+        public async Task<IActionResult> EditPassword([Bind("Email,EmpresaId")] Usuario usuario)
         {
             try
             {
@@ -145,13 +145,13 @@ namespace AgriCont.Controllers
                     {
                         if (await Email(user))
                         {
-                            TempData["MensagemSucesso"] = $"Enviamos uma nova senha no email cadastrado, vá para tela de login.";
-                            return View(usuario);
+                            TempData["MensagemSucesso"] = $"Enviamos uma nova senha no email cadastrado, clique em 'voltar' para ir a tela de login.";
+                            return View();
                         }
                         else
                         {
                             TempData["MensagemErro"] = $"Não foi possível redefinir senha. Favor checkar os dados informados.";
-                            return NotFound();
+                            return View();
                         }
                     }
                 }
@@ -161,7 +161,7 @@ namespace AgriCont.Controllers
                 TempData["MensagemErro"] = $"Não foi possível redefinir senha. Favor tentar novamente.";
                 return View();
             }
-            return View(usuario);
+            return View();
         }
 
         // GET: Usuarios
