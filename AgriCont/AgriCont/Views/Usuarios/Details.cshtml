@@ -37,7 +37,14 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+        <br />
+        
+            <div class="btn-group mr-2" role="group" aria-label="Primeiro grupo">
+                <input type="submit" value="Editar" class="btn" style=" background-color: #494949; color: #EDEBEB;" />
+            </div>
+            <div class="btn-group mr-2" role="group" aria-label="Segundo grupo">
+                <a type="button" class="btn" style=" background-color: #494949; color: #EDEBEB;" asp-controller="Usuarios" asp-action="Index">Voltar</a>
+            </div>
+        
 </div>
 </div>
