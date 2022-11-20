@@ -19,6 +19,7 @@ namespace AgriCont.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult FaleConosco(string nome, string email, string mensagem, string telefone)
         {
             try
@@ -35,7 +36,7 @@ namespace AgriCont.Controllers
                     }
                     else
                     {
-                        TempData["MensagemErro"] = "Envio falhou. Por favor, tente novamente.";
+                        TempData["MensagemErro"] = $"Envio falhou. Por favor, tente novamente.";
                     }
                    
                 }
@@ -45,7 +46,7 @@ namespace AgriCont.Controllers
             }
             catch (Exception ex)
             {
-                TempData["MensagemErro"] = "Envio falhou!";
+                TempData["MensagemErro"] = $"Envio falhou. Por favor, tente novamente.";
                 return View("FaleConosco");
             }
 

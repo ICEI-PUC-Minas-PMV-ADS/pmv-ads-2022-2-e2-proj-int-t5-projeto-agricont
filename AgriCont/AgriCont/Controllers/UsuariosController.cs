@@ -221,7 +221,7 @@ namespace AgriCont.Controllers
             }
             catch
             {
-                TempData["MensagemErro"] = "Ocorreu um erro inesperado. Por favor, verifique os dados.";
+                TempData["MensagemErro"] = $"Ocorreu um erro inesperado. Por favor, verifique os dados.";
                 return View();
             }
         }
