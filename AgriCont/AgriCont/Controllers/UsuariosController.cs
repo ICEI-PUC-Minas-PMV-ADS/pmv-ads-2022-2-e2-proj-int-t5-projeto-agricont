@@ -167,6 +167,10 @@ namespace AgriCont.Controllers
         // GET: Usuarios
         public async Task<IActionResult> Index()
         {
+            if(User.IsInRole("Admin"))
+            {
+                return View(await _context.Usuarios.Where(u => u.EmpresaId == int.Parse(User.Claims.ElementAt(1).Value)).ToListAsync());
+            }else
             return View(await _context.Usuarios.Where(u => u.Id == int.Parse(User.Claims.ElementAt(2).Value)).ToListAsync());
         }
 
