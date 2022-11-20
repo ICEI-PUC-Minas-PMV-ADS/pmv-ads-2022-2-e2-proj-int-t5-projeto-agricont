@@ -65,7 +65,7 @@ namespace AgriCont.Controllers
 
                 await HttpContext.SignInAsync(principal, props);
 
-                return Redirect("/");
+                return RedirectToAction("Index", "Relatorios");
             }
 
             ViewBag.Message = "Usuário e/ou Senha inválidos!";
@@ -75,7 +75,7 @@ namespace AgriCont.Controllers
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync();
-            return RedirectToAction("Login", "Usuarios");
+            return Redirect("/");
         }
         public IActionResult AccessDenied()
         {
