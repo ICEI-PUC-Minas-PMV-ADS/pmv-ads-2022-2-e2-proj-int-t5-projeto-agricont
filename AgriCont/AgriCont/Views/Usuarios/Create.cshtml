@@ -5,13 +5,14 @@
 }
 
 <div class="container-fluid">
+    @if (TempData["MensagemErro"] != null)
+    {
+        <div class="alert alert-danger" role="alert" align="center">
+            @TempData["MensagemErro"]
+        </div>
+    }
 <div class="row justify-content-center">
-        @if (TempData["MensagemErro"] != null)
-        {
-            <div class="alert alert-danger" role="alert" align="center">
-                @TempData["MensagemErro"]
-            </div>
-        }
+        
     <div class="col-md-4">
         <form asp-action="Create">
             <br />
@@ -58,14 +59,6 @@
     </div>
 </div>
 <br />
-
-    @if (TempData["MensagemErro"] != null)
-    {
-        <div class="alert alert-danger" role="alert" align="center">
-            @TempData["MensagemErro"]
-        </div>
-    }
-
     
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
