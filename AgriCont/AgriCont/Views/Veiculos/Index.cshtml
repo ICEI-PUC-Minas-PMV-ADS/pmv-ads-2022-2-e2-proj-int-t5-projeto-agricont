@@ -7,10 +7,9 @@
 <div class="container" style="padding-top:30px">
     <h1>Veículos cadastrados</h1>
 
-    <p>
-        <a asp-action="Create">Create New</a>
+    <p padding="20px">
+        <a asp-action="Create" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">Adicionar</a>
     </p>
-
 
     <table class="table" id="table-veiculos">
 
@@ -124,10 +123,10 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Empresa.Cep)
             </td> -->
-            <td> 
-                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+            <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id"><img src="~/Images/Edit.png" id="Edit" style="height:20px; margin-right:10px"></a> 
+                        <a asp-action="Details" asp-route-id="@item.Id"><img src="~/Images/Details.png" id="Details" style="height:20px;"></a>
+                        <!-- <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a> -->
             </td>
         </tr>
 }

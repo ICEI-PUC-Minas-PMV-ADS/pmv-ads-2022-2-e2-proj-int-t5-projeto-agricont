@@ -5,10 +5,10 @@
 }
 
 <div class="container" style="padding-top:30px">
-    <h2>Index</h2>
+    <h2>Maquinários cadastrados</h2>
 
 <p>
-    <a asp-action="Create">Create New</a>
+        <a asp-action="Create" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">Adicionar</a>
 </p>
     <table class="table" id="table-maquinarios">
     <thead>
@@ -126,9 +126,9 @@
             </td>
             -->
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+                        <a asp-action="Edit" asp-route-id="@item.Id"><img src="~/Images/Edit.png" id="Edit" style="height:20px; margin-right:10px"></a>
+                        <a asp-action="Details" asp-route-id="@item.Id"><img src="~/Images/Details.png" id="Details" style="height:20px;"></a>
+                        <!-- <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a> -->
             </td>
         </tr>
 }

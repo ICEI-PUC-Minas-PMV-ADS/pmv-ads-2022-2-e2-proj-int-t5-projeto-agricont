@@ -7,7 +7,7 @@
 <h2>Cadastro de Empresa</h2>
 
 <p>
-    <a asp-action="Create">Create New</a>
+        <a asp-action="Create" class="btn btn-secondary btn-sm active" role="button" aria-pressed="true">Adicionar</a>
 </p>
     @if (User.Identity.IsAuthenticated)
     {
@@ -48,9 +48,9 @@
                             @Html.DisplayFor(modelItem => item.Email)
                         </td>
                         <td>
-                            <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                            <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
-                            <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+                            <a asp-action="Edit" asp-route-id="@item.Id"><img src="~/Images/Edit.png" id="Edit" style="height:20px; margin-right:10px"></a> |
+                            <a asp-action="Details" asp-route-id="@item.Id"><img src="~/Images/Details.png" id="Details" style="height:20px; margin:5px"></a>
+                            <!-- <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a> -->
                         </td>
                     </tr>
                 }

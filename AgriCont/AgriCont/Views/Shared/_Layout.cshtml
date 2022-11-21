@@ -40,13 +40,13 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Ferramentas" asp-action="Index">Ferramentas</a>
-                        </li>
+                        </li>d
                         <li class="nav-item">
                             <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Maquinarios" asp-action="Index">Maquinários</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Veiculos" asp-action="Index">Veículos</a>
-                        </li>
+                        </li> 
                         <li class="nav-item">
                             <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Relatorios" asp-action="Index">Relatório</a>
                         </li>
@@ -70,7 +70,7 @@
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-item" style= "font-weight:bold; color: #EDEBEB;">
-                                Olá,@User.Identity.Name <a class="nav-link" style="color: #EDEBEB;" asp-area="" asp-controller="Usuarios" asp-action="Logout">Sair</a>
+                                Olá, @User.Identity.Name <a class="nav-link" style="color: #EDEBEB;" asp-area="" asp-controller="Usuarios" asp-action="Logout">Sair</a>
                             </li>
                         }
                         else
