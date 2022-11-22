@@ -13,10 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Views\Relatorios\Create.cshtml" />
-    <None Include="Views\Relatorios\Delete.cshtml" />
-    <None Include="Views\Relatorios\Details.cshtml" />
-    <None Include="Views\Relatorios\Edit.cshtml" />
     <None Include="Views\Relatorios\Index.cshtml" />
   </ItemGroup>
 

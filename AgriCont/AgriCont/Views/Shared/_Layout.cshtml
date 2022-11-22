@@ -32,24 +32,31 @@
                         <li class="nav-item">
                             <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Empresas" asp-action="Index">Empresa</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuário</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Informaticas" asp-action="Index">Informática</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Ferramentas" asp-action="Index">Ferramentas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Maquinarios" asp-action="Index">Maquinários</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Veiculos" asp-action="Index">Veículos</a>
-                        </li> 
-                        <li class="nav-item">
-                            <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Relatorios" asp-action="Index">Relatório</a>
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuário</a>
+                            </li>
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle" style="color: #EDEBEB;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" href="#" id="navbardropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Produtos
+                                </a>
+                                <ul class="dropdown-menu" ariel-labelledby="navbardropdown">
+                                    <li class="nav-item">
+                                        <a class="nav-link" style="color: #0D694A ;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Informaticas" asp-action="Index">Informática</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" style="color: #0D694A ;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Ferramentas" asp-action="Index">Ferramentas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" style="color: #0D694A;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Maquinarios" asp-action="Index">Maquinários</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" style="color: #0D694A ;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Veiculos" asp-action="Index">Veículos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" style="color: #0D694A;font-family:'Inter', sans-serif;font-style: normal;font-weight: 400;font-size: 16px;margin-left:10px;margin-right:10px" asp-area="" asp-controller="Relatorios" asp-action="Index">Relatório</a>
+                                    </li>
+                                </ul>
+                            </li>
                         }
                         else
                         {
