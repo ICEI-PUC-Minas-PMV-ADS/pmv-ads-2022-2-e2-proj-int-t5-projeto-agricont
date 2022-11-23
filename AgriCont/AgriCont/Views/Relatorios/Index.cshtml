@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Itens Cadastrados";
+    ViewData["Title"] = "Relatório de Itens Cadastrados";
     var empresa = (Empresa)ViewData["empresa"];
 }
 
@@ -108,8 +108,8 @@
 
                     <td>
             
-                        <a asp-controller="Veiculos" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
-                        <a asp-controller="Veiculos" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
+                        <!--<a asp-controller="Veiculos" asp-action="Edit" asp-route-id="@item.Id">Editar</a>-->
+                        <a asp-action="Details" asp-route-id="@item.Id"><img src="~/Images/Details.png" id="Details" style="height:20px; margin:5px"></a>
        
                     </td>
                 </tr>

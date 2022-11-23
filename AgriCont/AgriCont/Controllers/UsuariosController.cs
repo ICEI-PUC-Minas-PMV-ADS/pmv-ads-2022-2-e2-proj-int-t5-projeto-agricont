@@ -11,6 +11,7 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using System.Net.Mail;
 using System.Net;
+using Microsoft.Extensions.WebEncoders.Testing;
 
 namespace AgriCont.Controllers
 {
@@ -115,7 +116,7 @@ namespace AgriCont.Controllers
                     smtp.DeliveryMethod = SmtpDeliveryMethod.Network;
                     smtp.Credentials = new NetworkCredential("agricontwebb@gmail.com", "ggcwxwokkfbkjlbq");
                     smtp.EnableSsl = true;
-                    smtp.Timeout = 10_000;
+                    smtp.Timeout = 20_000;
                     await smtp.SendMailAsync(mail);
                 }
 
@@ -141,25 +142,26 @@ namespace AgriCont.Controllers
                 {
                     var user = await _context.Usuarios.Include(u => u.Empresa).FirstOrDefaultAsync(m => m.Email.ToUpper() == usuario.Email.ToUpper() && m.EmpresaId == usuario.EmpresaId);
 
+                    
+
                     if (user != null)
                     {
-                        if (await Email(user))
-                        {
-                            TempData["MensagemSucesso"] = $"Enviamos uma nova senha no email cadastrado, clique em 'voltar' para ir a tela de login.";
-                            return View();
+                        await Email(user);
+                        //if (await Email(user))
+                        //{
+                        TempData["MensagemSucesso"] = $"Enviamos uma nova senha no email cadastrado, clique em 'voltar' para ir a tela de login.";
                         }
                         else
                         {
                             TempData["MensagemErro"] = $"Não foi possível redefinir senha. Favor checkar os dados informados.";
-                            return View();
                         }
-                    }
+                    //}
                 }
             }
             catch (Exception erro)
             {
                 TempData["MensagemErro"] = $"Não foi possível redefinir senha. Favor tentar novamente.";
-                return View();
+
             }
             return View();
         }

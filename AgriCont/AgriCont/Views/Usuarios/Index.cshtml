@@ -52,7 +52,7 @@
                             <a asp-action="Details" asp-route-id="@item.Id"><img src="~/Images/Details.png" id="Details" style="height:20px;"></a>
                             @if (User.IsInRole("Admin"))
                             {
-                                <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id"><img src="~/Images/Excluir.png" id="Delete" style="height:20px; margin:5px"></a>
                             }
                         </td>
                     </tr>
