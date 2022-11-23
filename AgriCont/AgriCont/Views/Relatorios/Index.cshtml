@@ -7,7 +7,6 @@
 
     <h2>Relatório de Itens Cadastrados</h2>
     <hr />
-
             <p>Empresa: @empresa.RazaoSocial</p>
             <p>CNPJ: @empresa.Cnpj</p>
 
@@ -19,52 +18,39 @@
                 <th></th>
             </tr>
     <tbody>
-    @foreach (var item in empresa.Informaticas)
+            @foreach (var item in empresa.Informaticas)
             {
-
                 <tr>
-
                     <td>
                         @Html.DisplayFor(modelItem => item.DescricaoProduto)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.status)
                     </td>
-
-
                     <td>
                         <h8>Informática</h8>
                     </td>
-
                     <td>
-
                         <a asp-controller="Informaticas" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
                         <a asp-controller="Informaticas" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
-                
                     </td>
                 </tr>
             }
             @foreach (var item in empresa.Ferramentas)
             {
                 <tr>
-
                     <td>
                         @Html.DisplayFor(modelItem => item.DescricaoProduto)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.status)
                     </td>
-
-
                     <td>
                         <h8>Ferramentas</h8>
                     </td>
-
                     <td>
-              
                         <a asp-controller="Ferramentas" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
                         <a asp-controller="Ferramentas" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
-               
                     </td>
                 </tr>
             }
@@ -77,19 +63,14 @@
                     <td>
                         @Html.DisplayFor(modelItem => item.status)
                     </td>
-
-
                     <td>
                         <h8>Maquinários</h8>
                     </td>
-
                     <td>
-        
                         <a asp-controller="Maquinarios" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
                         <a asp-controller="Maquinarios" asp-action="Details" asp-route-id="@item.Id">Detalhes</a>
-          
                     </td>
-             </tr>
+                </tr>
             }
             @foreach (var item in empresa.Veiculos)
             {
@@ -100,17 +81,12 @@
                     <td>
                         @Html.DisplayFor(modelItem => item.status)
                     </td>
-
-
                     <td>
                         <h8>Veículos</h8>
                     </td>
-
                     <td>
-            
                         <!--<a asp-controller="Veiculos" asp-action="Edit" asp-route-id="@item.Id">Editar</a>-->
                         <a asp-action="Details" asp-route-id="@item.Id"><img src="~/Images/Details.png" id="Details" style="height:20px; margin:5px"></a>
-       
                     </td>
                 </tr>
             }
