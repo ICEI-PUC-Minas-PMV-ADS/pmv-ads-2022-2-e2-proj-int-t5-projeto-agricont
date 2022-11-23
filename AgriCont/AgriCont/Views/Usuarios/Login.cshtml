@@ -5,8 +5,14 @@
 }
 
 <div class="container-fluid" style="padding-top:30px">
+ 
 <h1 class="text-center" style="color:#189D70;">Login</h1>
-
+    @if (TempData["MensagemErro"] != null)
+    {
+        <div class="alert alert-danger" role="alert" align="center">
+            @TempData["MensagemErro"]
+        </div>
+    }
 <hr />
 <div class="row justify-content-center">
     <div class="col-md-4">
@@ -32,7 +38,7 @@
                 <p> <a asp-controller="Usuarios" asp-action="EditPassword">Esqueci minha senha</a></p>
             </div>
         </form>
-        <h3 style="text-align:center;"> @ViewBag.Message </h3>
+
     </div>
 </div>
 

@@ -37,7 +37,7 @@ namespace AgriCont.Controllers
 
             if (user == null)
             {
-                ViewBag.Message = "Usuário e/ou Senha inválidos!";
+                TempData["MensagemErro"] = $"Usuário e/ou Senha inválidos!";
                 return View();
             }
 
@@ -69,7 +69,7 @@ namespace AgriCont.Controllers
                 return RedirectToAction("Index", "Relatorios");
             }
 
-            ViewBag.Message = "Usuário e/ou Senha inválidos!";
+            TempData["MensagemErro"] = $"Usuário e/ou Senha inválidos!";
             return View();
         } 
 

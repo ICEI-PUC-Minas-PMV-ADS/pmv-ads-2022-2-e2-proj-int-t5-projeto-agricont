@@ -47,7 +47,7 @@ namespace AgriCont.Controllers
             catch (Exception ex)
             {
                 TempData["MensagemErro"] = $"Envio falhou. Por favor, tente novamente.";
-                return View("FaleConosco");
+                return View();
             }
 
         }
