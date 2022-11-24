@@ -21,8 +21,7 @@ Por exemplo: a tabela a seguir deverá ser preenchida considerando os artefatos 
 |RF-011|  O sistema deve permitir que o usuário cadastre os equipamentos da empresa com os dados da nota fiscal.  | FerramentasController.cs/Ferramenta.cs/ Ferramentas (Create.cshtml) - InformaticasController.cs/ Informatica.cs/ Informaticas (Create.cshtml) / MaquinariosController.cs/ Maquinario.cs/ Maquinario (Create.cshtml) / VeiculosController.cs/ Veiculo.cs/ Veiculos (Create.cshtml) |
 |RF-012|  O sistema deve permitir que o usuário cadastre os dados da apólice de seguro.| FerramentasController.cs/Ferramenta.cs/ Ferramentas (Create.cshtml) - InformaticasController.cs/ Informatica.cs/ Informaticas (Create.cshtml) / MaquinariosController.cs/ Maquinario.cs/ Maquinario (Create.cshtml) / VeiculosController.cs/ Veiculo.cs/ Veiculos (Create.cshtml) |
 |RF-013|  O sistema deve gerar um relatório com todo patrimônio da empresa. | RelatoriosController.cs / Relatorios (Index.cshtml) |
-|RF-014|  O sistema deve permitir que o usuário edite todas as informações do cadastro do patrimônio. |  FerramentasController.cs/Ferramenta.cs/ Ferramentas (Edit.cshtml) - InformaticasController.cs/ Informatica.cs/ Informaticas (Edit.cshtml) - MaquinariosController.cs/ Maquinario.cs/ Maquinario (Edit.cshtml) - 
-VeiculosController.cs/ Veiculo.cs/ Veiculos (Edit.cshtml) |
+|RF-014|  O sistema deve permitir que o usuário edite todas as informações do cadastro do patrimônio. |  FerramentasController.cs/Ferramenta.cs/ Ferramentas (Edit.cshtml) - InformaticasController.cs/ Informatica.cs/ Informaticas (Edit.cshtml) - MaquinariosController.cs/ Maquinario.cs/ Maquinario (Edit.cshtml) - VeiculosController.cs/ Veiculo.cs/ Veiculos (Edit.cshtml) |
 |RF-015| O sistema deve permitir que o usuário cadastre os dados da empresa.|EmpresasController.cs/ Empresa.cs / Migration-20221018064053_Ag00.cs/Empresa(Index.cshtm.)| 
 
 
