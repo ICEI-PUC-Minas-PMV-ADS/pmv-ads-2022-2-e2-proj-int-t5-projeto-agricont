@@ -57,6 +57,15 @@ namespace AgriCont.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,NumNotaFiscal,DataEmissao,ValorProduto,DescricaoProduto,Seguradora,NumApolice,ValorSeguro,Tipo,status,DataBaixa,MotivoBaixa,ValorDepreciacao,DataManutencao,DescricaoManutencao,ComposicaoMaterial,Marca,EmpresaId")] Ferramenta ferramenta)
         {
+            var nome = User.Identity.Name;
+            var user = await _context.Usuarios
+                .FirstOrDefaultAsync(m => m.Nome == nome);
+
+            if (ferramenta.EmpresaId != user.EmpresaId)
+            {
+                ViewData["MensagemErro"] = $"Por favor, verificar o Id da Empresa e tentar novamente!";
+                return View();
+            }
             if (ModelState.IsValid)
             {
                 _context.Add(ferramenta);
