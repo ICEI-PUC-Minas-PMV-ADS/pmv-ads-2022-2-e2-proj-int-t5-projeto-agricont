@@ -25,7 +25,7 @@ A tabela a seguir apresenta os artefatos desenvolvidos de acordo com os requisit
 
 # Instruções de acesso
 
-1- Acesse a página inicial pelo link: ![AgriCont](https://agricont.azurewebsites.net/).
+1- Acesse a página inicial pelo link: [AgriCont](https://agricont.azurewebsites.net/).
 
 2- Clique no ícone de Login no canto direito do cabeçalho.
 
