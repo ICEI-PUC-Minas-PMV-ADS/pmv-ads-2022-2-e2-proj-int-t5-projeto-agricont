@@ -24,13 +24,16 @@ Sabendo da importância da Agricultura Familiar no Brasil e da necessidade de um
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+1- Acesse a página inicial pelo link: [AgriCont](https://agricont.azurewebsites.net/).
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+2- Clique no ícone de Login no canto direito do cabeçalho.
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
+3- Informe as credenciais de login de usuário teste (Login: emauelythiemy@gmail.com   / Senha: 12345).
 
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+4- As credenciais serão validadas, a sessão será iniciada e o usuário será redirecionado para a página inicial do usuário.
+
+5- Caso prefira, pode fazer seu própio cadastro clicando no link Cadastre-se no cabeçalho. 
+
 
 # Documentação
 

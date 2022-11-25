@@ -29,21 +29,10 @@ A tabela a seguir apresenta os artefatos desenvolvidos de acordo com os requisit
 
 2- Clique no ícone de Login no canto direito do cabeçalho.
 
-3- Informe as credenciais de login de usuário teste (Login:   / Senha:).
+3- Informe as credenciais de login de usuário teste (Login: emauelythiemy@gmail.com   / Senha: 12345).
 
 4- As credenciais serão validadas, a sessão será iniciada e o usuário será redirecionado para a página inicial do usuário.
 
+5- Caso prefira, pode fazer seu própio cadastro clicando no link Cadastre-se no cabeçalho. 
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
-
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
-
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
