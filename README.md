@@ -38,7 +38,7 @@ Sabendo da importância da Agricultura Familiar no Brasil e da necessidade de um
 
 - Caso sua empresa ainda não esteja cadastrada, clique no link embaixo do Cadastro de Usuário para ser redirecionado para o Cadastro de Empresa.  
 
-- Após o Cadastro de Usuário, você será redirecionado para a página de Login. 
+- Após realizar Cadastro de Usuário, você será redirecionado para a página de Login. 
 
 - Informe as credenciais cadastradas. Elas serão validadas e a sessão será iniciada.
 
