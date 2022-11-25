@@ -25,14 +25,21 @@ A tabela a seguir apresenta os artefatos desenvolvidos de acordo com os requisit
 
 # Instruções de acesso
 
-1- Acesse a página inicial pelo link: [AgriCont](https://agricont.azurewebsites.net/).
+- Acesse a página inicial pelo link: [AgriCont](https://agricont.azurewebsites.net/).
 
-2- Clique no ícone de Login no canto direito do cabeçalho.
+- Clique no ícone de Login no canto direito do cabeçalho.
 
-3- Informe as credenciais de login de usuário teste (Login: emauelythiemy@gmail.com   / Senha: 12345).
+- Informe as credenciais de login de usuário teste (Login: emauelythiemy@gmail.com   / Senha: 12345).
 
-4- As credenciais serão validadas, a sessão será iniciada e o usuário será redirecionado para a página inicial do usuário.
+- As credenciais serão validadas, a sessão será iniciada e o usuário será redirecionado para a página inicial do usuário.
 
-5- Caso prefira, pode fazer seu própio cadastro clicando no link Cadastre-se no cabeçalho. 
+- Caso prefira, pode fazer seu própio cadastro clicando no link Cadastre-se no cabeçalho. 
 
+- Ao clicar no link Cadastre-se, você será redirecionado para a página de Cadastro de Usuário. Para realizar o cadastro de usuário é necessário que sua empresa também esteja cadastrada. 
+
+- Caso sua empresa ainda não esteja cadastrada, clique no link embaixo do Cadastro de Usuário para ser redirecionado para o Cadastro de Empresa.  
+
+- Após o Cadastro de Usuário, você será redirecionado para a página de Login. 
+
+- Informe as credenciais cadastradas. Elas serão validadas e a sessão será iniciada.
 
