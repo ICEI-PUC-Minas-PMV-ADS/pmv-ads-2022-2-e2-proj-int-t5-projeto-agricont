@@ -46,6 +46,16 @@ Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-
 
  **Avaliação:** Houve êxito no teste, pois ao inserir os dados do usuário e clicar em cadastrar, os dados foram salvos no banco de dados e mostrados na página conforme a imagem.
 
+## CT-15 - Tela Fale Conosco
+ **Evidências do Teste**
+
+<img src="img\teste_faleconosco.png">
+
+<img src="img\teste_faleconosco2.png">
+
+**Avaliação:** Houve êxito no teste, pois ao preencher o formulário e clicar em enviar, os dados foram enviados para o email da AgriCont.
+
+
 (Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.)
 
 
