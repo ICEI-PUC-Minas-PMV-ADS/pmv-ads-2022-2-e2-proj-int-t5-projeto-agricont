@@ -10,13 +10,13 @@ Esta seção apresenta as evidências e resultados dos testes definidos anterior
 
 **Avaliação:** A página apresenta as informações que indicam a importância do controle patrimonial portanto houve êxito no teste.
 
-## CT-05 – Ícone de Login na Página Inicial
+## CT-04 – Ícone de Login na Página Inicial
 
 **Evidência do Teste:** Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/blob/main/presentation/Etapa%203%20%20Videos/ETS-CT05.mp4)
 
 **Avaliação:** A página de login foi exibida com sucesso portanto houve êxito no teste.
 
-## CT-06 – Efetuar Login
+## CT-05 – Efetuar Login
 
 
 **Evidência do Teste:** 
@@ -27,7 +27,18 @@ Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-
 
 **Avaliação:** A aplicação permite o preenchimento de todos os campos do login e ao clicar em "Entrar" a conta do usuário foi liberado portanto houve êxito no teste.
 
-## CT-13 - Tela cadastro de empresa
+
+## CT-07 - Tela Fale Conosco
+ **Evidências do Teste**
+
+<img src="img\teste_faleconosco.png">
+
+<img src="img\teste_faleconosco2.png">
+
+**Avaliação:** Houve êxito no teste, pois ao preencher o formulário e clicar em enviar, os dados foram enviados para o email da AgriCont.
+
+
+## CT-11 - Tela Cadastro de Empresa
 
 **Evidências do Teste**
 
@@ -37,7 +48,7 @@ Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-
 
 **Avaliação:** Tivemos êxito no teste, pois ao inserir as informações da empresa e clicar em salvar, os dados persistiram no banco de dados, conforme demonstrado na foto.
 
- ## CT-14 - Tela cadastro do usuário
+ ## CT-12 - Tela Cadastro do Usuário
  **Evidências do Teste**
 
  <img src="img\Teste_Cadastro_Usuario.jpg">
@@ -46,14 +57,6 @@ Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-
 
  **Avaliação:** Houve êxito no teste, pois ao inserir os dados do usuário e clicar em cadastrar, os dados foram salvos no banco de dados e mostrados na página conforme a imagem.
 
-## CT-15 - Tela Fale Conosco
- **Evidências do Teste**
-
-<img src="img\teste_faleconosco.png">
-
-<img src="img\teste_faleconosco2.png">
-
-**Avaliação:** Houve êxito no teste, pois ao preencher o formulário e clicar em enviar, os dados foram enviados para o email da AgriCont.
 
 
 (Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.)
