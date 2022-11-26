@@ -25,25 +25,21 @@ A tabela a seguir apresenta os artefatos desenvolvidos de acordo com os requisit
 
 # Instruções de acesso
 
-1- Acesse a página inicial pelo link: [AgriCont](https://agricont.azurewebsites.net/).
+- Acesse a página inicial pelo link: [AgriCont](https://agricont.azurewebsites.net/).
 
-2- Clique no ícone de Login no canto direito do cabeçalho.
+- Clique no ícone de Login no canto direito do cabeçalho.
 
-3- Informe as credenciais de login de usuário teste (Login:   / Senha:).
+- Informe as credenciais de login de usuário teste (Login: emauelythiemy@gmail.com   / Senha: 12345).
 
-4- As credenciais serão validadas, a sessão será iniciada e o usuário será redirecionado para a página inicial do usuário.
+- As credenciais serão validadas, a sessão será iniciada e o usuário será redirecionado para a página inicial do usuário.
 
+- Caso prefira, pode fazer seu própio cadastro clicando no link Cadastre-se no cabeçalho. 
 
-Não deixe de informar o link onde a aplicação estiver disponível para acesso (por exemplo: https://adota-pet.herokuapp.com/src/index.html).
+- Ao clicar no link Cadastre-se, você será redirecionado para a página de Cadastro de Usuário. Para realizar o cadastro de usuário é necessário que sua empresa também esteja cadastrada. 
 
-Se houver usuário de teste, o login e a senha também deverão ser informados aqui (por exemplo: usuário - admin / senha - admin).
+- Caso sua empresa ainda não esteja cadastrada, clique no link embaixo do Cadastro de Usuário para ser redirecionado para o Cadastro de Empresa.  
 
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+- Após realizar Cadastro de Usuário, você será redirecionado para a página de Login. 
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+- Informe as credenciais cadastradas. Elas serão validadas e a sessão será iniciada.
+
