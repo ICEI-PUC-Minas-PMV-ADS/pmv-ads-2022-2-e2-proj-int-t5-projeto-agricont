@@ -6,7 +6,7 @@ Os testes de usabilidade permitem avaliar a qualidade da interface com o usuári
 |---|---------| 
 |   | 1) Análise, execução e Avaliação da Aplicação Heurística;|
 |   | 2) Definição dos Participantes, Tarefas, Questionário e Métricas (Para o Usuário);     |
-|   | 3) Execução dos Testes e coleta de dados: Observar e registrar a performace e a opinião dos participantes durante sessões de uso controladas;|
+|   | 3) Execução dos Testes e coleta de dados: Registrar a performace e a opinião dos participantes;|
 |   | 4) Interpretação e Consolidação dos dados : Reunir, contabilizar e sumarizar os dados coletados dos participantes .     |
 |   | 5) Relato dos Resultados: Relatar a performance e a opinião dos participantes.   |
 
