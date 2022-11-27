@@ -63,7 +63,7 @@ Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-
 
 <img src="img/Tela_RelatorioItensCadastrados.png">
 
-Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/blob/main/presentation/Etapa%203%20%20Videos/ETS-CT10.mp4)
+Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/blob/main/presentation/Etapa%204%20Videos/ETS-CT10.mp4)
 
 **Avaliação:** Houve êxito no teste pois, o relatório está sendo gerado, os dados podem ser editados e o sistema está carregando todos os cadastros de equipamentos do banco.
 
