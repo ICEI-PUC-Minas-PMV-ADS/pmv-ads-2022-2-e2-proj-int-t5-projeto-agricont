@@ -40,11 +40,13 @@ Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-
 ## CT-08 - Tela Alterar Senha
  **Evidências do Teste**
 
-<img src="img\Redefinir_Senha.png">
-<img src="img\Email_Senha.PNG">
+<img src="img\Redefinir Senha.png">
+
+<img src="img\Email Senha.PNG">
+
 Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/blob/main/presentation/Etapa%203%20%20Videos/ETS-CT08.mp4)
 
-**Avaliação:** Houve êxito no teste, pois ao preencher o formulário e clicar em enviar, os dados foram enviados para o email da AgriCont.
+**Avaliação:** Houve êxito no teste, pois ao preencher o formulário e clicar em redefinir, uma nova senha é enviada para o email do usuário.
 
 ## CT-09 – Tela Cadastro de Produto
 
