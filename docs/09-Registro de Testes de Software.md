@@ -37,6 +37,15 @@ Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-
 
 **Avaliação:** Houve êxito no teste, pois ao preencher o formulário e clicar em enviar, os dados foram enviados para o email da AgriCont.
 
+## CT-09 – Tela Cadastro de Produto
+
+**Evidências do Teste**
+<img src="img/Cadastro_Veiculo1.jpg">
+<img src="img/Cadastro_Veiculo2.jpg">
+Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/blob/main/presentation/Etapa%203%20%20Videos/ETS-CT13.mp4)
+
+**Avaliação:** Houve êxito no teste pois, após inserir os dados do produto para cadastro e clicar no botão salvar, os dados informados foram salvos no banco de dados e mostrados na tela de produtos cadastrados conforme imagem.
+
 
 ## CT-11 - Tela Cadastro de Empresa
 
