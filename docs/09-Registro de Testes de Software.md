@@ -57,6 +57,15 @@ Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-
 
 **Avaliação:** Houve êxito no teste pois, após inserir os dados do produto para cadastro e clicar no botão salvar, os dados informados foram salvos no banco de dados e mostrados na tela de produtos cadastrados conforme imagem.
 
+## CT-10 – Tela Relatório Itens Cadastrados
+
+**Evidências do Teste**
+
+<img src="img/Tela_RelatorioItensCadastrados.png">
+
+Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/blob/main/presentation/Etapa%203%20%20Videos/ETS-CT10.mp4)
+
+**Avaliação:** Houve êxito no teste pois, o relatório está sendo gerado, os dados podem ser editados e o sistema está carregando todos os cadastros de equipamentos do banco.
 
 ## CT-11 - Tela Cadastro de Empresa
 
