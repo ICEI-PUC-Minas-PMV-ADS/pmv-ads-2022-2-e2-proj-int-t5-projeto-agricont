@@ -28,6 +28,17 @@ Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-
 **Avaliação:** A aplicação permite o preenchimento de todos os campos do login e ao clicar em "Entrar" a conta do usuário foi liberado portanto houve êxito no teste.
 
 
+## CT-06 – Pesquisa
+
+**Evidências do Teste**
+
+<img src="img/Pesquisa.png">
+
+Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/blob/main/presentation/Etapa%204%20Videos/ETS-CT06.mp4)
+
+**Avaliação:** Houve êxito no teste pois, pois quando digitado o número da nova fiscal , por exemplo, a busca está sendo exibida com sucesso.
+
+
 ## CT-07 - Tela Fale Conosco
  **Evidências do Teste**
 
