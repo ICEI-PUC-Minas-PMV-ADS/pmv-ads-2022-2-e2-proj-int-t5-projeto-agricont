@@ -2,7 +2,7 @@
 
 Esta seção apresenta as evidências e resultados dos testes definidos anteriormente em [Plano de Testes de Software](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/blob/main/docs/08-Plano%20de%20Testes%20de%20Software.md).
 
-## CT-01 – Página Inicial
+## CT-01/02/03 – Página Inicial
 
 **Evidência do Teste:** 
 
