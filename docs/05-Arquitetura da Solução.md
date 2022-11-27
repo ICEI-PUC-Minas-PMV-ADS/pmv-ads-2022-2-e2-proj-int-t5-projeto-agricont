@@ -39,4 +39,4 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 
 ## Hospedagem
 
-Hospedaremos o site em etapas posteriores através do serviço GitHubPages disponibilizado pelo Github. 
+Hospedaremos o site em etapas posteriores através da Azure.
