@@ -50,7 +50,7 @@ Apresente os cenários de testes utilizados na realização dos testes da sua ap
 | **Caso de Teste** 	| **CT-08 – Tela Alterar Senha** |
 |Requisito Associado |  RF-03 - O sistema deve permitir que o usuário altere a senha do seu login.|
 | Objetivo do Teste 	| Verificar se o usuário consegue alterar sua senha. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Clicar na página de login <br> - Clicar em "Esqueceu sua senha"  <br> - digitar seu e-email, nova senha e conformação de senha. <br> - Clicar em alterar. |
+| Passos 	| - Acessar o navegador <br> - Informar o endereço do site [AgriCont](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont) <br> - Clicar na página de login <br> - Clicar em "Esqueceu sua senha"  <br> - digitar seu e-email e o código da empresa. <br> - Clicar em alterar. |
 |Critério de Êxito | - Verificar se após digitar as informações solicitadas e depois de clicar em alterar é possível realizar a alteração da sua senha.|
 |   |    | 
 | **Caso de Teste** 	| **CT-09– Tela Cadastro de Produto** |
