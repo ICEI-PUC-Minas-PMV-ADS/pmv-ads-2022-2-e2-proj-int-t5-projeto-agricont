@@ -8,7 +8,7 @@ Esta seção apresenta as evidências e resultados dos testes definidos anterior
 
 ![image](https://user-images.githubusercontent.com/85913563/198852326-c36edf36-7fb0-4dc5-a1f9-e896b593e68c.png)
 
-**Avaliação:** A página apresenta as informações que indicam a importância do controle patrimonial portanto houve êxito no teste.
+**Avaliação:** A página apresenta as informações que indicam a importância do controle patrimonial e os links de "Fale Conosco" e "Cadastra-se" estão funcionando corretamenente, portanto houve êxito nos testes.
 
 ## CT-04 – Ícone de Login na Página Inicial
 
