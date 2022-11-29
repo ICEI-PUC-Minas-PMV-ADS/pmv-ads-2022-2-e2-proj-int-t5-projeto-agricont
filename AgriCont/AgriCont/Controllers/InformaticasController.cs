@@ -101,6 +101,15 @@ namespace AgriCont.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,NumNotaFiscal,DataEmissao,ValorProduto,DescricaoProduto,Seguradora,NumApolice,ValorSeguro,Tipo,status,DataBaixa,MotivoBaixa,ValorDepreciacao,DataManutencao,DescricaoManutencao,ManutencaoSoftware,NumeroSerie,EmpresaId")] Informatica informatica)
         {
+            var nome = User.Identity.Name;
+            var user = await _context.Usuarios
+                .FirstOrDefaultAsync(m => m.Nome == nome);
+
+            if (informatica.EmpresaId != user.EmpresaId)
+            {
+                ViewData["MensagemErro"] = $"Por favor, verificar Id da Empresa e tentar novamente.";
+                return View();
+            }
             if (id != informatica.Id)
             {
                 return NotFound();
