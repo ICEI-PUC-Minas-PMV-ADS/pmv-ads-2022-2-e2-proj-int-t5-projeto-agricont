@@ -21,8 +21,7 @@ namespace AgriCont.Controllers
         // GET: Informaticas
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Informaticas.Include(i => i.Empresa);
-            return View(await applicationDbContext.ToListAsync());
+            return View(await _context.Informaticas.Where(i => i.EmpresaId == int.Parse(User.Claims.ElementAt(1).Value)).ToListAsync());
         }
 
         // GET: Informaticas/Details/5
