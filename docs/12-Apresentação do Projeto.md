@@ -10,7 +10,7 @@ Assista ao vídeo clicando [aqui]
 
 O grupo fez um estudo de cores e escolheu a paleta de cores abaixo para utilizar no projeto:
 
-![Paleta](img/Paleta.png)
+<img src="img/Paleta.png")
 
 
 ## Conjunto de Slides (Estrutura)
