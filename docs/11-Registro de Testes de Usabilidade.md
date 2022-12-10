@@ -31,3 +31,6 @@ Podemos notar com os dados acima que das 5 pessoas participantes do teste:
 * Sobre a avaliação geral da aplicação: 2 avaliam como excelente (nota 10), 2 avaliam com nota 9 e 1 com nota 8
 * Sobre a navegabilidade na aplicação: 1 avalia com nota 10, 3 com nota 9 e 1 com nota 7
 * Sobre recomendar nossa aplicação: 3 pessoas disseram ser muito provável recomendar nossa aplicação (nota 10), 1 avalia com nota 9 e 1 com nota 8. 
+
+## Relatório
+<a href="https://drive.google.com/file/d/1ZldrX_FvQ8b9qdXldO2RX8kGCqYmoxoY/view?usp=sharing">Neste</a></span> relatório apresentamos o compilado das informações aqui apresentadas.
