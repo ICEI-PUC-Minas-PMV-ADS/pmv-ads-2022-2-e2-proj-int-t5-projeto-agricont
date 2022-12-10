@@ -97,8 +97,5 @@ Assista ao vídeo clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-
 
  **Avaliação:** Houve êxito no teste, pois ao inserir os dados do usuário e clicar em cadastrar, os dados foram salvos no banco de dados e mostrados na página conforme a imagem.
 
-
-
-(Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.)
-
-
+## Relatório
+<a href="https://drive.google.com/file/d/1DEYHsIVSiydsM1N9J03Ev4elvAuv5DQ-/view?usp=sharing">Neste</a></span> relatório apresentamos o compilado das informações aqui apresentadas.
