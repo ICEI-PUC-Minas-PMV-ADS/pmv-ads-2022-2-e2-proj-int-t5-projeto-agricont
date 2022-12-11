@@ -15,4 +15,4 @@ O grupo fez um estudo de cores e escolheu a paleta de cores abaixo para utilizar
 
 ## Conjunto de Slides (Estrutura)
 
-Acesse os slides clicando [aqui]
+Acesse os slides clicando [aqui](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t5-projeto-agricont/blob/main/presentation/Etapa%205%20Video_Apresentacao/AgriCont.pdf)
